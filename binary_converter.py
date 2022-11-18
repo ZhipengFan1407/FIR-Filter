@@ -21,7 +21,7 @@ for i in range(256):
     output = str(bin(ones_count)[2:])
     output = "0" * (16 - len(output)) + output
     
-    s = "8'b" + input_data + ": z <= 16'b" + output
+    s = "8'b" + input_data + ": z <= 16'b" + output + ";"
     f.write(s)
     f.write("\n")
         
