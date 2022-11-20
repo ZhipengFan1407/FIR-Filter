@@ -14,12 +14,6 @@ add wave -noupdate -radix unsigned /testbench/LUT7_out
 add wave -noupdate -radix unsigned /distr_arith/sum
 
 
-
-
-add wave -noupdate -radix unsigned /testbench/input_file
-add wave -noupdate -radix unsigned /testbench/lfsr_out_qsim
-add wave -noupdate -radix unsigned /testbench/lfsr_out_matlab
-
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {3 ns} 0}
 quietly wave cursor active 1

@@ -1,13 +1,1 @@
-vim -do "runsim.do"
-
-
-
-
-
-
-
-
-
-
-
-
+vsim -do "runsim.do"

@@ -1,9 +1,4 @@
 `timescale 1ns/1ps
-`define SD #0.010
-`define HALF_CLOCK_PERIOD #5
-`define QSIM_OUT_FN "qsim.out"
-`define INPUT_DATA "input.results"
-`define OUTPUT_DATA "out.results"
 
 
 module distr_arith (

@@ -9,90 +9,109 @@ z2
 cModel Technology
 Z0 d/user/stud/fall21/mas2545/DA/qsim_rtl
 vadder
-Z1 !s10a 1668878164
-!s110 1668959963
+Z1 !s110 1668969244
 !i10b 1
 !s100 F^R5Pb3PbW<8;Abld4ZTZ1
-IC:bWZf^ho^UP>RCloc5AK3
+IQ8N]g7PZB1NzfzXO4YOC23
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1668878164
+w1668968333
 8../rtl/adder.v
 F../rtl/adder.v
 L0 3
-Z4 OE;L;10.7b_1;67
+Z3 OE;L;10.7b_1;67
 r1
 !s85 0
 31
-Z5 !s108 1668959963.000000
+Z4 !s108 1668969244.000000
 !s107 ../rtl/adder.v|
-!s90 +acc|-incr|../rtl/adder.v|
+!s90 -reportprogress|300|-suppress|12110|+acc|-incr|../rtl/adder.v|
 !i113 0
-Z6 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z7 tCvgOpt 0
+Z5 o-suppress 12110 +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
 vcounter
 R1
-Z8 !s110 1668959964
 !i10b 1
 !s100 I>0UoAjd?cXhBjVC6dUGA2
-IJ<j^CQ38EQoYo[5:4Vj6_0
+I68oZZffm=GbLHTl`Bd5^`0
 R2
 R0
-R3
+w1668968329
 8../rtl/counter.v
 F../rtl/counter.v
 L0 4
-R4
+R3
 r1
 !s85 0
 31
-R5
+R4
 !s107 ../rtl/counter.v|
-!s90 +acc|-incr|../rtl/counter.v|
+!s90 -reportprogress|300|-suppress|12110|+acc|-incr|../rtl/counter.v|
 !i113 0
+R5
 R6
-R7
 vdistr_arith
-!s10a 1668959114
-R8
+R1
 !i10b 1
-!s100 B6Fk20dN6A2]RSL1B5XfI3
-Ime2WRV[L6DIB;9mChXYnj3
+!s100 dW:5]`@P5_<YniGEdQKj<0
+IkKz^R?HJMA?;]WiV090>z3
 R2
 R0
-w1668959114
-8distr_arith.v
-Fdistr_arith.v
-L0 6
-R4
+w1668968343
+8../rtl/distr_arith.v
+F../rtl/distr_arith.v
+L0 4
+R3
 r1
 !s85 0
 31
-Z9 !s108 1668959964.000000
-!s107 distr_arith.v|
-!s90 +acc|-incr|distr_arith.v|
+!s108 1668969243.000000
+!s107 ../rtl/distr_arith.v|
+!s90 -reportprogress|300|-suppress|12110|+acc|-incr|../rtl/distr_arith.v|
 !i113 0
+R5
 R6
-R7
 vleft_shift_1
-R1
-R8
+!s10a 1668966579
+!s110 1668968558
 !i10b 1
 !s100 1<GYI_J5SD_EbOYCH?WGY2
 I2KoVG:TaXRDF;N7>gFNJX3
 R2
 R0
-R3
+w1668966579
 8../rtl/left_shift_1.v
 F../rtl/left_shift_1.v
 L0 3
-R4
+R3
 r1
 !s85 0
 31
-R9
+!s108 1668968558.000000
 !s107 ../rtl/left_shift_1.v|
 !s90 +acc|-incr|../rtl/left_shift_1.v|
 !i113 0
+Z7 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R6
+vtestbench
+!s10a 1668967240
+!s110 1668968458
+!i10b 1
+!s100 fDi85jf_gODP>PDi[;6?_3
+IblMobH@ej@D90gX[Hcgb_3
+R2
+R0
+w1668967240
+8test_lfsr.v
+Ftest_lfsr.v
+L0 8
+R3
+r1
+!s85 0
+31
+!s108 1668968458.000000
+!s107 test_lfsr.v|
+!s90 +acc|-incr|test_lfsr.v|
+!i113 0
 R7
+R6

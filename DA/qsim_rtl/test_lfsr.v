@@ -1,9 +1,9 @@
 `timescale 1ns/1ps
 `define SD #0.010
 `define HALF_CLOCK_PERIOD #5
-`define QSIM_OUT_FN "qsim.out"
-`define INPUT_DATA "input.results"
-`define OUTPUT_DATA "out.results"
+`define QSIM_OUT_FN "./qsim.out"
+`define INPUT_DATA "./input.results"
+`define OUTPUT_DATA "./out.results"
 
 module testbench();
 
@@ -23,7 +23,7 @@ module testbench();
         reg signed [20:0] input_out_file;
     
 
-	distr_arith adder0(.clk3(clk3), .reset(reset), .LUT0_out(LUT0_out), .LUT1_out(LUT1_out), .LUT2_out(LUT2_out), .LUT3_out(LUT3_out), .LUT4_out(LUT4_out), .LUT5_out(LUT5_out), .LUT6_out(LUT6_out), .LUT7_out(LUT7_out), .sum(sum);
+	distr_arith adder0(.clk3(clk3), .reset(reset), .LUT0_out(LUT0_out), .LUT1_out(LUT1_out), .LUT2_out(LUT2_out), .LUT3_out(LUT3_out), .LUT4_out(LUT4_out), .LUT5_out(LUT5_out), .LUT6_out(LUT6_out), .LUT7_out(LUT7_out), .sum(sum));
 
 	always begin
                 `HALF_CLOCK_PERIOD;
@@ -44,7 +44,6 @@ module testbench();
                 $display("Couldn't open the output file.");
                 $finish;
                 end
-
 
                 qsim_out_file = $fopen(`QSIM_OUT_FN, "w"); //LOAD A QSIM FILE SO WE CAN WRITE TO IT
                 if(!qsim_out_file) begin
