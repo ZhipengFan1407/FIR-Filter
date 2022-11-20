@@ -1,0 +1,45 @@
+# ** Warning: License feature 'msimviewer' will expire in 7 days.
+# do runsim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim vmap 10.7b_1 Lib Mapping Utility 2018.07 Jul 26 2018
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 16:19:07 on Nov 20,2022
+# vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/distr_arith.v 
+# -- Skipping module distr_arith
+# 
+# Top level modules:
+# 	distr_arith
+# End time: 16:19:07 on Nov 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 16:19:07 on Nov 20,2022
+# vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/adder.v 
+# -- Skipping module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 16:19:07 on Nov 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 16:19:07 on Nov 20,2022
+# vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/counter.v 
+# -- Skipping module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 16:19:08 on Nov 20,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 16:19:08 on Nov 20,2022
+# vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dff_en.v 
+# -- Compiling module dff_en
+# ** Error: ../rtl/dff_en.v(14): (vlog-2110) Illegal reference to net "data_out".
+# End time: 16:19:08 on Nov 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /tools/mentor/questa_10.7b_1/questasim/linux/vlog failed.
+# Error in macro ./runsim.do line 13
+# /tools/mentor/questa_10.7b_1/questasim/linux/vlog failed.
+#     while executing
+# "vlog -suppress 12110 +acc -incr ../rtl/dff_en.v"
