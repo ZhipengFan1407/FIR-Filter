@@ -1,0 +1,11 @@
+# ** Warning: License feature 'msimviewer' will expire in 7 days.
+# ** Warning: (vsim-8689) Ignoring plusarg '+acc'.  Did you mean '-voptargs=+acc'?
+# vsim "+acc" -t ps -lib work distr_arith 
+# Start time: 10:59:32 on Nov 20,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: distr_arith.v(57): Module 'dff_en' is not defined.
+# ** Error: distr_arith.v(58): Module 'dff_en' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 10:59:33 on Nov 20,2022, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 1
