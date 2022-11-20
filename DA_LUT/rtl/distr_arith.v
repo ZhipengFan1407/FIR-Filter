@@ -12,7 +12,7 @@ module distr_arith (
     input [7 : 0] x6_bit,   // 40~47
     input [7 : 0] x7_bit,   // 48~55
     input [7 : 0] x8_bit,   // 56~63
-    output reg [31 : 0] sum
+    output [31 : 0] sum
 );
 
     // Wire and Bus Definition
