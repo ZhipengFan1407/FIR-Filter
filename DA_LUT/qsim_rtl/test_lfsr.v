@@ -23,11 +23,12 @@ module testbench();
         reg signed [7:0] input_out_file;
     
 
-	distr_arith adder0(.clk3(clk3), .reset(reset), .x1_bit(x1_bit), .x2_bit(x2_bit), .x3_bit(x3_bit), .x4_bit(x4_bit), .x5_bit(x5_bit), .x6_bit(x6_bit), .x7_bit(x7_bit), .x8_bit(x8_bit), .sum(sum));
+	distr_arith add(.clk3(clk3), .reset(reset), .x1_bit(x1_bit), .x2_bit(x2_bit), .x3_bit(x3_bit), .x4_bit(x4_bit), .x5_bit(x5_bit), .x6_bit(x6_bit), .x7_bit(x7_bit), .x8_bit(x8_bit), .sum(sum));
 
 	always begin
                 `HALF_CLOCK_PERIOD;
                 clk3 = ~clk3;
+		reset = 1;
         end
 
 
@@ -55,15 +56,16 @@ module testbench();
 		clk3 = 0;
 		reset = 0;
 
-		@(posedge clk3);
-		@(negedge clk3); 
+//		@(posedge clk3);
+//		@(negedge clk3);
 
-		reset = 1;
+//		reset = 1;
 
-		@(posedge clk3); //starts the first cycle
+//		@(posedge clk3); //starts the first cycle
 
                 for(i = 0; i < 3; i=i+1) begin
-                $display("i: %0d", i);
+               
+		$display("i: %0d", i);
 
                 ret_read = $fscanf(input_file, "%0d\n", x1_bit);
                 $display("x1_bit: %0d", x1_bit);
@@ -90,14 +92,26 @@ module testbench();
 		ret_read = $fscanf(out_file,"%0d\n",out_file_reg);
                 $display("output: %0d", out_file_reg);
 
+
 @(posedge clk3);
 @(posedge clk3);
-//@(posedge clk3);
-//@(posedge clk3);
-//@(posedge clk3);
-//@(posedge clk3);
-//@(posedge clk3);
-//@(posedge clk3);
+@(posedge clk3);
+@(posedge clk3);
+@(posedge clk3);
+@(posedge clk3);
+@(posedge clk3);
+@(posedge clk3);
+@(posedge clk3);
+@(posedge clk3);
+@(posedge clk3);
+@(posedge clk3);
+@(posedge clk3);
+@(posedge clk3);
+@(posedge clk3);
+@(posedge clk3);
+
+
+
 
                 lfsr_out_qsim = sum;
                 $display("sum: %0d", sum);

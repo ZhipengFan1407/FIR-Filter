@@ -1,7 +1,8 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
 
-add wave -noupdate -radix signed /testbench/x8_bit
+add wave -noupdate /testbench/clk3
+add wave -noupdate /testbench/reset
 add wave -noupdate -radix unsigned /testbench/x1_bit
 add wave -noupdate -radix unsigned /testbench/x2_bit
 add wave -noupdate -radix unsigned /testbench/x3_bit
@@ -9,7 +10,7 @@ add wave -noupdate -radix unsigned /testbench/x4_bit
 add wave -noupdate -radix unsigned /testbench/x5_bit
 add wave -noupdate -radix unsigned /testbench/x6_bit
 add wave -noupdate -radix unsigned /testbench/x7_bit
-
+add wave -noupdate -radix unsigned /testbench/x8_bit
 add wave -noupdate -radix unsigned /testbench/sum
 
 

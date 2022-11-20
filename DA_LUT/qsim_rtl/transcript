@@ -5,133 +5,133 @@
 # vmap work work 
 # Modifying modelsim.ini
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:16 on Nov 20,2022
+# Start time: 18:20:25 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/distr_arith.v 
-# -- Compiling module distr_arith
+# -- Skipping module distr_arith
 # 
 # Top level modules:
 # 	distr_arith
-# End time: 16:47:16 on Nov 20,2022, Elapsed time: 0:00:00
+# End time: 18:20:25 on Nov 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:16 on Nov 20,2022
+# Start time: 18:20:25 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/adder.v 
 # -- Skipping module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 16:47:17 on Nov 20,2022, Elapsed time: 0:00:01
+# End time: 18:20:25 on Nov 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:17 on Nov 20,2022
+# Start time: 18:20:25 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/counter.v 
 # -- Skipping module counter
 # 
 # Top level modules:
 # 	counter
-# End time: 16:47:17 on Nov 20,2022, Elapsed time: 0:00:00
+# End time: 18:20:26 on Nov 20,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:17 on Nov 20,2022
+# Start time: 18:20:26 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dff_en.v 
 # -- Skipping module dff_en
 # 
 # Top level modules:
 # 	dff_en
-# End time: 16:47:17 on Nov 20,2022, Elapsed time: 0:00:00
+# End time: 18:20:26 on Nov 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:17 on Nov 20,2022
+# Start time: 18:20:26 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/left_shift_1.v 
 # -- Skipping module left_shift_1
 # 
 # Top level modules:
 # 	left_shift_1
-# End time: 16:47:17 on Nov 20,2022, Elapsed time: 0:00:00
+# End time: 18:20:26 on Nov 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:17 on Nov 20,2022
+# Start time: 18:20:26 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/lut0.v 
 # -- Skipping module lut0
 # 
 # Top level modules:
 # 	lut0
-# End time: 16:47:18 on Nov 20,2022, Elapsed time: 0:00:01
+# End time: 18:20:26 on Nov 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:18 on Nov 20,2022
+# Start time: 18:20:26 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/lut1.v 
 # -- Skipping module lut1
 # 
 # Top level modules:
 # 	lut1
-# End time: 16:47:18 on Nov 20,2022, Elapsed time: 0:00:00
+# End time: 18:20:27 on Nov 20,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:18 on Nov 20,2022
+# Start time: 18:20:27 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/lut2.v 
 # -- Skipping module lut2
 # 
 # Top level modules:
 # 	lut2
-# End time: 16:47:18 on Nov 20,2022, Elapsed time: 0:00:00
+# End time: 18:20:27 on Nov 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:18 on Nov 20,2022
+# Start time: 18:20:27 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/lut3.v 
 # -- Skipping module lut3
 # 
 # Top level modules:
 # 	lut3
-# End time: 16:47:18 on Nov 20,2022, Elapsed time: 0:00:00
+# End time: 18:20:27 on Nov 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:18 on Nov 20,2022
+# Start time: 18:20:27 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/lut4.v 
 # -- Skipping module lut4
 # 
 # Top level modules:
 # 	lut4
-# End time: 16:47:18 on Nov 20,2022, Elapsed time: 0:00:00
+# End time: 18:20:27 on Nov 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:18 on Nov 20,2022
+# Start time: 18:20:28 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/lut5.v 
 # -- Skipping module lut5
 # 
 # Top level modules:
 # 	lut5
-# End time: 16:47:19 on Nov 20,2022, Elapsed time: 0:00:01
+# End time: 18:20:28 on Nov 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:19 on Nov 20,2022
+# Start time: 18:20:28 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/lut6.v 
 # -- Skipping module lut6
 # 
 # Top level modules:
 # 	lut6
-# End time: 16:47:19 on Nov 20,2022, Elapsed time: 0:00:00
+# End time: 18:20:28 on Nov 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:19 on Nov 20,2022
+# Start time: 18:20:28 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/lut7.v 
 # -- Skipping module lut7
 # 
 # Top level modules:
 # 	lut7
-# End time: 16:47:19 on Nov 20,2022, Elapsed time: 0:00:00
+# End time: 18:20:29 on Nov 20,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:47:19 on Nov 20,2022
+# Start time: 18:20:29 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 -incr test_lfsr.v 
-# -- Skipping module testbench
+# -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 16:47:20 on Nov 20,2022, Elapsed time: 0:00:01
+# End time: 18:20:30 on Nov 20,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vsim -suppress 12110 -t ps -lib work testbench 
-# Start time: 16:47:20 on Nov 20,2022
+# Start time: 18:20:30 on Nov 20,2022
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: License feature 'msimhdlsim' will expire in 7 days.
 # Loading work.testbench(fast)
@@ -148,6 +148,10 @@
 # Loading work.left_shift_1(fast)
 # Loading work.dff_en(fast)
 # Loading work.counter(fast)
+# ** Error: (vish-4014) No objects found matching '/testbench/clk3'.
+# Executing ONERROR command at macro ./waveformat.do line 4
+# ** Error: (vish-4014) No objects found matching '/testbench/reset'.
+# Executing ONERROR command at macro ./waveformat.do line 5
 # i: 0
 # x1_bit: 0
 # x2_bit: 1
@@ -181,9 +185,9 @@
 # x8_bit: 23
 # output: 156
 # sum: x
-# ** Note: $finish    : test_lfsr.v(110)
-#    Time: 13500 ps  Iteration: 1  Instance: /testbench
+# ** Note: $finish    : test_lfsr.v(124)
+#    Time: 85500 ps  Iteration: 1  Instance: /testbench
 # 1
-# Break at test_lfsr.v line 110
-# End time: 16:47:44 on Nov 20,2022, Elapsed time: 0:00:24
-# Errors: 0, Warnings: 0
+# Break at test_lfsr.v line 124
+# End time: 18:21:05 on Nov 20,2022, Elapsed time: 0:00:35
+# Errors: 6, Warnings: 0
