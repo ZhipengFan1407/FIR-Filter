@@ -1,14 +1,16 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
 
-add wave -noupdate -radix signed /testbench/LUT0_out
-add wave -noupdate -radix unsigned /testbench/LUT1_out
-add wave -noupdate -radix unsigned /testbench/LUT2_out
-add wave -noupdate -radix unsigned /testbench/LUT3_out
-add wave -noupdate -radix unsigned /testbench/LUT4_out
-add wave -noupdate -radix unsigned /testbench/LUT5_out
-add wave -noupdate -radix unsigned /testbench/LUT6_out
-add wave -noupdate -radix unsigned /testbench/LUT7_out
+add wave -noupdate -radix signed /testbench/x8_bit
+add wave -noupdate -radix unsigned /testbench/x1_bit
+add wave -noupdate -radix unsigned /testbench/x2_bit
+add wave -noupdate -radix unsigned /testbench/x3_bit
+add wave -noupdate -radix unsigned /testbench/x4_bit
+add wave -noupdate -radix unsigned /testbench/x5_bit
+add wave -noupdate -radix unsigned /testbench/x6_bit
+add wave -noupdate -radix unsigned /testbench/x7_bit
+
+add wave -noupdate -radix unsigned /testbench/sum
 
 
 TreeUpdate [SetDefaultTree]

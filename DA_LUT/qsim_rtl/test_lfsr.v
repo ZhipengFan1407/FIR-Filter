@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 `define SD #0.010
-`define HALF_CLOCK_PERIOD #5
+`define HALF_CLOCK_PERIOD #0.90
 `define QSIM_OUT_FN "./qsim.out"
 `define INPUT_DATA "./input.results"
 `define OUTPUT_DATA "./out.results"
@@ -56,10 +56,12 @@ module testbench();
 		reset = 0;
 
 		@(posedge clk3);
-		@(negedge clk3); //release reset
+		@(negedge clk3); 
+
 		reset = 1;
 
 		@(posedge clk3); //starts the first cycle
+
                 for(i = 0; i < 3; i=i+1) begin
                 $display("i: %0d", i);
 
@@ -90,12 +92,12 @@ module testbench();
 
 @(posedge clk3);
 @(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
+//@(posedge clk3);
+//@(posedge clk3);
+//@(posedge clk3);
+//@(posedge clk3);
+//@(posedge clk3);
+//@(posedge clk3);
 
                 lfsr_out_qsim = sum;
                 $display("sum: %0d", sum);
