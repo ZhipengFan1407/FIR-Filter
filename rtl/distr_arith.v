@@ -15,6 +15,7 @@ module distr_arith (
 );
 
     // Wire and Bus Definition
+    // Make sure 16-bit LUT append with 16 zeros to the left
     wire [31 : 0] LUT0_out;
     wire [31 : 0] LUT1_out;
     wire [31 : 0] LUT2_out;
