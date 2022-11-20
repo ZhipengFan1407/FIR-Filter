@@ -10,7 +10,7 @@ module testbench();
 	reg clk3;
 	reg reset;
 	wire signed [31:0] sum;
-	reg signed [15:0] LUT0_out, LUT1_out, LUT2_out, LUT3_out, LUT4_out, LUT5_out, LUT6_out, LUT7_out;
+	reg signed [31:0] LUT0_out, LUT1_out, LUT2_out, LUT3_out, LUT4_out, LUT5_out, LUT6_out, LUT7_out;
 
    	integer input_file;
         integer qsim_out_file;
@@ -18,9 +18,9 @@ module testbench();
         integer i;
         integer ret_read;
 
-        reg signed [15:0] out_file_reg;
+        reg signed [31:0] out_file_reg;
         reg signed [31:0] lfsr_out_qsim;
-        reg signed [15:0] input_out_file;
+        reg signed [31:0] input_out_file;
     
 
 	distr_arith adder0(.clk3(clk3), .reset(reset), .LUT0_out(LUT0_out), .LUT1_out(LUT1_out), .LUT2_out(LUT2_out), .LUT3_out(LUT3_out), .LUT4_out(LUT4_out), .LUT5_out(LUT5_out), .LUT6_out(LUT6_out), .LUT7_out(LUT7_out), .sum(sum));

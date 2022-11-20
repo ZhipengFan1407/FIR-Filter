@@ -1,7 +1,5 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /testbench/clk
-add wave -noupdate /testbench/reset
 
 add wave -noupdate -radix signed /testbench/LUT0_out
 add wave -noupdate -radix unsigned /testbench/LUT1_out
@@ -11,7 +9,6 @@ add wave -noupdate -radix unsigned /testbench/LUT4_out
 add wave -noupdate -radix unsigned /testbench/LUT5_out
 add wave -noupdate -radix unsigned /testbench/LUT6_out
 add wave -noupdate -radix unsigned /testbench/LUT7_out
-add wave -noupdate -radix unsigned /distr_arith/sum
 
 
 TreeUpdate [SetDefaultTree]

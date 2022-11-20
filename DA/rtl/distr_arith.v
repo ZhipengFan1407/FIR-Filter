@@ -4,14 +4,14 @@
 module distr_arith (
     input clk3,
     input reset,
-    input [15 : 0] LUT0_out,   
-    input [15 : 0] LUT1_out,   
-    input [15 : 0] LUT2_out,   
-    input [15 : 0] LUT3_out,   
-    input [15 : 0] LUT4_out,   
-    input [15 : 0] LUT5_out,   
-    input [15 : 0] LUT6_out,   
-    input [15 : 0] LUT7_out,   
+    input [31 : 0] LUT0_out,   
+    input [31 : 0] LUT1_out,   
+    input [31 : 0] LUT2_out,   
+    input [31 : 0] LUT3_out,   
+    input [31 : 0] LUT4_out,   
+    input [31 : 0] LUT5_out,   
+    input [31 : 0] LUT6_out,   
+    input [31 : 0] LUT7_out,   
     output [31 : 0] sum
 );
 
@@ -37,6 +37,8 @@ module distr_arith (
     adder add5 (.in_a(add2_out), .in_b(add3_out), .out(add5_out));
     adder add6 (.in_a(add4_out), .in_b(add5_out), .out(add6_out));
     adder add7 (.in_a(add6_out), .in_b(leftshift_out), .out(add7_out));
+
+	$disp("add0: %0d", add0_out);
 
     // Shifter Instantiation
     left_shift_1 ls0 (.data_in(dff0_out), .data_out(leftshift_out));
