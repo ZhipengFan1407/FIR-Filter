@@ -1,23 +1,24 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /distr_arith/clk
+add wave -noupdate /testbench/clk
+add wave -noupdate /testbench/reset
 
-add wave -noupdate -radix unsigned /distr_arith/x1_bit
-add wave -noupdate -radix unsigned /distr_arith/x2_bit
-add wave -noupdate -radix unsigned /distr_arith/x3_bit
-add wave -noupdate -radix unsigned /distr_arith/x4_bit
-add wave -noupdate -radix unsigned /distr_arith/x5_bit
-add wave -noupdate -radix unsigned /distr_arith/6_bit
-add wave -noupdate -radix unsigned /distr_arith/x7_bit
-add wave -noupdate -radix unsigned /distr_arith/x8_bit
+add wave -noupdate -radix signed /testbench/LUT0_out
+add wave -noupdate -radix unsigned /testbench/LUT1_out
+add wave -noupdate -radix unsigned /testbench/LUT2_out
+add wave -noupdate -radix unsigned /testbench/LUT3_out
+add wave -noupdate -radix unsigned /testbench/LUT4_out
+add wave -noupdate -radix unsigned /testbench/LUT5_out
+add wave -noupdate -radix unsigned /testbench/LUT6_out
+add wave -noupdate -radix unsigned /testbench/LUT7_out
 add wave -noupdate -radix unsigned /distr_arith/sum
 
 
 
 
-add wave -noupdate -radix unsigned /distr_arith/input_file
-add wave -noupdate -radix unsigned /distr_arith/lfsr_out_qsim
-add wave -noupdate -radix unsigned /distr_arith/lfsr_out_matlab
+add wave -noupdate -radix unsigned /testbench/input_file
+add wave -noupdate -radix unsigned /testbench/lfsr_out_qsim
+add wave -noupdate -radix unsigned /testbench/lfsr_out_matlab
 
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {3 ns} 0}

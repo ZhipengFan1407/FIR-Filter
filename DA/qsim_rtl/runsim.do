@@ -11,10 +11,12 @@ vlog +acc -incr ../rtl/adder.v
 vlog +acc -incr ../rtl/counter.v
 vlog +acc -incr ../rtl/dff_en.v
 vlog +acc -incr ../rtl/left_shift_1.v
-vlog +acc -incr distr_arith.v
+vlog +acc -incr ../distr_arith.v
+
+vlog +acc -incr test_lfsr.v
 
 # Run Simulator
-vsim +acc -t ps -lib work distr_arith
+vsim +acc -t ps -lib work testbench
 do waveformat.do
 run -all
 
