@@ -12,7 +12,7 @@ module distr_arith (
     input [15 : 0] LUT5_out,   
     input [15 : 0] LUT6_out,   
     input [15 : 0] LUT7_out,   
-    output reg [31 : 0] sum
+    output [31 : 0] sum
 );
 
     // Wire and Bus Definition
@@ -44,6 +44,9 @@ module distr_arith (
     // DFF Instatiation
     dff_en dff0 (.enable(1'b1), .clk(clk3), .data_in(add7_out), .data_out(dff0_out));
     dff_en dff1 (.enable(counter_reach), .clk(clk3), .data_in(dff0_out), .data_out(sum));
+
+
+
 
     // Counter Instantiation
     counter counter0 (.reset(reset), .clk(clk3), .count_reach(count_reach));

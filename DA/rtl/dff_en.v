@@ -6,13 +6,15 @@ module dff_en(
     input enable,
     input clk,
     input [31 : 0] data_in,
-    output reg [31: 0] data_out
+    output reg [31:0] data_out
 );
 
     always @(posedge clk) begin
         if (enable == 1'b1) begin
-            data_in <= data_out;
+            data_out <= data_in;
         end
     end
+
+
 
 endmodule

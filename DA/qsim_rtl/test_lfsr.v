@@ -18,9 +18,9 @@ module testbench();
         integer i;
         integer ret_read;
 
-        reg signed [20:0] out_file_reg;
-        reg signed [20:0] lfsr_out_qsim;
-        reg signed [20:0] input_out_file;
+        reg signed [15:0] out_file_reg;
+        reg signed [31:0] lfsr_out_qsim;
+        reg signed [15:0] input_out_file;
     
 
 	distr_arith adder0(.clk3(clk3), .reset(reset), .LUT0_out(LUT0_out), .LUT1_out(LUT1_out), .LUT2_out(LUT2_out), .LUT3_out(LUT3_out), .LUT4_out(LUT4_out), .LUT5_out(LUT5_out), .LUT6_out(LUT6_out), .LUT7_out(LUT7_out), .sum(sum));
@@ -60,7 +60,7 @@ module testbench();
 		reset = 1;
 
 		@(posedge clk3); //starts the first cycle
-                for(i = 0; i < 2; i=i+1) begin
+                for(i = 0; i < 3; i=i+1) begin
                 $display("i: %0d", i);
 
                 ret_read = $fscanf(input_file, "%0d\n", LUT0_out);
@@ -83,7 +83,7 @@ module testbench();
                 ret_read = $fscanf(input_file, "%0d\n", LUT6_out);
                 $display("LUT6: %0d", LUT6_out);
                 ret_read = $fscanf(input_file, "%0d\n", LUT7_out);
-                $display("LUT7: %0d", LUT7);
+                $display("LUT7: %0d", LUT7_out);
 
 		ret_read = $fscanf(out_file,"%0d\n",out_file_reg);
                 $display("output:%0d", out_file_reg);

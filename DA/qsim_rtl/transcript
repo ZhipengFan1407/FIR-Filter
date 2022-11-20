@@ -5,41 +5,125 @@
 # vmap work work 
 # Modifying modelsim.ini
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 13:34:03 on Nov 20,2022
+# Start time: 13:54:48 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/distr_arith.v 
-# -- Compiling module distr_arith
+# -- Skipping module distr_arith
 # 
 # Top level modules:
 # 	distr_arith
-# End time: 13:34:04 on Nov 20,2022, Elapsed time: 0:00:01
+# End time: 13:54:48 on Nov 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 13:34:04 on Nov 20,2022
+# Start time: 13:54:48 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/adder.v 
-# -- Compiling module adder
+# -- Skipping module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 13:34:04 on Nov 20,2022, Elapsed time: 0:00:00
+# End time: 13:54:48 on Nov 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 13:34:04 on Nov 20,2022
+# Start time: 13:54:48 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/counter.v 
-# -- Compiling module counter
+# -- Skipping module counter
 # 
 # Top level modules:
 # 	counter
-# End time: 13:34:04 on Nov 20,2022, Elapsed time: 0:00:00
+# End time: 13:54:48 on Nov 20,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 13:34:04 on Nov 20,2022
+# Start time: 13:54:48 on Nov 20,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dff_en.v 
-# -- Compiling module dff_en
-# ** Error: ../rtl/dff_en.v(14): (vlog-2110) Illegal reference to net "data_in".
-# End time: 13:34:04 on Nov 20,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: /tools/mentor/questa_10.7b_1/questasim/linux/vlog failed.
-# Error in macro ./runsim.do line 13
-# /tools/mentor/questa_10.7b_1/questasim/linux/vlog failed.
-#     while executing
-# "vlog -suppress 12110 +acc -incr ../rtl/dff_en.v"
+# -- Skipping module dff_en
+# 
+# Top level modules:
+# 	dff_en
+# End time: 13:54:48 on Nov 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 13:54:48 on Nov 20,2022
+# vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/left_shift_1.v 
+# -- Skipping module left_shift_1
+# 
+# Top level modules:
+# 	left_shift_1
+# End time: 13:54:48 on Nov 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 13:54:49 on Nov 20,2022
+# vlog -reportprogress 300 -suppress 12110 -incr test_lfsr.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 13:54:49 on Nov 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -suppress 12110 -t ps -lib work testbench 
+# Start time: 13:54:49 on Nov 20,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: License feature 'msimhdlsim' will expire in 7 days.
+# Loading work.testbench(fast)
+# Loading work.distr_arith(fast)
+# Loading work.adder(fast)
+# Loading work.left_shift_1(fast)
+# Loading work.dff_en(fast)
+# Loading work.counter(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'in_a'. The port definition is at: ../rtl/adder.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/adder0/add0 File: ../rtl/distr_arith.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'in_b'. The port definition is at: ../rtl/adder.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/adder0/add0 File: ../rtl/distr_arith.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'in_a'. The port definition is at: ../rtl/adder.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/adder0/add1 File: ../rtl/distr_arith.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'in_b'. The port definition is at: ../rtl/adder.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/adder0/add1 File: ../rtl/distr_arith.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'in_a'. The port definition is at: ../rtl/adder.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/adder0/add2 File: ../rtl/distr_arith.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'in_b'. The port definition is at: ../rtl/adder.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/adder0/add2 File: ../rtl/distr_arith.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'in_a'. The port definition is at: ../rtl/adder.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/adder0/add3 File: ../rtl/distr_arith.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'in_b'. The port definition is at: ../rtl/adder.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/adder0/add3 File: ../rtl/distr_arith.v Line: 35
+# ** Error: (vish-4014) No objects found matching '/testbench/clk'.
+# Executing ONERROR command at macro ./waveformat.do line 3
+# ** Error: (vish-4014) No objects found matching '/testbench/reset'.
+# Executing ONERROR command at macro ./waveformat.do line 4
+# ** Error: (vish-4014) No objects found matching '/distr_arith/sum'.
+# Executing ONERROR command at macro ./waveformat.do line 14
+# i: 0
+# LUT0: 0
+# LUT1: 1
+# LUT2: 2
+# LUT3: 3
+# LUT4: 4
+# LUT5: 5
+# LUT6: 6
+# LUT7: 7
+# output:28
+# sum: x
+# i: 1
+# LUT0: 8
+# LUT1: 9
+# LUT2: 10
+# LUT3: 11
+# LUT4: 12
+# LUT5: 13
+# LUT6: 14
+# LUT7: 15
+# output:92
+# sum: x
+# i: 2
+# LUT0: 16
+# LUT1: 17
+# LUT2: 18
+# LUT3: 19
+# LUT4: 20
+# LUT5: 21
+# LUT6: 22
+# LUT7: 23
+# output:156
+# sum: x
+# ** Note: $finish    : test_lfsr.v(108)
+#    Time: 255 ns  Iteration: 1  Instance: /testbench
+# 1
+# Break at test_lfsr.v line 108
