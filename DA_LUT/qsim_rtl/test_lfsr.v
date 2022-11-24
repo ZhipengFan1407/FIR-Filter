@@ -7,7 +7,7 @@
 
 module testbench();
 
-	reg clk3;
+	reg clk;
 	reg reset;
 	wire signed [31:0] sum;
 	reg signed [7:0] x1_bit, x2_bit, x3_bit, x4_bit, x5_bit, x6_bit, x7_bit, x8_bit;
@@ -23,11 +23,11 @@ module testbench();
         reg signed [7:0] input_out_file;
     
 
-	distr_arith add(.clk3(clk3), .reset(reset), .x1_bit(x1_bit), .x2_bit(x2_bit), .x3_bit(x3_bit), .x4_bit(x4_bit), .x5_bit(x5_bit), .x6_bit(x6_bit), .x7_bit(x7_bit), .x8_bit(x8_bit), .sum(sum));
+	distr_arith add(.clk(clk), .reset(reset), .x1_bit(x1_bit), .x2_bit(x2_bit), .x3_bit(x3_bit), .x4_bit(x4_bit), .x5_bit(x5_bit), .x6_bit(x6_bit), .x7_bit(x7_bit), .x8_bit(x8_bit), .sum(sum));
 
 	always begin
                 `HALF_CLOCK_PERIOD;
-                clk3 = ~clk3;
+                clk = ~clk;
 		reset = 1;
         end
 
@@ -53,15 +53,15 @@ module testbench();
                 end
 
 
-		clk3 = 0;
+		clk = 0;
 		reset = 0;
 
-//		@(posedge clk3);
-//		@(negedge clk3);
+		@(posedge clk);
+		@(negedge clk);
 
-//		reset = 1;
+		reset = 1;
 
-//		@(posedge clk3); //starts the first cycle
+		@(posedge clk); //starts the first cycle
 
                 for(i = 0; i < 3; i=i+1) begin
                
@@ -93,22 +93,22 @@ module testbench();
                 $display("output: %0d", out_file_reg);
 
 
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
-@(posedge clk3);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
+@(posedge clk);
 
 
 

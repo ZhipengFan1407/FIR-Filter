@@ -1,0 +1,905 @@
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP5-1
+Date:        Wed Nov 23 20:25:27 2022
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     66
+    Unloaded inputs (LINT-8)                                        1
+    Unconnected ports (LINT-28)                                    65
+
+Nets                                                                1
+    Unloaded nets (LINT-2)                                          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'distr_arith', net 'clk' driven by pin 'clk' has no loads. (LINT-2)
+Warning: In design 'distr_arith', input port 'clk' is unloaded. (LINT-8)
+Warning: In design 'distr_arith', port 'reset' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x1_bit[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x1_bit[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x1_bit[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x1_bit[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x1_bit[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x1_bit[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x1_bit[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x1_bit[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x2_bit[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x2_bit[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x2_bit[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x2_bit[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x2_bit[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x2_bit[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x2_bit[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x2_bit[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x3_bit[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x3_bit[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x3_bit[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x3_bit[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x3_bit[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x3_bit[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x3_bit[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x3_bit[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x4_bit[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x4_bit[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x4_bit[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x4_bit[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x4_bit[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x4_bit[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x4_bit[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x4_bit[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x5_bit[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x5_bit[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x5_bit[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x5_bit[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x5_bit[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x5_bit[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x5_bit[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x5_bit[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x6_bit[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x6_bit[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x6_bit[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x6_bit[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x6_bit[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x6_bit[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x6_bit[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x6_bit[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x7_bit[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x7_bit[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x7_bit[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x7_bit[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x7_bit[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x7_bit[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x7_bit[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x7_bit[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x8_bit[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x8_bit[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x8_bit[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x8_bit[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x8_bit[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x8_bit[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x8_bit[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'distr_arith', port 'x8_bit[0]' is not connected to any nets. (LINT-28)
+1
+ 
+****************************************
+Report : area
+Design : distr_arith
+Version: O-2018.06-SP5-1
+Date   : Wed Nov 23 20:25:27 2022
+****************************************
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Number of ports:                           98
+Number of nets:                            64
+Number of cells:                           64
+Number of combinational cells:             32
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         32
+Number of references:                       1
+
+Combinational area:                138.240005
+Buf/Inv area:                      138.240005
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   138.240005
+Total area:                 undefined
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : distr_arith
+Version: O-2018.06-SP5-1
+Date   : Wed Nov 23 20:25:27 2022
+****************************************
+
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+distr_arith                               0.000    0.000   91.861 9.19e-08 100.0
+1
+ 
+****************************************
+Report : design
+Design : distr_arith
+Version: O-2018.06-SP5-1
+Date   : Wed Nov 23 20:25:27 2022
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    scx3_cmos8rf_lpvt_tt_1p2v_25c (File: /courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db)
+
+Local Link Library:
+
+    {/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : tt_1p2v_25c
+    Library : scx3_cmos8rf_lpvt_tt_1p2v_25c
+    Process :   1.00
+    Temperature :  25.00
+    Voltage :   1.20
+    Interconnect Model : balanced_tree
+
+Wire Loading Model:
+
+    No wire loading specified.
+
+
+Wire Loading Model Mode: top.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    No arcs disabled.
+
+Required Licenses:
+
+    None Required
+
+Design Parameters:
+
+    None specified.
+1
+ 
+****************************************
+Report : cell
+Design : distr_arith
+Version: O-2018.06-SP5-1
+Date   : Wed Nov 23 20:25:27 2022
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U2                        INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U4                        INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U6                        INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U8                        INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U10                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U12                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U14                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U16                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U18                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U20                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U22                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U24                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U26                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U28                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U30                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U32                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U34                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U36                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U38                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U40                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U42                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U44                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U46                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U48                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U50                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U52                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U54                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U56                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U58                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U60                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U62                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+U64                       INVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                                          4.320000  
+--------------------------------------------------------------------------------
+Total 32 cells                                            138.240005
+1
+ 
+****************************************
+Report : port
+        -verbose
+Design : distr_arith
+Version: O-2018.06-SP5-1
+Date   : Wed Nov 23 20:25:27 2022
+****************************************
+
+
+
+Attributes:
+    d - dont_touch_network
+    i - ideal_network
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+clk            in      0.0000   0.0000    1.02    0.00   --         d, i
+reset          in      0.0000   0.0000    1.02    0.00   --         
+x1_bit[0]      in      0.0000   0.0000    1.02    0.00   --         
+x1_bit[1]      in      0.0000   0.0000    1.02    0.00   --         
+x1_bit[2]      in      0.0000   0.0000    1.02    0.00   --         
+x1_bit[3]      in      0.0000   0.0000    1.02    0.00   --         
+x1_bit[4]      in      0.0000   0.0000    1.02    0.00   --         
+x1_bit[5]      in      0.0000   0.0000    1.02    0.00   --         
+x1_bit[6]      in      0.0000   0.0000    1.02    0.00   --         
+x1_bit[7]      in      0.0000   0.0000    1.02    0.00   --         
+x2_bit[0]      in      0.0000   0.0000    1.02    0.00   --         
+x2_bit[1]      in      0.0000   0.0000    1.02    0.00   --         
+x2_bit[2]      in      0.0000   0.0000    1.02    0.00   --         
+x2_bit[3]      in      0.0000   0.0000    1.02    0.00   --         
+x2_bit[4]      in      0.0000   0.0000    1.02    0.00   --         
+x2_bit[5]      in      0.0000   0.0000    1.02    0.00   --         
+x2_bit[6]      in      0.0000   0.0000    1.02    0.00   --         
+x2_bit[7]      in      0.0000   0.0000    1.02    0.00   --         
+x3_bit[0]      in      0.0000   0.0000    1.02    0.00   --         
+x3_bit[1]      in      0.0000   0.0000    1.02    0.00   --         
+x3_bit[2]      in      0.0000   0.0000    1.02    0.00   --         
+x3_bit[3]      in      0.0000   0.0000    1.02    0.00   --         
+x3_bit[4]      in      0.0000   0.0000    1.02    0.00   --         
+x3_bit[5]      in      0.0000   0.0000    1.02    0.00   --         
+x3_bit[6]      in      0.0000   0.0000    1.02    0.00   --         
+x3_bit[7]      in      0.0000   0.0000    1.02    0.00   --         
+x4_bit[0]      in      0.0000   0.0000    1.02    0.00   --         
+x4_bit[1]      in      0.0000   0.0000    1.02    0.00   --         
+x4_bit[2]      in      0.0000   0.0000    1.02    0.00   --         
+x4_bit[3]      in      0.0000   0.0000    1.02    0.00   --         
+x4_bit[4]      in      0.0000   0.0000    1.02    0.00   --         
+x4_bit[5]      in      0.0000   0.0000    1.02    0.00   --         
+x4_bit[6]      in      0.0000   0.0000    1.02    0.00   --         
+x4_bit[7]      in      0.0000   0.0000    1.02    0.00   --         
+x5_bit[0]      in      0.0000   0.0000    1.02    0.00   --         
+x5_bit[1]      in      0.0000   0.0000    1.02    0.00   --         
+x5_bit[2]      in      0.0000   0.0000    1.02    0.00   --         
+x5_bit[3]      in      0.0000   0.0000    1.02    0.00   --         
+x5_bit[4]      in      0.0000   0.0000    1.02    0.00   --         
+x5_bit[5]      in      0.0000   0.0000    1.02    0.00   --         
+x5_bit[6]      in      0.0000   0.0000    1.02    0.00   --         
+x5_bit[7]      in      0.0000   0.0000    1.02    0.00   --         
+x6_bit[0]      in      0.0000   0.0000    1.02    0.00   --         
+x6_bit[1]      in      0.0000   0.0000    1.02    0.00   --         
+x6_bit[2]      in      0.0000   0.0000    1.02    0.00   --         
+x6_bit[3]      in      0.0000   0.0000    1.02    0.00   --         
+x6_bit[4]      in      0.0000   0.0000    1.02    0.00   --         
+x6_bit[5]      in      0.0000   0.0000    1.02    0.00   --         
+x6_bit[6]      in      0.0000   0.0000    1.02    0.00   --         
+x6_bit[7]      in      0.0000   0.0000    1.02    0.00   --         
+x7_bit[0]      in      0.0000   0.0000    1.02    0.00   --         
+x7_bit[1]      in      0.0000   0.0000    1.02    0.00   --         
+x7_bit[2]      in      0.0000   0.0000    1.02    0.00   --         
+x7_bit[3]      in      0.0000   0.0000    1.02    0.00   --         
+x7_bit[4]      in      0.0000   0.0000    1.02    0.00   --         
+x7_bit[5]      in      0.0000   0.0000    1.02    0.00   --         
+x7_bit[6]      in      0.0000   0.0000    1.02    0.00   --         
+x7_bit[7]      in      0.0000   0.0000    1.02    0.00   --         
+x8_bit[0]      in      0.0000   0.0000    1.02    0.00   --         
+x8_bit[1]      in      0.0000   0.0000    1.02    0.00   --         
+x8_bit[2]      in      0.0000   0.0000    1.02    0.00   --         
+x8_bit[3]      in      0.0000   0.0000    1.02    0.00   --         
+x8_bit[4]      in      0.0000   0.0000    1.02    0.00   --         
+x8_bit[5]      in      0.0000   0.0000    1.02    0.00   --         
+x8_bit[6]      in      0.0000   0.0000    1.02    0.00   --         
+x8_bit[7]      in      0.0000   0.0000    1.02    0.00   --         
+sum[0]         out     0.0500   0.0000   --      --      --         
+sum[1]         out     0.0500   0.0000   --      --      --         
+sum[2]         out     0.0500   0.0000   --      --      --         
+sum[3]         out     0.0500   0.0000   --      --      --         
+sum[4]         out     0.0500   0.0000   --      --      --         
+sum[5]         out     0.0500   0.0000   --      --      --         
+sum[6]         out     0.0500   0.0000   --      --      --         
+sum[7]         out     0.0500   0.0000   --      --      --         
+sum[8]         out     0.0500   0.0000   --      --      --         
+sum[9]         out     0.0500   0.0000   --      --      --         
+sum[10]        out     0.0500   0.0000   --      --      --         
+sum[11]        out     0.0500   0.0000   --      --      --         
+sum[12]        out     0.0500   0.0000   --      --      --         
+sum[13]        out     0.0500   0.0000   --      --      --         
+sum[14]        out     0.0500   0.0000   --      --      --         
+sum[15]        out     0.0500   0.0000   --      --      --         
+sum[16]        out     0.0500   0.0000   --      --      --         
+sum[17]        out     0.0500   0.0000   --      --      --         
+sum[18]        out     0.0500   0.0000   --      --      --         
+sum[19]        out     0.0500   0.0000   --      --      --         
+sum[20]        out     0.0500   0.0000   --      --      --         
+sum[21]        out     0.0500   0.0000   --      --      --         
+sum[22]        out     0.0500   0.0000   --      --      --         
+sum[23]        out     0.0500   0.0000   --      --      --         
+sum[24]        out     0.0500   0.0000   --      --      --         
+sum[25]        out     0.0500   0.0000   --      --      --         
+sum[26]        out     0.0500   0.0000   --      --      --         
+sum[27]        out     0.0500   0.0000   --      --      --         
+sum[28]        out     0.0500   0.0000   --      --      --         
+sum[29]        out     0.0500   0.0000   --      --      --         
+sum[30]        out     0.0500   0.0000   --      --      --         
+sum[31]        out     0.0500   0.0000   --      --      --         
+
+
+              External  Max             Min                Min       Min
+              Number    Wireload        Wireload           Pin       Wire
+Port          Points    Model           Model              Load      Load
+--------------------------------------------------------------------------------
+clk                1      --              --              --        -- 
+reset              1      --              --              --        -- 
+x1_bit[0]          1      --              --              --        -- 
+x1_bit[1]          1      --              --              --        -- 
+x1_bit[2]          1      --              --              --        -- 
+x1_bit[3]          1      --              --              --        -- 
+x1_bit[4]          1      --              --              --        -- 
+x1_bit[5]          1      --              --              --        -- 
+x1_bit[6]          1      --              --              --        -- 
+x1_bit[7]          1      --              --              --        -- 
+x2_bit[0]          1      --              --              --        -- 
+x2_bit[1]          1      --              --              --        -- 
+x2_bit[2]          1      --              --              --        -- 
+x2_bit[3]          1      --              --              --        -- 
+x2_bit[4]          1      --              --              --        -- 
+x2_bit[5]          1      --              --              --        -- 
+x2_bit[6]          1      --              --              --        -- 
+x2_bit[7]          1      --              --              --        -- 
+x3_bit[0]          1      --              --              --        -- 
+x3_bit[1]          1      --              --              --        -- 
+x3_bit[2]          1      --              --              --        -- 
+x3_bit[3]          1      --              --              --        -- 
+x3_bit[4]          1      --              --              --        -- 
+x3_bit[5]          1      --              --              --        -- 
+x3_bit[6]          1      --              --              --        -- 
+x3_bit[7]          1      --              --              --        -- 
+x4_bit[0]          1      --              --              --        -- 
+x4_bit[1]          1      --              --              --        -- 
+x4_bit[2]          1      --              --              --        -- 
+x4_bit[3]          1      --              --              --        -- 
+x4_bit[4]          1      --              --              --        -- 
+x4_bit[5]          1      --              --              --        -- 
+x4_bit[6]          1      --              --              --        -- 
+x4_bit[7]          1      --              --              --        -- 
+x5_bit[0]          1      --              --              --        -- 
+x5_bit[1]          1      --              --              --        -- 
+x5_bit[2]          1      --              --              --        -- 
+x5_bit[3]          1      --              --              --        -- 
+x5_bit[4]          1      --              --              --        -- 
+x5_bit[5]          1      --              --              --        -- 
+x5_bit[6]          1      --              --              --        -- 
+x5_bit[7]          1      --              --              --        -- 
+x6_bit[0]          1      --              --              --        -- 
+x6_bit[1]          1      --              --              --        -- 
+x6_bit[2]          1      --              --              --        -- 
+x6_bit[3]          1      --              --              --        -- 
+x6_bit[4]          1      --              --              --        -- 
+x6_bit[5]          1      --              --              --        -- 
+x6_bit[6]          1      --              --              --        -- 
+x6_bit[7]          1      --              --              --        -- 
+x7_bit[0]          1      --              --              --        -- 
+x7_bit[1]          1      --              --              --        -- 
+x7_bit[2]          1      --              --              --        -- 
+x7_bit[3]          1      --              --              --        -- 
+x7_bit[4]          1      --              --              --        -- 
+x7_bit[5]          1      --              --              --        -- 
+x7_bit[6]          1      --              --              --        -- 
+x7_bit[7]          1      --              --              --        -- 
+x8_bit[0]          1      --              --              --        -- 
+x8_bit[1]          1      --              --              --        -- 
+x8_bit[2]          1      --              --              --        -- 
+x8_bit[3]          1      --              --              --        -- 
+x8_bit[4]          1      --              --              --        -- 
+x8_bit[5]          1      --              --              --        -- 
+x8_bit[6]          1      --              --              --        -- 
+x8_bit[7]          1      --              --              --        -- 
+sum[0]             1      --              --              --        -- 
+sum[1]             1      --              --              --        -- 
+sum[2]             1      --              --              --        -- 
+sum[3]             1      --              --              --        -- 
+sum[4]             1      --              --              --        -- 
+sum[5]             1      --              --              --        -- 
+sum[6]             1      --              --              --        -- 
+sum[7]             1      --              --              --        -- 
+sum[8]             1      --              --              --        -- 
+sum[9]             1      --              --              --        -- 
+sum[10]            1      --              --              --        -- 
+sum[11]            1      --              --              --        -- 
+sum[12]            1      --              --              --        -- 
+sum[13]            1      --              --              --        -- 
+sum[14]            1      --              --              --        -- 
+sum[15]            1      --              --              --        -- 
+sum[16]            1      --              --              --        -- 
+sum[17]            1      --              --              --        -- 
+sum[18]            1      --              --              --        -- 
+sum[19]            1      --              --              --        -- 
+sum[20]            1      --              --              --        -- 
+sum[21]            1      --              --              --        -- 
+sum[22]            1      --              --              --        -- 
+sum[23]            1      --              --              --        -- 
+sum[24]            1      --              --              --        -- 
+sum[25]            1      --              --              --        -- 
+sum[26]            1      --              --              --        -- 
+sum[27]            1      --              --              --        -- 
+sum[28]            1      --              --              --        -- 
+sum[29]            1      --              --              --        -- 
+sum[30]            1      --              --              --        -- 
+sum[31]            1      --              --              --        -- 
+
+                    Input Delay
+                  Min             Max       Related   Max
+Input Port    Rise    Fall    Rise    Fall   Clock  Fanout
+--------------------------------------------------------------------------------
+clk           --      --      --      --      --      4.00
+reset         0.05    0.05    0.05    0.05  clk       4.00  
+x1_bit[0]     0.05    0.05    0.05    0.05  clk       4.00  
+x1_bit[1]     0.05    0.05    0.05    0.05  clk       4.00  
+x1_bit[2]     0.05    0.05    0.05    0.05  clk       4.00  
+x1_bit[3]     0.05    0.05    0.05    0.05  clk       4.00  
+x1_bit[4]     0.05    0.05    0.05    0.05  clk       4.00  
+x1_bit[5]     0.05    0.05    0.05    0.05  clk       4.00  
+x1_bit[6]     0.05    0.05    0.05    0.05  clk       4.00  
+x1_bit[7]     0.05    0.05    0.05    0.05  clk       4.00  
+x2_bit[0]     0.05    0.05    0.05    0.05  clk       4.00  
+x2_bit[1]     0.05    0.05    0.05    0.05  clk       4.00  
+x2_bit[2]     0.05    0.05    0.05    0.05  clk       4.00  
+x2_bit[3]     0.05    0.05    0.05    0.05  clk       4.00  
+x2_bit[4]     0.05    0.05    0.05    0.05  clk       4.00  
+x2_bit[5]     0.05    0.05    0.05    0.05  clk       4.00  
+x2_bit[6]     0.05    0.05    0.05    0.05  clk       4.00  
+x2_bit[7]     0.05    0.05    0.05    0.05  clk       4.00  
+x3_bit[0]     0.05    0.05    0.05    0.05  clk       4.00  
+x3_bit[1]     0.05    0.05    0.05    0.05  clk       4.00  
+x3_bit[2]     0.05    0.05    0.05    0.05  clk       4.00  
+x3_bit[3]     0.05    0.05    0.05    0.05  clk       4.00  
+x3_bit[4]     0.05    0.05    0.05    0.05  clk       4.00  
+x3_bit[5]     0.05    0.05    0.05    0.05  clk       4.00  
+x3_bit[6]     0.05    0.05    0.05    0.05  clk       4.00  
+x3_bit[7]     0.05    0.05    0.05    0.05  clk       4.00  
+x4_bit[0]     0.05    0.05    0.05    0.05  clk       4.00  
+x4_bit[1]     0.05    0.05    0.05    0.05  clk       4.00  
+x4_bit[2]     0.05    0.05    0.05    0.05  clk       4.00  
+x4_bit[3]     0.05    0.05    0.05    0.05  clk       4.00  
+x4_bit[4]     0.05    0.05    0.05    0.05  clk       4.00  
+x4_bit[5]     0.05    0.05    0.05    0.05  clk       4.00  
+x4_bit[6]     0.05    0.05    0.05    0.05  clk       4.00  
+x4_bit[7]     0.05    0.05    0.05    0.05  clk       4.00  
+x5_bit[0]     0.05    0.05    0.05    0.05  clk       4.00  
+x5_bit[1]     0.05    0.05    0.05    0.05  clk       4.00  
+x5_bit[2]     0.05    0.05    0.05    0.05  clk       4.00  
+x5_bit[3]     0.05    0.05    0.05    0.05  clk       4.00  
+x5_bit[4]     0.05    0.05    0.05    0.05  clk       4.00  
+x5_bit[5]     0.05    0.05    0.05    0.05  clk       4.00  
+x5_bit[6]     0.05    0.05    0.05    0.05  clk       4.00  
+x5_bit[7]     0.05    0.05    0.05    0.05  clk       4.00  
+x6_bit[0]     0.05    0.05    0.05    0.05  clk       4.00  
+x6_bit[1]     0.05    0.05    0.05    0.05  clk       4.00  
+x6_bit[2]     0.05    0.05    0.05    0.05  clk       4.00  
+x6_bit[3]     0.05    0.05    0.05    0.05  clk       4.00  
+x6_bit[4]     0.05    0.05    0.05    0.05  clk       4.00  
+x6_bit[5]     0.05    0.05    0.05    0.05  clk       4.00  
+x6_bit[6]     0.05    0.05    0.05    0.05  clk       4.00  
+x6_bit[7]     0.05    0.05    0.05    0.05  clk       4.00  
+x7_bit[0]     0.05    0.05    0.05    0.05  clk       4.00  
+x7_bit[1]     0.05    0.05    0.05    0.05  clk       4.00  
+x7_bit[2]     0.05    0.05    0.05    0.05  clk       4.00  
+x7_bit[3]     0.05    0.05    0.05    0.05  clk       4.00  
+x7_bit[4]     0.05    0.05    0.05    0.05  clk       4.00  
+x7_bit[5]     0.05    0.05    0.05    0.05  clk       4.00  
+x7_bit[6]     0.05    0.05    0.05    0.05  clk       4.00  
+x7_bit[7]     0.05    0.05    0.05    0.05  clk       4.00  
+x8_bit[0]     0.05    0.05    0.05    0.05  clk       4.00  
+x8_bit[1]     0.05    0.05    0.05    0.05  clk       4.00  
+x8_bit[2]     0.05    0.05    0.05    0.05  clk       4.00  
+x8_bit[3]     0.05    0.05    0.05    0.05  clk       4.00  
+x8_bit[4]     0.05    0.05    0.05    0.05  clk       4.00  
+x8_bit[5]     0.05    0.05    0.05    0.05  clk       4.00  
+x8_bit[6]     0.05    0.05    0.05    0.05  clk       4.00  
+x8_bit[7]     0.05    0.05    0.05    0.05  clk       4.00  
+
+
+                    Driving Cell
+Input Port   Rise(min/max)      Fall(min/max)      Mult(min/max)  Attrs(min/max)
+--------------------------------------------------------------------------------
+clk          INVX1TS            INVX1TS              -- /  --     
+reset        INVX1TS            INVX1TS              -- /  --     
+x1_bit[0]    INVX1TS            INVX1TS              -- /  --     
+x1_bit[1]    INVX1TS            INVX1TS              -- /  --     
+x1_bit[2]    INVX1TS            INVX1TS              -- /  --     
+x1_bit[3]    INVX1TS            INVX1TS              -- /  --     
+x1_bit[4]    INVX1TS            INVX1TS              -- /  --     
+x1_bit[5]    INVX1TS            INVX1TS              -- /  --     
+x1_bit[6]    INVX1TS            INVX1TS              -- /  --     
+x1_bit[7]    INVX1TS            INVX1TS              -- /  --     
+x2_bit[0]    INVX1TS            INVX1TS              -- /  --     
+x2_bit[1]    INVX1TS            INVX1TS              -- /  --     
+x2_bit[2]    INVX1TS            INVX1TS              -- /  --     
+x2_bit[3]    INVX1TS            INVX1TS              -- /  --     
+x2_bit[4]    INVX1TS            INVX1TS              -- /  --     
+x2_bit[5]    INVX1TS            INVX1TS              -- /  --     
+x2_bit[6]    INVX1TS            INVX1TS              -- /  --     
+x2_bit[7]    INVX1TS            INVX1TS              -- /  --     
+x3_bit[0]    INVX1TS            INVX1TS              -- /  --     
+x3_bit[1]    INVX1TS            INVX1TS              -- /  --     
+x3_bit[2]    INVX1TS            INVX1TS              -- /  --     
+x3_bit[3]    INVX1TS            INVX1TS              -- /  --     
+x3_bit[4]    INVX1TS            INVX1TS              -- /  --     
+x3_bit[5]    INVX1TS            INVX1TS              -- /  --     
+x3_bit[6]    INVX1TS            INVX1TS              -- /  --     
+x3_bit[7]    INVX1TS            INVX1TS              -- /  --     
+x4_bit[0]    INVX1TS            INVX1TS              -- /  --     
+x4_bit[1]    INVX1TS            INVX1TS              -- /  --     
+x4_bit[2]    INVX1TS            INVX1TS              -- /  --     
+x4_bit[3]    INVX1TS            INVX1TS              -- /  --     
+x4_bit[4]    INVX1TS            INVX1TS              -- /  --     
+x4_bit[5]    INVX1TS            INVX1TS              -- /  --     
+x4_bit[6]    INVX1TS            INVX1TS              -- /  --     
+x4_bit[7]    INVX1TS            INVX1TS              -- /  --     
+x5_bit[0]    INVX1TS            INVX1TS              -- /  --     
+x5_bit[1]    INVX1TS            INVX1TS              -- /  --     
+x5_bit[2]    INVX1TS            INVX1TS              -- /  --     
+x5_bit[3]    INVX1TS            INVX1TS              -- /  --     
+x5_bit[4]    INVX1TS            INVX1TS              -- /  --     
+x5_bit[5]    INVX1TS            INVX1TS              -- /  --     
+x5_bit[6]    INVX1TS            INVX1TS              -- /  --     
+x5_bit[7]    INVX1TS            INVX1TS              -- /  --     
+x6_bit[0]    INVX1TS            INVX1TS              -- /  --     
+x6_bit[1]    INVX1TS            INVX1TS              -- /  --     
+x6_bit[2]    INVX1TS            INVX1TS              -- /  --     
+x6_bit[3]    INVX1TS            INVX1TS              -- /  --     
+x6_bit[4]    INVX1TS            INVX1TS              -- /  --     
+x6_bit[5]    INVX1TS            INVX1TS              -- /  --     
+x6_bit[6]    INVX1TS            INVX1TS              -- /  --     
+x6_bit[7]    INVX1TS            INVX1TS              -- /  --     
+x7_bit[0]    INVX1TS            INVX1TS              -- /  --     
+x7_bit[1]    INVX1TS            INVX1TS              -- /  --     
+x7_bit[2]    INVX1TS            INVX1TS              -- /  --     
+x7_bit[3]    INVX1TS            INVX1TS              -- /  --     
+x7_bit[4]    INVX1TS            INVX1TS              -- /  --     
+x7_bit[5]    INVX1TS            INVX1TS              -- /  --     
+x7_bit[6]    INVX1TS            INVX1TS              -- /  --     
+x7_bit[7]    INVX1TS            INVX1TS              -- /  --     
+x8_bit[0]    INVX1TS            INVX1TS              -- /  --     
+x8_bit[1]    INVX1TS            INVX1TS              -- /  --     
+x8_bit[2]    INVX1TS            INVX1TS              -- /  --     
+x8_bit[3]    INVX1TS            INVX1TS              -- /  --     
+x8_bit[4]    INVX1TS            INVX1TS              -- /  --     
+x8_bit[5]    INVX1TS            INVX1TS              -- /  --     
+x8_bit[6]    INVX1TS            INVX1TS              -- /  --     
+x8_bit[7]    INVX1TS            INVX1TS              -- /  --     
+
+
+               Max Drive      Min Drive      Resistance    Min    Min       Cell
+Input Port    Rise    Fall   Rise    Fall   Max     Min    Cap    Fanout    Deg
+--------------------------------------------------------------------------------
+clk           --      --     --      --     --      --     --     --        -- 
+reset         --      --     --      --     --      --     --     --        -- 
+x1_bit[0]     --      --     --      --     --      --     --     --        -- 
+x1_bit[1]     --      --     --      --     --      --     --     --        -- 
+x1_bit[2]     --      --     --      --     --      --     --     --        -- 
+x1_bit[3]     --      --     --      --     --      --     --     --        -- 
+x1_bit[4]     --      --     --      --     --      --     --     --        -- 
+x1_bit[5]     --      --     --      --     --      --     --     --        -- 
+x1_bit[6]     --      --     --      --     --      --     --     --        -- 
+x1_bit[7]     --      --     --      --     --      --     --     --        -- 
+x2_bit[0]     --      --     --      --     --      --     --     --        -- 
+x2_bit[1]     --      --     --      --     --      --     --     --        -- 
+x2_bit[2]     --      --     --      --     --      --     --     --        -- 
+x2_bit[3]     --      --     --      --     --      --     --     --        -- 
+x2_bit[4]     --      --     --      --     --      --     --     --        -- 
+x2_bit[5]     --      --     --      --     --      --     --     --        -- 
+x2_bit[6]     --      --     --      --     --      --     --     --        -- 
+x2_bit[7]     --      --     --      --     --      --     --     --        -- 
+x3_bit[0]     --      --     --      --     --      --     --     --        -- 
+x3_bit[1]     --      --     --      --     --      --     --     --        -- 
+x3_bit[2]     --      --     --      --     --      --     --     --        -- 
+x3_bit[3]     --      --     --      --     --      --     --     --        -- 
+x3_bit[4]     --      --     --      --     --      --     --     --        -- 
+x3_bit[5]     --      --     --      --     --      --     --     --        -- 
+x3_bit[6]     --      --     --      --     --      --     --     --        -- 
+x3_bit[7]     --      --     --      --     --      --     --     --        -- 
+x4_bit[0]     --      --     --      --     --      --     --     --        -- 
+x4_bit[1]     --      --     --      --     --      --     --     --        -- 
+x4_bit[2]     --      --     --      --     --      --     --     --        -- 
+x4_bit[3]     --      --     --      --     --      --     --     --        -- 
+x4_bit[4]     --      --     --      --     --      --     --     --        -- 
+x4_bit[5]     --      --     --      --     --      --     --     --        -- 
+x4_bit[6]     --      --     --      --     --      --     --     --        -- 
+x4_bit[7]     --      --     --      --     --      --     --     --        -- 
+x5_bit[0]     --      --     --      --     --      --     --     --        -- 
+x5_bit[1]     --      --     --      --     --      --     --     --        -- 
+x5_bit[2]     --      --     --      --     --      --     --     --        -- 
+x5_bit[3]     --      --     --      --     --      --     --     --        -- 
+x5_bit[4]     --      --     --      --     --      --     --     --        -- 
+x5_bit[5]     --      --     --      --     --      --     --     --        -- 
+x5_bit[6]     --      --     --      --     --      --     --     --        -- 
+x5_bit[7]     --      --     --      --     --      --     --     --        -- 
+x6_bit[0]     --      --     --      --     --      --     --     --        -- 
+x6_bit[1]     --      --     --      --     --      --     --     --        -- 
+x6_bit[2]     --      --     --      --     --      --     --     --        -- 
+x6_bit[3]     --      --     --      --     --      --     --     --        -- 
+x6_bit[4]     --      --     --      --     --      --     --     --        -- 
+x6_bit[5]     --      --     --      --     --      --     --     --        -- 
+x6_bit[6]     --      --     --      --     --      --     --     --        -- 
+x6_bit[7]     --      --     --      --     --      --     --     --        -- 
+x7_bit[0]     --      --     --      --     --      --     --     --        -- 
+x7_bit[1]     --      --     --      --     --      --     --     --        -- 
+x7_bit[2]     --      --     --      --     --      --     --     --        -- 
+x7_bit[3]     --      --     --      --     --      --     --     --        -- 
+x7_bit[4]     --      --     --      --     --      --     --     --        -- 
+x7_bit[5]     --      --     --      --     --      --     --     --        -- 
+x7_bit[6]     --      --     --      --     --      --     --     --        -- 
+x7_bit[7]     --      --     --      --     --      --     --     --        -- 
+x8_bit[0]     --      --     --      --     --      --     --     --        -- 
+x8_bit[1]     --      --     --      --     --      --     --     --        -- 
+x8_bit[2]     --      --     --      --     --      --     --     --        -- 
+x8_bit[3]     --      --     --      --     --      --     --     --        -- 
+x8_bit[4]     --      --     --      --     --      --     --     --        -- 
+x8_bit[5]     --      --     --      --     --      --     --     --        -- 
+x8_bit[6]     --      --     --      --     --      --     --     --        -- 
+x8_bit[7]     --      --     --      --     --      --     --     --        -- 
+
+
+               Max Tran        Min Tran
+Input Port    Rise    Fall    Rise    Fall
+--------------------------------------------------------------------------------
+clk           --      --      --      -- 
+reset         --      --      --      -- 
+x1_bit[0]     --      --      --      -- 
+x1_bit[1]     --      --      --      -- 
+x1_bit[2]     --      --      --      -- 
+x1_bit[3]     --      --      --      -- 
+x1_bit[4]     --      --      --      -- 
+x1_bit[5]     --      --      --      -- 
+x1_bit[6]     --      --      --      -- 
+x1_bit[7]     --      --      --      -- 
+x2_bit[0]     --      --      --      -- 
+x2_bit[1]     --      --      --      -- 
+x2_bit[2]     --      --      --      -- 
+x2_bit[3]     --      --      --      -- 
+x2_bit[4]     --      --      --      -- 
+x2_bit[5]     --      --      --      -- 
+x2_bit[6]     --      --      --      -- 
+x2_bit[7]     --      --      --      -- 
+x3_bit[0]     --      --      --      -- 
+x3_bit[1]     --      --      --      -- 
+x3_bit[2]     --      --      --      -- 
+x3_bit[3]     --      --      --      -- 
+x3_bit[4]     --      --      --      -- 
+x3_bit[5]     --      --      --      -- 
+x3_bit[6]     --      --      --      -- 
+x3_bit[7]     --      --      --      -- 
+x4_bit[0]     --      --      --      -- 
+x4_bit[1]     --      --      --      -- 
+x4_bit[2]     --      --      --      -- 
+x4_bit[3]     --      --      --      -- 
+x4_bit[4]     --      --      --      -- 
+x4_bit[5]     --      --      --      -- 
+x4_bit[6]     --      --      --      -- 
+x4_bit[7]     --      --      --      -- 
+x5_bit[0]     --      --      --      -- 
+x5_bit[1]     --      --      --      -- 
+x5_bit[2]     --      --      --      -- 
+x5_bit[3]     --      --      --      -- 
+x5_bit[4]     --      --      --      -- 
+x5_bit[5]     --      --      --      -- 
+x5_bit[6]     --      --      --      -- 
+x5_bit[7]     --      --      --      -- 
+x6_bit[0]     --      --      --      -- 
+x6_bit[1]     --      --      --      -- 
+x6_bit[2]     --      --      --      -- 
+x6_bit[3]     --      --      --      -- 
+x6_bit[4]     --      --      --      -- 
+x6_bit[5]     --      --      --      -- 
+x6_bit[6]     --      --      --      -- 
+x6_bit[7]     --      --      --      -- 
+x7_bit[0]     --      --      --      -- 
+x7_bit[1]     --      --      --      -- 
+x7_bit[2]     --      --      --      -- 
+x7_bit[3]     --      --      --      -- 
+x7_bit[4]     --      --      --      -- 
+x7_bit[5]     --      --      --      -- 
+x7_bit[6]     --      --      --      -- 
+x7_bit[7]     --      --      --      -- 
+x8_bit[0]     --      --      --      -- 
+x8_bit[1]     --      --      --      -- 
+x8_bit[2]     --      --      --      -- 
+x8_bit[3]     --      --      --      -- 
+x8_bit[4]     --      --      --      -- 
+x8_bit[5]     --      --      --      -- 
+x8_bit[6]     --      --      --      -- 
+x8_bit[7]     --      --      --      -- 
+
+
+                    Output Delay
+                  Min             Max      Related  Fanout
+Output Port   Rise    Fall    Rise    Fall  Clock     Load
+--------------------------------------------------------------------------------
+sum[0]        0.05    0.05    0.05    0.05  clk       0.00  
+sum[1]        0.05    0.05    0.05    0.05  clk       0.00  
+sum[2]        0.05    0.05    0.05    0.05  clk       0.00  
+sum[3]        0.05    0.05    0.05    0.05  clk       0.00  
+sum[4]        0.05    0.05    0.05    0.05  clk       0.00  
+sum[5]        0.05    0.05    0.05    0.05  clk       0.00  
+sum[6]        0.05    0.05    0.05    0.05  clk       0.00  
+sum[7]        0.05    0.05    0.05    0.05  clk       0.00  
+sum[8]        0.05    0.05    0.05    0.05  clk       0.00  
+sum[9]        0.05    0.05    0.05    0.05  clk       0.00  
+sum[10]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[11]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[12]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[13]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[14]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[15]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[16]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[17]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[18]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[19]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[20]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[21]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[22]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[23]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[24]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[25]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[26]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[27]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[28]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[29]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[30]       0.05    0.05    0.05    0.05  clk       0.00  
+sum[31]       0.05    0.05    0.05    0.05  clk       0.00  
+
+1
+ 
+****************************************
+Report : compile_options
+Design : distr_arith
+Version: O-2018.06-SP5-1
+Date   : Wed Nov 23 20:25:27 2022
+****************************************
+
+Design                                   Compile Option         Value
+--------------------------------------------------------------------------------
+distr_arith                              flatten                false
+                                         structure              true
+                                         structure_boolean      false
+                                         structure_timing       true
+                                         fix_multiple_port_nets feedthroughs
+                                                                constants
+                                                                outputs
+                                                                buffer_constants
+                                         isolate_port           disabled
+--------------------------------------------------------------------------------
+1
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : distr_arith
+Version: O-2018.06-SP5-1
+Date   : Wed Nov 23 20:25:27 2022
+****************************************
+
+
+    Design: distr_arith
+
+    max_area               0.00
+  - Current Area         138.24
+  ------------------------------
+    Slack               -138.24  (VIOLATED)
+
+
+1
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 100
+        -max_paths 20
+Design : distr_arith
+Version: O-2018.06-SP5-1
+Date   : Wed Nov 23 20:25:27 2022
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+No paths.
+
+1

@@ -1,0 +1,58 @@
+# ** Warning: License feature 'msimviewer' will expire in 4 days.
+# vsim -voptargs="+acc" -t ps -lib work -sdftyp "add=../dc/distr_arith.syn.sdf" testbench 
+# Start time: 20:25:38 on Nov 23,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: License feature 'msimhdlsim' will expire in 4 days.
+# Loading work.testbench(fast)
+# Loading work.distr_arith(fast)
+# Loading work.lut0(fast)
+# Loading work.lut1(fast)
+# Loading work.lut2(fast)
+# Loading work.lut3(fast)
+# Loading work.lut4(fast)
+# Loading work.lut5(fast)
+# Loading work.lut6(fast)
+# Loading work.lut7(fast)
+# Loading work.adder(fast)
+# Loading work.left_shift_1(fast)
+# Loading work.dff_en(fast)
+# Loading work.counter(fast)
+# Loading instances from ../dc/distr_arith.syn.sdf
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(261): Failed to find INSTANCE 'U10'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(252): Failed to find INSTANCE 'U12'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(243): Failed to find INSTANCE 'U14'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(234): Failed to find INSTANCE 'U16'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(225): Failed to find INSTANCE 'U18'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(297): Failed to find INSTANCE 'U2'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(216): Failed to find INSTANCE 'U20'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(207): Failed to find INSTANCE 'U22'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(198): Failed to find INSTANCE 'U24'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(189): Failed to find INSTANCE 'U26'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(180): Failed to find INSTANCE 'U28'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(171): Failed to find INSTANCE 'U30'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(162): Failed to find INSTANCE 'U32'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(153): Failed to find INSTANCE 'U34'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(144): Failed to find INSTANCE 'U36'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(135): Failed to find INSTANCE 'U38'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(288): Failed to find INSTANCE 'U4'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(126): Failed to find INSTANCE 'U40'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(117): Failed to find INSTANCE 'U42'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(108): Failed to find INSTANCE 'U44'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(99): Failed to find INSTANCE 'U46'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(90): Failed to find INSTANCE 'U48'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(81): Failed to find INSTANCE 'U50'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(72): Failed to find INSTANCE 'U52'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(63): Failed to find INSTANCE 'U54'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(54): Failed to find INSTANCE 'U56'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(45): Failed to find INSTANCE 'U58'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(279): Failed to find INSTANCE 'U6'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(36): Failed to find INSTANCE 'U60'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(27): Failed to find INSTANCE 'U62'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(18): Failed to find INSTANCE 'U64'.
+# ** Error (suppressible): (vsim-SDF-3250) ../dc/distr_arith.syn.sdf(270): Failed to find INSTANCE 'U8'.
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# ** Error: (vsim-SDF-3445) Failed to parse SDF file "../dc/distr_arith.syn.sdf".
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: test_lfsr.v
+# Error loading design
+# End time: 20:25:39 on Nov 23,2022, Elapsed time: 0:00:01
+# Errors: 34, Warnings: 0

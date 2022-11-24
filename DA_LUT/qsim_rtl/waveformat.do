@@ -1,7 +1,7 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
 
-add wave -noupdate /testbench/clk3
+add wave -noupdate /testbench/clk
 add wave -noupdate /testbench/reset
 add wave -noupdate -radix unsigned /testbench/x1_bit
 add wave -noupdate -radix unsigned /testbench/x2_bit

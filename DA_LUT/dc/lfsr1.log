@@ -1,0 +1,1126 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+              Version O-2018.06-SP5-1 for linux64 - Mar 08, 2019 
+
+                    Copyright (c) 1988 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+#########################################
+# TCL script for Design Compiler        #
+# MS 2015                               #
+#########################################
+#########################################
+# READ Design and Library               #
+#########################################
+set top_level distr_arith
+distr_arith
+source -verbose "../common_script/common.tcl"
+. /tools4/syn2007.12/libraries/syn/
+dw_foundation.sldb
+* /courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db dw_foundation.sldb
+/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+read_verilog {../rtl/distr_arith.v}
+Loading db file '/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db'
+Loading db file '/tools/synopsys/syn/O-2018.06-SP5-1/libraries/syn/dw_foundation.sldb'
+Loading db file '/tools/synopsys/syn/O-2018.06-SP5-1/libraries/syn/gtech.db'
+Loading db file '/tools/synopsys/syn/O-2018.06-SP5-1/libraries/syn/standard.sldb'
+  Loading link library 'scx3_cmos8rf_lpvt_tt_1p2v_25c'
+  Loading link library 'gtech'
+Loading verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/distr_arith.v'
+Detecting input file type automatically (-rtl or -netlist).
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /homes/user/stud/fall21/mas2545/DA_LUT/rtl/distr_arith.v
+Warning:  /homes/user/stud/fall21/mas2545/DA_LUT/rtl/distr_arith.v:70: the undeclared symbol 'count_reach' assumed to have the default net type, which is 'wire'. (VER-936)
+Reading with netlist reader (equivalent to -netlist option).
+Verilog netlist reader completed successfully.
+Current design is now '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/distr_arith.db:distr_arith'
+Loaded 1 design.
+Current design is 'distr_arith'.
+distr_arith
+read_verilog {../rtl/lut0.v}
+Loading verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut0.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut0.v
+Warning:  /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut0.v:19: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 17 in file
+	'/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut0.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            19            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut0.db:lut0'
+Loaded 1 design.
+Current design is 'lut0'.
+lut0
+read_verilog {../rtl/lut1.v}
+Loading verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut1.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut1.v
+Warning:  /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut1.v:19: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 17 in file
+	'/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut1.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            19            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut1.db:lut1'
+Loaded 1 design.
+Current design is 'lut1'.
+lut1
+read_verilog {../rtl/lut2.v}
+Loading verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut2.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut2.v
+Warning:  /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut2.v:19: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 17 in file
+	'/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut2.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            19            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut2.db:lut2'
+Loaded 1 design.
+Current design is 'lut2'.
+lut2
+read_verilog {../rtl/lut3.v}
+Loading verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut3.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut3.v
+Warning:  /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut3.v:19: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 17 in file
+	'/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut3.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            19            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut3.db:lut3'
+Loaded 1 design.
+Current design is 'lut3'.
+lut3
+read_verilog {../rtl/lut4.v}
+Loading verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut4.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut4.v
+Warning:  /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut4.v:19: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 17 in file
+	'/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut4.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            19            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut4.db:lut4'
+Loaded 1 design.
+Current design is 'lut4'.
+lut4
+read_verilog {../rtl/lut5.v}
+Loading verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut5.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut5.v
+Warning:  /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut5.v:19: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 17 in file
+	'/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut5.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            19            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut5.db:lut5'
+Loaded 1 design.
+Current design is 'lut5'.
+lut5
+read_verilog {../rtl/lut6.v}
+Loading verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut6.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut6.v
+Warning:  /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut6.v:19: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 17 in file
+	'/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut6.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            19            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut6.db:lut6'
+Loaded 1 design.
+Current design is 'lut6'.
+lut6
+read_verilog {../rtl/lut7.v}
+Loading verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut7.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut7.v
+Warning:  /homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut7.v:19: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 17 in file
+	'/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut7.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            19            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/lut7.db:lut7'
+Loaded 1 design.
+Current design is 'lut7'.
+lut7
+read_verilog {../rtl/dff_en.v}
+Loading verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/dff_en.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall21/mas2545/DA_LUT/rtl/dff_en.v
+
+Inferred memory devices in process
+	in routine dff_en line 12 in file
+		'/homes/user/stud/fall21/mas2545/DA_LUT/rtl/dff_en.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    data_out_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/dff_en.db:dff_en'
+Loaded 1 design.
+Current design is 'dff_en'.
+dff_en
+read_verilog {../rtl/adder.v}
+Loading verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/adder.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall21/mas2545/DA_LUT/rtl/adder.v
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/adder.db:adder'
+Loaded 1 design.
+Current design is 'adder'.
+adder
+read_verilog {../rtl/left_shift_1.v}
+Loading verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/left_shift_1.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall21/mas2545/DA_LUT/rtl/left_shift_1.v
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/left_shift_1.db:left_shift_1'
+Loaded 1 design.
+Current design is 'left_shift_1'.
+left_shift_1
+read_verilog {../rtl/counter.v}
+Loading verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/counter.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /homes/user/stud/fall21/mas2545/DA_LUT/rtl/counter.v
+Warning:  /homes/user/stud/fall21/mas2545/DA_LUT/rtl/counter.v:10: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+
+Inferred memory devices in process
+	in routine counter line 12 in file
+		'/homes/user/stud/fall21/mas2545/DA_LUT/rtl/counter.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      count_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|   count_reach_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/homes/user/stud/fall21/mas2545/DA_LUT/rtl/counter.db:counter'
+Loaded 1 design.
+Current design is 'counter'.
+counter
+set set_fix_multiple_port_nets "true"
+true
+list_designs
+adder           distr_arith     lut1            lut4            lut7
+counter (*)     left_shift_1    lut2            lut5
+dff_en          lut0            lut3            lut6
+1
+if { [check_error -v] == 1 } { exit 1 }
+#########################################
+# Design Constraints                    #
+#########################################
+current_design $top_level
+Current design is 'distr_arith'.
+{distr_arith}
+link
+
+  Linking design 'distr_arith'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (13 designs)              /homes/user/stud/fall21/mas2545/DA_LUT/rtl/distr_arith.db, etc
+  scx3_cmos8rf_lpvt_tt_1p2v_25c (library) /courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+  dw_foundation.sldb (library) /tools/synopsys/syn/O-2018.06-SP5-1/libraries/syn/dw_foundation.sldb
+
+1
+check_design
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP5-1
+Date:        Wed Nov 23 20:25:14 2022
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                    126
+    Unconnected ports (LINT-28)                                     2
+    Feedthrough (LINT-29)                                          31
+    Shorted outputs (LINT-31)                                      90
+    Constant outputs (LINT-52)                                      3
+
+Cells                                                               3
+    Cells do not drive (LINT-1)                                     1
+    Connected to power or ground (LINT-32)                          1
+    Cells have undriven hier pins (LINT-59)                         1
+
+Nets                                                                2
+    Unloaded nets (LINT-2)                                          1
+    Undriven nets (LINT-3)                                          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'counter', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'distr_arith', net 'count_reach' driven by pin 'counter0/count_reach' has no loads. (LINT-2)
+Warning: In design 'distr_arith', net 'counter_reach' has no drivers.  Logic 0 assumed. (LINT-3)
+Warning: In design 'left_shift_1', port 'data_in[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'counter', port 'reset' is not connected to any nets. (LINT-28)
+Warning: In design 'left_shift_1', input port 'data_in[30]' is connected directly to output port 'data_out[31]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[29]' is connected directly to output port 'data_out[30]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[28]' is connected directly to output port 'data_out[29]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[27]' is connected directly to output port 'data_out[28]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[26]' is connected directly to output port 'data_out[27]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[25]' is connected directly to output port 'data_out[26]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[24]' is connected directly to output port 'data_out[25]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[23]' is connected directly to output port 'data_out[24]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[22]' is connected directly to output port 'data_out[23]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[21]' is connected directly to output port 'data_out[22]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[20]' is connected directly to output port 'data_out[21]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[19]' is connected directly to output port 'data_out[20]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[18]' is connected directly to output port 'data_out[19]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[17]' is connected directly to output port 'data_out[18]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[16]' is connected directly to output port 'data_out[17]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[15]' is connected directly to output port 'data_out[16]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[14]' is connected directly to output port 'data_out[15]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[13]' is connected directly to output port 'data_out[14]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[12]' is connected directly to output port 'data_out[13]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[11]' is connected directly to output port 'data_out[12]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[10]' is connected directly to output port 'data_out[11]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[9]' is connected directly to output port 'data_out[10]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[8]' is connected directly to output port 'data_out[9]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[7]' is connected directly to output port 'data_out[8]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[6]' is connected directly to output port 'data_out[7]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[5]' is connected directly to output port 'data_out[6]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[4]' is connected directly to output port 'data_out[5]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[3]' is connected directly to output port 'data_out[4]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[2]' is connected directly to output port 'data_out[3]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[1]' is connected directly to output port 'data_out[2]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[0]' is connected directly to output port 'data_out[1]'. (LINT-29)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[7]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[9]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[10]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[11]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[12]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[13]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[14]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[15]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[16]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[17]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[18]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[19]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[20]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[21]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[22]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[23]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[24]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[25]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[26]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[27]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[28]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[29]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[30]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[9]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[10]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[11]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[12]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[13]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[14]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[15]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[16]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[17]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[18]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[19]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[20]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[21]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[22]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[23]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[24]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[25]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[26]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[27]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[28]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[29]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[30]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[9]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[10]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[11]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[12]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[13]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[14]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[15]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[16]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[17]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[18]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[19]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[20]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[21]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[22]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[23]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[24]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[25]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[26]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[27]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[28]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[29]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[30]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[7]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[9]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[10]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[11]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[12]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[13]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[14]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[15]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[16]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[17]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[18]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[19]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[20]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[21]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[22]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[23]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[24]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[25]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[26]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[27]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[28]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[29]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[30]'. (LINT-31)
+Warning: In design 'distr_arith', a pin on submodule 'dff0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'enable' is connected to logic 1. 
+Warning: In design 'lut1', output port 'data_out[0]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'lut6', output port 'data_out[0]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'left_shift_1', output port 'data_out[0]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'distr_arith', input pin 'enable' of hierarchical cell 'dff1' has one or more internal loads, but is not connected to any nets. 'Logic 0' is assumed. (LINT-59)
+1
+source -verbose "./timing.tcl"
+10.00
+0
+0.010
+0.05
+0.05
+0.005
+1
+1
+1
+1
+1
+1
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+1
+1
+1
+1
+1
+1
+set_max_capacitance 0.005 [all_inputs]
+1
+set_max_fanout 4 $top_level
+1
+set_max_fanout 4 [all_inputs]
+1
+set_max_area 0 
+1
+set_fix_multiple_port_nets -all -buffer_constants
+1
+#########################################
+# Compile                               #
+#########################################
+check_design
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP5-1
+Date:        Wed Nov 23 20:25:14 2022
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                    126
+    Unconnected ports (LINT-28)                                     2
+    Feedthrough (LINT-29)                                          31
+    Shorted outputs (LINT-31)                                      90
+    Constant outputs (LINT-52)                                      3
+
+Cells                                                               3
+    Cells do not drive (LINT-1)                                     1
+    Connected to power or ground (LINT-32)                          1
+    Cells have undriven hier pins (LINT-59)                         1
+
+Nets                                                                2
+    Unloaded nets (LINT-2)                                          1
+    Undriven nets (LINT-3)                                          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'counter', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'distr_arith', net 'count_reach' driven by pin 'counter0/count_reach' has no loads. (LINT-2)
+Warning: In design 'distr_arith', net 'counter_reach' has no drivers.  Logic 0 assumed. (LINT-3)
+Warning: In design 'left_shift_1', port 'data_in[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'counter', port 'reset' is not connected to any nets. (LINT-28)
+Warning: In design 'left_shift_1', input port 'data_in[30]' is connected directly to output port 'data_out[31]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[29]' is connected directly to output port 'data_out[30]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[28]' is connected directly to output port 'data_out[29]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[27]' is connected directly to output port 'data_out[28]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[26]' is connected directly to output port 'data_out[27]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[25]' is connected directly to output port 'data_out[26]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[24]' is connected directly to output port 'data_out[25]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[23]' is connected directly to output port 'data_out[24]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[22]' is connected directly to output port 'data_out[23]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[21]' is connected directly to output port 'data_out[22]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[20]' is connected directly to output port 'data_out[21]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[19]' is connected directly to output port 'data_out[20]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[18]' is connected directly to output port 'data_out[19]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[17]' is connected directly to output port 'data_out[18]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[16]' is connected directly to output port 'data_out[17]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[15]' is connected directly to output port 'data_out[16]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[14]' is connected directly to output port 'data_out[15]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[13]' is connected directly to output port 'data_out[14]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[12]' is connected directly to output port 'data_out[13]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[11]' is connected directly to output port 'data_out[12]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[10]' is connected directly to output port 'data_out[11]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[9]' is connected directly to output port 'data_out[10]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[8]' is connected directly to output port 'data_out[9]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[7]' is connected directly to output port 'data_out[8]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[6]' is connected directly to output port 'data_out[7]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[5]' is connected directly to output port 'data_out[6]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[4]' is connected directly to output port 'data_out[5]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[3]' is connected directly to output port 'data_out[4]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[2]' is connected directly to output port 'data_out[3]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[1]' is connected directly to output port 'data_out[2]'. (LINT-29)
+Warning: In design 'left_shift_1', input port 'data_in[0]' is connected directly to output port 'data_out[1]'. (LINT-29)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[7]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[9]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[10]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[11]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[12]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[13]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[14]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[15]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[16]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[17]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[18]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[19]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[20]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[21]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[22]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[23]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[24]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[25]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[26]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[27]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[28]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[29]'. (LINT-31)
+Warning: In design 'lut2', output port 'data_out[31]' is connected directly to output port 'data_out[30]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[9]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[10]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[11]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[12]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[13]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[14]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[15]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[16]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[17]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[18]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[19]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[20]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[21]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[22]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[23]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[24]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[25]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[26]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[27]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[28]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[29]'. (LINT-31)
+Warning: In design 'lut3', output port 'data_out[31]' is connected directly to output port 'data_out[30]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[9]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[10]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[11]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[12]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[13]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[14]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[15]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[16]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[17]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[18]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[19]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[20]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[21]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[22]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[23]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[24]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[25]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[26]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[27]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[28]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[29]'. (LINT-31)
+Warning: In design 'lut4', output port 'data_out[31]' is connected directly to output port 'data_out[30]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[7]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[9]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[10]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[11]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[12]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[13]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[14]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[15]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[16]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[17]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[18]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[19]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[20]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[21]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[22]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[23]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[24]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[25]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[26]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[27]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[28]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[29]'. (LINT-31)
+Warning: In design 'lut5', output port 'data_out[31]' is connected directly to output port 'data_out[30]'. (LINT-31)
+Warning: In design 'distr_arith', a pin on submodule 'dff0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'enable' is connected to logic 1. 
+Warning: In design 'lut1', output port 'data_out[0]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'lut6', output port 'data_out[0]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'left_shift_1', output port 'data_out[0]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'distr_arith', input pin 'enable' of hierarchical cell 'dff1' has one or more internal loads, but is not connected to any nets. 'Logic 0' is assumed. (LINT-59)
+1
+#uniquify
+current_design $top_level
+Current design is 'distr_arith'.
+{distr_arith}
+link
+
+  Linking design 'distr_arith'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (13 designs)              /homes/user/stud/fall21/mas2545/DA_LUT/rtl/distr_arith.db, etc
+  scx3_cmos8rf_lpvt_tt_1p2v_25c (library)
+                              /courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+  dw_foundation.sldb (library)
+                              /tools/synopsys/syn/O-2018.06-SP5-1/libraries/syn/dw_foundation.sldb
+
+1
+compile_ultra
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | O-2018.06-DWBB_201806.5 |     *     |
+| Licensed DW Building Blocks        | O-2018.06-DWBB_201806.5 |     *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 131 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+Information: Uniquified 2 instances of design 'dff_en'. (OPT-1056)
+Information: Uniquified 8 instances of design 'adder'. (OPT-1056)
+  Simplifying Design 'distr_arith'
+Information: The register 'counter0/count_reach_reg' will be removed. (OPT-1207)
+
+Loaded alib file './alib-52/scx3_cmos8rf_lpvt_tt_1p2v_25c.db.alib'
+  Building model 'DW01_NAND2'
+Information: Ungrouping hierarchy lut_2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy lut_3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy lut_4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy lut_5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy add0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy ls0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dff0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy counter0 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy dff1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy add7 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy add6 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy add5 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy add4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy add3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy add2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy add1 before Pass 1 (OPT-776)
+Information: Ungrouping 16 of 21 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'distr_arith'
+Information: The register 'counter0/count_reg[3]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[2]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[1]' will be removed. (OPT-1207)
+Information: The register 'counter0/count_reg[0]' will be removed. (OPT-1207)
+Information: The register 'dff1/data_out_reg[31]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[30]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[29]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[28]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[27]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[26]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[25]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[24]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[23]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[22]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[21]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[20]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[19]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[18]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[17]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[16]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[15]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[14]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[13]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[12]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[11]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[10]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[9]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[8]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[7]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[6]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[5]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[4]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[2]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff1/data_out_reg[0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'dff0/data_out_reg[31]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[30]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[29]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[28]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[27]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[26]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[25]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[24]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[23]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[22]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[21]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[20]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[19]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[18]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[17]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[16]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[15]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[14]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[13]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[12]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[11]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[10]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[9]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[8]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[7]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[6]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[5]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[4]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[3]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[2]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[1]' will be removed. (OPT-1207)
+Information: The register 'dff0/data_out_reg[0]' will be removed. (OPT-1207)
+  Processing 'lut7'
+ Implement Synthetic for 'lut7'.
+  Processing 'lut0'
+ Implement Synthetic for 'lut0'.
+  Processing 'lut6'
+ Implement Synthetic for 'lut6'.
+  Processing 'lut1'
+ Implement Synthetic for 'lut1'.
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'HOLDX1TS' in the library 'scx3_cmos8rf_lpvt_tt_1p2v_25c' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+Information: Removing unused design 'lut0'. (OPT-1055)
+Information: Removing unused design 'lut1'. (OPT-1055)
+Information: Removing unused design 'lut6'. (OPT-1055)
+Information: Removing unused design 'lut7'. (OPT-1055)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+Information: There is no timing violation in design distr_arith. Delay-based auto_ungroup will not be performed. (OPT-780)
+
+  Beginning Constant Register Removal
+  -----------------------------------
+
+  Beginning Global Optimizations
+  ------------------------------
+  Numerical Synthesis (Phase 1)
+  Numerical Synthesis (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+
+  Beginning Isolate Ports
+  -----------------------
+
+  Beginning Delay Optimization
+  ----------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+
+  Beginning WLM Backend Optimization
+  --------------------------------------
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11       0.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:11     138.2      0.00       0.0       0.0                             89.8595      0.00  
+    0:00:11     138.2      0.00       0.0       0.0                             89.8595      0.00  
+Loading db file '/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+1
+#########################################
+# Optimize design                       #
+# Some pointers for possible optimizatio# 
+# Check the DC reference manual         #
+#########################################
+#set_transform_for_retiming {temp_reg[6] temp_reg[5] temp_reg[4] temp_reg[3] temp_reg[2] temp_reg[1] temp_reg[0]} dont_retime
+#optimize_registers -clock clk -edge rise -justification_effort high 
+#balance_registers
+#source -verbose "../script/timing.1.2ns.tcl"
+#pipeline_design -stages 8 -clock_port_name $clk_name -check_design -verbose -print_critical_loop
+#set_max_capacitance 1 [all_inputs] 
+#compile_ultra -no_autoungroup -no_boundary_optimization
+#remove_clock -all
+#pipeline_design -stages 8 -clock_port_name $clk_name -async_reset reset -check_design -verbose -minimum_period_only
+#########################################
+# Write outputs                         #
+#########################################
+source -verbose "../common_script/namingrules.tcl"
+1
+
+Design          Type    Object                  New Name
+--------------------------------------------------------------------------------
+1
+1
+set verilogout_no_tri TRUE
+TRUE
+write -hierarchy -format verilog -output "${top_level}.nl.v"
+Writing verilog file '/homes/user/stud/fall21/mas2545/DA_LUT/dc/distr_arith.nl.v'.
+1
+#write_sdf -context verilog "${top_level}.temp.sdf"
+write_sdc "${top_level}.syn.sdc" -version 1.7
+1
+write_sdf "${top_level}.syn.sdf"
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/homes/user/stud/fall21/mas2545/DA_LUT/dc/distr_arith.syn.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+1
+# Generate report file
+set maxpaths 20
+20
+set rpt_file "${top_level}.dc.rpt"
+distr_arith.dc.rpt
+check_design > $rpt_file
+report_area  >> ${rpt_file}
+report_power -hier -analysis_effort medium >> ${rpt_file}
+report_design >> ${rpt_file}
+report_cell >> ${rpt_file}
+report_port -verbose >> ${rpt_file}
+report_compile_options >> ${rpt_file}
+report_constraint -all_violators -verbose >> ${rpt_file}
+report_timing -path full -delay max -max_paths $maxpaths -nworst 100 >> ${rpt_file}
+report_timing -delay max -nworst 1 -max_paths 10000 -path end -nosplit -unique -sort_by slack > ${top_level}.syn.critical_regs
+report_timing -delay max -nworst 1 -max_paths 10000 -path full -nosplit -unique -sort_by slack > ${top_level}.syn.critical_regs.full
+report_timing -delay max -nworst 1 -max_paths 10000 -path end -nosplit -unique -sort_by slack -to [all_outputs] > ${top_level}.syn.critical_regs.output
+report_timing -delay max -nworst 1 -max_paths 10000 -path end -nosplit -unique -sort_by slack -to [all_registers -data_pins] > ${top_level}.syn.critical_regs.regs
+report_timing -delay min -nworst 1 -max_paths 10000 -path short -nosplit -unique -sort_by slack > ${top_level}.syn.fast_path
+quit
+
+Thank you...

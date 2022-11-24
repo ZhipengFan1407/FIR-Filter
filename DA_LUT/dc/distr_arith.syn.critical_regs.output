@@ -1,0 +1,17 @@
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -max_paths 10000
+        -sort_by slack
+Design : distr_arith
+Version: O-2018.06-SP5-1
+Date   : Wed Nov 23 20:25:27 2022
+****************************************
+
+Operating Conditions: tt_1p2v_25c   Library: scx3_cmos8rf_lpvt_tt_1p2v_25c
+Wire Load Model Mode: top
+No paths.
+
+1
