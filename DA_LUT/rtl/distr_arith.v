@@ -2,7 +2,7 @@
 
 
 module distr_arith (
-    input clk3,
+    input clk,
     input reset,
     input [7 : 0] x1_bit,   // 0~7
     input [7 : 0] x2_bit,   // 8~15
@@ -62,12 +62,12 @@ module distr_arith (
     left_shift_1 ls0 (.data_in(dff0_out), .data_out(leftshift_out));
 
     // DFF Instatiation
-    dff_en dff0 (.enable(1'b1), .clk(clk3), .data_in(add7_out), .data_out(dff0_out));
+    dff_en dff0 (.enable(1'b1), .clk(clk), .data_in(add7_out), .data_out(dff0_out));
     
-    dff_en dff1 (.enable(counter_reach), .clk(clk3), .data_in(dff0_out), .data_out(sum));
+    dff_en dff1 (.enable(counter_reach), .clk(clk), .data_in(dff0_out), .data_out(sum));
 
     // Counter Instantiation
-    counter counter0 (.reset(reset), .clk(clk3), .count_reach(count_reach));
+    counter counter0 (.reset(reset), .clk(clk), .count_reach(count_reach));
 
 
 
