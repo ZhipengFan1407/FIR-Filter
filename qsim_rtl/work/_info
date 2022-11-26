@@ -1,0 +1,334 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/user/stud/fall22/zf2290/CSEE4823/fir_filter/qsim_rtl
+T_opt
+Z1 !s110 1669422893
+Vj;[CG`g49TMEQGIlEP[aG3
+04 7 4 work test_da fast 0
+=1-b04f130f6e44-63815f2d-9c696-2795
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OE;O;10.7b_1;67
+vadder
+Z3 !s110 1669422890
+!i10b 1
+!s100 F^R5Pb3PbW<8;Abld4ZTZ1
+IC:bWZf^ho^UP>RCloc5AK3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1668964943
+8../rtl/adder.v
+F../rtl/adder.v
+L0 3
+Z5 OE;L;10.7b_1;67
+r1
+!s85 0
+31
+Z6 !s108 1669422890.000000
+!s107 ../rtl/adder.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/adder.v|
+!i113 0
+Z7 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vadder_reg
+Z8 !s110 1669422891
+!i10b 1
+!s100 =dADYh0AIGY^IBZ=Y1zJi2
+I3j1W@7`hGP9eHd=eIXnG43
+R4
+R0
+w1669411236
+8../rtl/adder_reg.v
+F../rtl/adder_reg.v
+L0 3
+R5
+r1
+!s85 0
+31
+Z9 !s108 1669422891.000000
+!s107 ../rtl/adder_reg.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/adder_reg.v|
+!i113 0
+R7
+R2
+vcounter
+R8
+!i10b 1
+!s100 83ZzXQfWY9EWmm4[PTXWI0
+Ijh7MA]i`Fh6iEeSI0PQ>`3
+R4
+R0
+w1669422320
+8../rtl/counter.v
+F../rtl/counter.v
+L0 4
+R5
+r1
+!s85 0
+31
+R9
+!s107 ../rtl/counter.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/counter.v|
+!i113 0
+R7
+R2
+vdff_en
+R8
+!i10b 1
+!s100 ;U]3ci6dGTM5Mk:EF?e772
+IOG:=jUkHRZM^E`V_^FAEz0
+R4
+R0
+w1669422088
+8../rtl/dff_en.v
+F../rtl/dff_en.v
+L0 5
+R5
+r1
+!s85 0
+31
+R9
+!s107 ../rtl/dff_en.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/dff_en.v|
+!i113 0
+R7
+R2
+vdistr_arith
+R3
+!i10b 1
+!s100 8NGY80VG3`C4JkVB5VQik1
+I0K0Sj_AAgb?HFWF96Qz>z2
+R4
+R0
+w1669422135
+8../rtl/distr_arith.v
+F../rtl/distr_arith.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../rtl/distr_arith.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/distr_arith.v|
+!i113 0
+R7
+R2
+vleft_shift_1
+R8
+!i10b 1
+!s100 CFd14Bk5J6a]JaYhg;o1`0
+IJHNkeBCf6E1od8Ond4anL1
+R4
+R0
+w1669329928
+8../rtl/left_shift_1.v
+F../rtl/left_shift_1.v
+L0 3
+R5
+r1
+!s85 0
+31
+R9
+!s107 ../rtl/left_shift_1.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/left_shift_1.v|
+!i113 0
+R7
+R2
+vlut0
+R8
+!i10b 1
+!s100 1dSPOj7V@Y6H50M`ezJfS0
+I^W@hId_czMZ7Y08JZ0?011
+R4
+R0
+Z10 w1669305182
+8../rtl/lut0.v
+F../rtl/lut0.v
+L0 3
+R5
+r1
+!s85 0
+31
+R9
+!s107 ../rtl/lut0.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/lut0.v|
+!i113 0
+R7
+R2
+vlut1
+Z11 !s110 1669422892
+!i10b 1
+!s100 a5olIYK0S7@ZX]hG8>IBA0
+I=CL90UUO9JBIgUm7K[@e90
+R4
+R0
+R10
+8../rtl/lut1.v
+F../rtl/lut1.v
+L0 3
+R5
+r1
+!s85 0
+31
+R9
+!s107 ../rtl/lut1.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/lut1.v|
+!i113 0
+R7
+R2
+vlut2
+R11
+!i10b 1
+!s100 cZ3S6FeQzTFfUd[]nR>6g3
+INP<gB>=AjDiz[3Qd6F=;@2
+R4
+R0
+R10
+8../rtl/lut2.v
+F../rtl/lut2.v
+L0 3
+R5
+r1
+!s85 0
+31
+Z12 !s108 1669422892.000000
+!s107 ../rtl/lut2.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/lut2.v|
+!i113 0
+R7
+R2
+vlut3
+R11
+!i10b 1
+!s100 JCeS<Da>hSJf[S]oNc`BA2
+ILMb?bbcMJ8ANNDazWWLV;0
+R4
+R0
+R10
+8../rtl/lut3.v
+F../rtl/lut3.v
+L0 3
+R5
+r1
+!s85 0
+31
+R12
+!s107 ../rtl/lut3.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/lut3.v|
+!i113 0
+R7
+R2
+vlut4
+R11
+!i10b 1
+!s100 ONN@fHgnVHd^1UzjCF=6o1
+I?UEjD<Bon1dkSCLL2B6aU1
+R4
+R0
+R10
+8../rtl/lut4.v
+F../rtl/lut4.v
+L0 3
+R5
+r1
+!s85 0
+31
+R12
+!s107 ../rtl/lut4.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/lut4.v|
+!i113 0
+R7
+R2
+vlut5
+R11
+!i10b 1
+!s100 U<Od;gb0_fN7FY2iK;C1E1
+Ia>`ZG0d_bo;CE5Gm_GoZF3
+R4
+R0
+R10
+8../rtl/lut5.v
+F../rtl/lut5.v
+L0 3
+R5
+r1
+!s85 0
+31
+R12
+!s107 ../rtl/lut5.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/lut5.v|
+!i113 0
+R7
+R2
+vlut6
+R1
+!i10b 1
+!s100 66o[Oed@@>_2=]<;[A?dW2
+I5;4^:>@OHMK@5_mBmW[_E2
+R4
+R0
+R10
+8../rtl/lut6.v
+F../rtl/lut6.v
+L0 3
+R5
+r1
+!s85 0
+31
+R12
+!s107 ../rtl/lut6.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/lut6.v|
+!i113 0
+R7
+R2
+vlut7
+R1
+!i10b 1
+!s100 c<mJ`zZkFB3Lo=ce4<i<>2
+IZk2f4^<IlTA4:z8e9eDTf0
+R4
+R0
+R10
+8../rtl/lut7.v
+F../rtl/lut7.v
+L0 3
+R5
+r1
+!s85 0
+31
+Z13 !s108 1669422893.000000
+!s107 ../rtl/lut7.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/lut7.v|
+!i113 0
+R7
+R2
+vtest_da
+R1
+!i10b 1
+!s100 D?0iWWM>LY:IXTQz7B1bn0
+I7<izHOGKn?KC0dMGBib5d1
+R4
+R0
+w1669422877
+8test_da.v
+Ftest_da.v
+L0 4
+R5
+r1
+!s85 0
+31
+R13
+!s107 test_da.v|
+!s90 -reportprogress|300|+acc|-incr|test_da.v|
+!i113 0
+R7
+R2

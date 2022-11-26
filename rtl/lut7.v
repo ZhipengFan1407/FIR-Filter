@@ -2,7 +2,7 @@
 // lut for b[56:63]
 module lut7(
 	input [7 : 0] addr,
-	output [31 : 0] data_out
+	output reg [31 : 0] data_out
 );
 
 parameter [31 : 0] b0 = 32'b11111111111111111111111110100010;
@@ -82,7 +82,7 @@ always @(addr) begin
 		8'b00111101: data_out <= b5 + b4 + b3 + b2 + b0;
 		8'b00111110: data_out <= b5 + b4 + b3 + b2 + b1;
 		8'b00111111: data_out <= b5 + b4 + b3 + b2 + b1 + b0;
-		8'b01000000: data_out <= b6
+		8'b01000000: data_out <= b6;
 		8'b01000001: data_out <= b6 + b0;
 		8'b01000010: data_out <= b6 + b1;
 		8'b01000011: data_out <= b6 + b1 + b0;
@@ -148,7 +148,7 @@ always @(addr) begin
 		8'b01111111: data_out <= b6 + b5 + b4 + b3 + b2 + b1 + b0;
 		8'b10000000: data_out <= b7;
 		8'b10000001: data_out <= b7 + b0;
-		8'b10000010: data_out <= b7 + b1
+		8'b10000010: data_out <= b7 + b1;
 		8'b10000011: data_out <= b7 + b1 + b0;
 		8'b10000100: data_out <= b7 + b2;
 		8'b10000101: data_out <= b7 + b2 + b0;

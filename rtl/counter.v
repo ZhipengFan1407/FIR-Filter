@@ -6,18 +6,23 @@ module counter(
     input clk,
     output reg count_reach
 );
-
-    reg [3 : 0] count = 4'b0000;
-    
-    always @(negedge clk) begin
-        if (count != 4'b1111) begin
-            count <= count + 1;
-            count_reach <= 1'b0;
-        end
-        else begin
-            count <= 4'b0000;
-            count_reach <= 1'b1;
-        end
+    reg [3 : 0] count;
+	initial begin
+		count_reach <= 1'b0;
+		count <= 4'b0000;
+	end
+    always @(posedge clk) begin
+		count <= count + 1;
+		if (count == 4'b1111) begin
+			count_reach <= 1'b1;
+		end
+		else begin
+			count_reach <= 1'b0;
+		end
     end
+	always @(posedge reset) begin
+		count_reach <= 1'b0;
+		count <= 4'b0000;
+	end
 
 endmodule

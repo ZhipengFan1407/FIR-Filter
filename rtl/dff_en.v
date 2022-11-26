@@ -4,15 +4,19 @@
 // all inputs are processed
 module dff_en(
     input enable,
+	input reset,
     input clk,
     input [31 : 0] data_in,
     output reg [31: 0] data_out
 );
-
+	initial begin
+		data_out <= 32'd0;
+	end
     always @(posedge clk) begin
-        if (enable == 1'b1) begin
-            data_in <= data_out;
-        end
+        data_out <= enable == 1'b1 ? data_in : 32'd0;
     end
+	always @(posedge reset) begin
+		data_out <= 32'd0;
+	end
 
 endmodule
