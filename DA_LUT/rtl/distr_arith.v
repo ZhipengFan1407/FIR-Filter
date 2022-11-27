@@ -45,7 +45,7 @@ module distr_arith (
     // wire count_reach;
 
 	// DFF Instatiation
-    dff_en dff0 (.reset(r), .enable(1'b1), .clk(c), .data_in(add7_out), .data_out(dff0_out));
+    dff_en dff0 (.reset(r), .enable(1'b1), .clk(~c), .data_in(add7_out), .data_out(dff0_out));
     dff_en dff1 (.reset(r), .enable(count_reach), .clk(c), .data_in(dff0_out), .data_out(sum));
 
     // Counter Instantiation
