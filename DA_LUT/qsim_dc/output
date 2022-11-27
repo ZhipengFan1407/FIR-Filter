@@ -1,0 +1,1096 @@
+** Warning: (vlib-34) Library already exists at "work".
+QuestaSim vmap 10.7b_1 Lib Mapping Utility 2018.07 Jul 26 2018
+vmap work work 
+Modifying modelsim.ini
+QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+Start time: 19:54:39 on Nov 26,2022
+vlog "+acc" -incr /courses/ee6321/share/ibm13rflpvt/verilog/ibm13rflpvt.v 
+-- Skipping module BUFX2TS
+-- Skipping module BUFX3TS
+-- Skipping module BUFX4TS
+-- Skipping module BUFX6TS
+-- Skipping module BUFX8TS
+-- Skipping module BUFX12TS
+-- Skipping module BUFX16TS
+-- Skipping module BUFX20TS
+-- Skipping module INVXLTS
+-- Skipping module INVX1TS
+-- Skipping module INVX2TS
+-- Skipping module INVX3TS
+-- Skipping module INVX4TS
+-- Skipping module INVX6TS
+-- Skipping module INVX8TS
+-- Skipping module INVX12TS
+-- Skipping module INVX16TS
+-- Skipping module INVX20TS
+-- Skipping module TBUFXLTS
+-- Skipping module TBUFX1TS
+-- Skipping module TBUFX2TS
+-- Skipping module TBUFX3TS
+-- Skipping module TBUFX4TS
+-- Skipping module TBUFX6TS
+-- Skipping module TBUFX8TS
+-- Skipping module TBUFX12TS
+-- Skipping module TBUFX16TS
+-- Skipping module TBUFX20TS
+-- Skipping module HOLDX1TS
+-- Skipping module AND2XLTS
+-- Skipping module AND2X1TS
+-- Skipping module AND2X2TS
+-- Skipping module AND2X4TS
+-- Skipping module AND2X6TS
+-- Skipping module AND2X8TS
+-- Skipping module AND3XLTS
+-- Skipping module AND3X1TS
+-- Skipping module AND3X2TS
+-- Skipping module AND3X4TS
+-- Skipping module AND3X6TS
+-- Skipping module AND3X8TS
+-- Skipping module AND4XLTS
+-- Skipping module AND4X1TS
+-- Skipping module AND4X2TS
+-- Skipping module AND4X4TS
+-- Skipping module AND4X6TS
+-- Skipping module AND4X8TS
+-- Skipping module AOI21XLTS
+-- Skipping module AOI21X1TS
+-- Skipping module AOI21X2TS
+-- Skipping module AOI21X4TS
+-- Skipping module AOI211XLTS
+-- Skipping module AOI211X1TS
+-- Skipping module AOI211X2TS
+-- Skipping module AOI211X4TS
+-- Skipping module AOI22XLTS
+-- Skipping module AOI22X1TS
+-- Skipping module AOI22X2TS
+-- Skipping module AOI22X4TS
+-- Skipping module AOI221XLTS
+-- Skipping module AOI221X1TS
+-- Skipping module AOI221X2TS
+-- Skipping module AOI221X4TS
+-- Skipping module AOI222XLTS
+-- Skipping module AOI222X1TS
+-- Skipping module AOI222X2TS
+-- Skipping module AOI222X4TS
+-- Skipping module AOI31XLTS
+-- Skipping module AOI31X1TS
+-- Skipping module AOI31X2TS
+-- Skipping module AOI31X4TS
+-- Skipping module AOI32XLTS
+-- Skipping module AOI32X1TS
+-- Skipping module AOI32X2TS
+-- Skipping module AOI32X4TS
+-- Skipping module AOI33XLTS
+-- Skipping module AOI33X1TS
+-- Skipping module AOI33X2TS
+-- Skipping module AOI33X4TS
+-- Skipping module AOI2BB1XLTS
+-- Skipping module AOI2BB1X1TS
+-- Skipping module AOI2BB1X2TS
+-- Skipping module AOI2BB1X4TS
+-- Skipping module AOI2BB2XLTS
+-- Skipping module AOI2BB2X1TS
+-- Skipping module AOI2BB2X2TS
+-- Skipping module AOI2BB2X4TS
+-- Skipping module AO21XLTS
+-- Skipping module AO21X1TS
+-- Skipping module AO21X2TS
+-- Skipping module AO21X4TS
+-- Skipping module AO22XLTS
+-- Skipping module AO22X1TS
+-- Skipping module AO22X2TS
+-- Skipping module AO22X4TS
+-- Skipping module MX2XLTS
+-- Skipping module MX2X1TS
+-- Skipping module MX2X2TS
+-- Skipping module MX2X4TS
+-- Skipping module MX2X6TS
+-- Skipping module MX2X8TS
+-- Skipping module MX4XLTS
+-- Skipping module MX4X1TS
+-- Skipping module MX4X2TS
+-- Skipping module MX4X4TS
+-- Skipping module MXI2XLTS
+-- Skipping module MXI2X1TS
+-- Skipping module MXI2X2TS
+-- Skipping module MXI2X4TS
+-- Skipping module MXI2X6TS
+-- Skipping module MXI2X8TS
+-- Skipping module MXI4XLTS
+-- Skipping module MXI4X1TS
+-- Skipping module MXI4X2TS
+-- Skipping module MXI4X4TS
+-- Skipping module MX3XLTS
+-- Skipping module MX3X1TS
+-- Skipping module MX3X2TS
+-- Skipping module MX3X4TS
+-- Skipping module MXI3XLTS
+-- Skipping module MXI3X1TS
+-- Skipping module MXI3X2TS
+-- Skipping module MXI3X4TS
+-- Skipping module NAND2XLTS
+-- Skipping module NAND2X1TS
+-- Skipping module NAND2X2TS
+-- Skipping module NAND2X4TS
+-- Skipping module NAND2X6TS
+-- Skipping module NAND2X8TS
+-- Skipping module NAND3XLTS
+-- Skipping module NAND3X1TS
+-- Skipping module NAND3X2TS
+-- Skipping module NAND3X4TS
+-- Skipping module NAND3X6TS
+-- Skipping module NAND3X8TS
+-- Skipping module NAND4XLTS
+-- Skipping module NAND4X1TS
+-- Skipping module NAND4X2TS
+-- Skipping module NAND4X4TS
+-- Skipping module NAND4X6TS
+-- Skipping module NAND4X8TS
+-- Skipping module NAND2BXLTS
+-- Skipping module NAND2BX1TS
+-- Skipping module NAND2BX2TS
+-- Skipping module NAND2BX4TS
+-- Skipping module NAND3BXLTS
+-- Skipping module NAND3BX1TS
+-- Skipping module NAND3BX2TS
+-- Skipping module NAND3BX4TS
+-- Skipping module NAND4BXLTS
+-- Skipping module NAND4BX1TS
+-- Skipping module NAND4BX2TS
+-- Skipping module NAND4BX4TS
+-- Skipping module NAND4BBXLTS
+-- Skipping module NAND4BBX1TS
+-- Skipping module NAND4BBX2TS
+-- Skipping module NAND4BBX4TS
+-- Skipping module NOR2XLTS
+-- Skipping module NOR2X1TS
+-- Skipping module NOR2X2TS
+-- Skipping module NOR2X4TS
+-- Skipping module NOR2X6TS
+-- Skipping module NOR2X8TS
+-- Skipping module NOR3XLTS
+-- Skipping module NOR3X1TS
+-- Skipping module NOR3X2TS
+-- Skipping module NOR3X4TS
+-- Skipping module NOR3X6TS
+-- Skipping module NOR3X8TS
+-- Skipping module NOR4XLTS
+-- Skipping module NOR4X1TS
+-- Skipping module NOR4X2TS
+-- Skipping module NOR4X4TS
+-- Skipping module NOR4X6TS
+-- Skipping module NOR4X8TS
+-- Skipping module NOR2BXLTS
+-- Skipping module NOR2BX1TS
+-- Skipping module NOR2BX2TS
+-- Skipping module NOR2BX4TS
+-- Skipping module NOR3BXLTS
+-- Skipping module NOR3BX1TS
+-- Skipping module NOR3BX2TS
+-- Skipping module NOR3BX4TS
+-- Skipping module NOR4BXLTS
+-- Skipping module NOR4BX1TS
+-- Skipping module NOR4BX2TS
+-- Skipping module NOR4BX4TS
+-- Skipping module NOR4BBXLTS
+-- Skipping module NOR4BBX1TS
+-- Skipping module NOR4BBX2TS
+-- Skipping module NOR4BBX4TS
+-- Skipping module OR2XLTS
+-- Skipping module OR2X1TS
+-- Skipping module OR2X2TS
+-- Skipping module OR2X4TS
+-- Skipping module OR2X6TS
+-- Skipping module OR2X8TS
+-- Skipping module OR3XLTS
+-- Skipping module OR3X1TS
+-- Skipping module OR3X2TS
+-- Skipping module OR3X4TS
+-- Skipping module OR3X6TS
+-- Skipping module OR3X8TS
+-- Skipping module OR4XLTS
+-- Skipping module OR4X1TS
+-- Skipping module OR4X2TS
+-- Skipping module OR4X4TS
+-- Skipping module OR4X6TS
+-- Skipping module OR4X8TS
+-- Skipping module OAI21XLTS
+-- Skipping module OAI21X1TS
+-- Skipping module OAI21X2TS
+-- Skipping module OAI21X4TS
+-- Skipping module OAI211XLTS
+-- Skipping module OAI211X1TS
+-- Skipping module OAI211X2TS
+-- Skipping module OAI211X4TS
+-- Skipping module OAI22XLTS
+-- Skipping module OAI22X1TS
+-- Skipping module OAI22X2TS
+-- Skipping module OAI22X4TS
+-- Skipping module OAI221XLTS
+-- Skipping module OAI221X1TS
+-- Skipping module OAI221X2TS
+-- Skipping module OAI221X4TS
+-- Skipping module OAI222XLTS
+-- Skipping module OAI222X1TS
+-- Skipping module OAI222X2TS
+-- Skipping module OAI222X4TS
+-- Skipping module OAI31XLTS
+-- Skipping module OAI31X1TS
+-- Skipping module OAI31X2TS
+-- Skipping module OAI31X4TS
+-- Skipping module OAI32XLTS
+-- Skipping module OAI32X1TS
+-- Skipping module OAI32X2TS
+-- Skipping module OAI32X4TS
+-- Skipping module OAI33XLTS
+-- Skipping module OAI33X1TS
+-- Skipping module OAI33X2TS
+-- Skipping module OAI33X4TS
+-- Skipping module OAI2BB1XLTS
+-- Skipping module OAI2BB1X1TS
+-- Skipping module OAI2BB1X2TS
+-- Skipping module OAI2BB1X4TS
+-- Skipping module OAI2BB2XLTS
+-- Skipping module OAI2BB2X1TS
+-- Skipping module OAI2BB2X2TS
+-- Skipping module OAI2BB2X4TS
+-- Skipping module OA21XLTS
+-- Skipping module OA21X1TS
+-- Skipping module OA21X2TS
+-- Skipping module OA21X4TS
+-- Skipping module OA22XLTS
+-- Skipping module OA22X1TS
+-- Skipping module OA22X2TS
+-- Skipping module OA22X4TS
+-- Skipping module CLKXOR2X1TS
+-- Skipping module CLKXOR2X2TS
+-- Skipping module CLKXOR2X4TS
+-- Skipping module CLKXOR2X8TS
+-- Skipping module XOR2XLTS
+-- Skipping module XOR2X1TS
+-- Skipping module XOR2X2TS
+-- Skipping module XOR2X4TS
+-- Skipping module XOR3XLTS
+-- Skipping module XOR3X1TS
+-- Skipping module XOR3X2TS
+-- Skipping module XOR3X4TS
+-- Skipping module XNOR2XLTS
+-- Skipping module XNOR2X1TS
+-- Skipping module XNOR2X2TS
+-- Skipping module XNOR2X4TS
+-- Skipping module XNOR3XLTS
+-- Skipping module XNOR3X1TS
+-- Skipping module XNOR3X2TS
+-- Skipping module XNOR3X4TS
+-- Skipping module CLKBUFX2TS
+-- Skipping module CLKBUFX3TS
+-- Skipping module CLKBUFX4TS
+-- Skipping module CLKBUFX6TS
+-- Skipping module CLKBUFX8TS
+-- Skipping module CLKBUFX12TS
+-- Skipping module CLKBUFX16TS
+-- Skipping module CLKBUFX20TS
+-- Skipping module CLKINVX1TS
+-- Skipping module CLKINVX2TS
+-- Skipping module CLKINVX3TS
+-- Skipping module CLKINVX4TS
+-- Skipping module CLKINVX6TS
+-- Skipping module CLKINVX8TS
+-- Skipping module CLKINVX12TS
+-- Skipping module CLKINVX16TS
+-- Skipping module CLKINVX20TS
+-- Skipping module CLKAND2X2TS
+-- Skipping module CLKAND2X3TS
+-- Skipping module CLKAND2X4TS
+-- Skipping module CLKAND2X6TS
+-- Skipping module CLKAND2X8TS
+-- Skipping module CLKAND2X12TS
+-- Skipping module CLKMX2X2TS
+-- Skipping module CLKMX2X3TS
+-- Skipping module CLKMX2X4TS
+-- Skipping module CLKMX2X6TS
+-- Skipping module CLKMX2X8TS
+-- Skipping module CLKMX2X12TS
+-- Skipping module TLATNCAX2TS
+-- Skipping module TLATNCAX3TS
+-- Skipping module TLATNCAX4TS
+-- Skipping module TLATNCAX6TS
+-- Skipping module TLATNCAX8TS
+-- Skipping module TLATNCAX12TS
+-- Skipping module TLATNCAX16TS
+-- Skipping module TLATNCAX20TS
+-- Skipping module TLATNTSCAX2TS
+-- Skipping module TLATNTSCAX3TS
+-- Skipping module TLATNTSCAX4TS
+-- Skipping module TLATNTSCAX6TS
+-- Skipping module TLATNTSCAX8TS
+-- Skipping module TLATNTSCAX12TS
+-- Skipping module TLATNTSCAX16TS
+-- Skipping module TLATNTSCAX20TS
+-- Skipping module ADDHXLTS
+-- Skipping module ADDHX1TS
+-- Skipping module ADDHX2TS
+-- Skipping module ADDHX4TS
+-- Skipping module ADDFXLTS
+-- Skipping module ADDFX1TS
+-- Skipping module ADDFX2TS
+-- Skipping module ADDFX4TS
+-- Skipping module ADDFHXLTS
+-- Skipping module ADDFHX1TS
+-- Skipping module ADDFHX2TS
+-- Skipping module ADDFHX4TS
+-- Skipping module BENCX1TS
+-- Skipping module BENCX2TS
+-- Skipping module BENCX4TS
+-- Skipping module BMXX2TS
+-- Skipping module BMXX4TS
+-- Skipping module BMXIX2TS
+-- Skipping module BMXIX4TS
+-- Skipping module CMPR22X2TS
+-- Skipping module CMPR22X4TS
+-- Skipping module CMPR32X2TS
+-- Skipping module CMPR32X4TS
+-- Skipping module AFHCINX2TS
+-- Skipping module AFHCINX4TS
+-- Skipping module AFHCONX2TS
+-- Skipping module AFHCONX4TS
+-- Skipping module ACHCINX2TS
+-- Skipping module ACHCINX4TS
+-- Skipping module ACHCONX2TS
+-- Skipping module ACHCONX4TS
+-- Skipping module AHHCINX2TS
+-- Skipping module AHHCINX4TS
+-- Skipping module AHHCONX2TS
+-- Skipping module AHHCONX4TS
+-- Skipping module AFCSHCINX2TS
+-- Skipping module AFCSHCINX4TS
+-- Skipping module AFCSHCONX2TS
+-- Skipping module AFCSHCONX4TS
+-- Skipping module AFCSIHCONX2TS
+-- Skipping module AFCSIHCONX4TS
+-- Skipping module ACCSHCINX2TS
+-- Skipping module ACCSHCINX4TS
+-- Skipping module ACCSHCONX2TS
+-- Skipping module ACCSHCONX4TS
+-- Skipping module ACCSIHCONX2TS
+-- Skipping module ACCSIHCONX4TS
+-- Skipping module AHCSHCINX2TS
+-- Skipping module AHCSHCINX4TS
+-- Skipping module AHCSHCONX2TS
+-- Skipping module AHCSHCONX4TS
+-- Skipping module CMPR42X1TS
+-- Skipping module CMPR42X2TS
+-- Skipping module CMPR42X4TS
+-- Skipping module DFFXLTS
+-- Skipping module DFFX1TS
+-- Skipping module DFFX2TS
+-- Skipping module DFFX4TS
+-- Skipping module DFFQX1TS
+-- Skipping module DFFQX2TS
+-- Skipping module DFFQX4TS
+-- Skipping module DFFQXLTS
+-- Skipping module DFFRXLTS
+-- Skipping module DFFRX1TS
+-- Skipping module DFFRX2TS
+-- Skipping module DFFRX4TS
+-- Skipping module DFFSXLTS
+-- Skipping module DFFSX1TS
+-- Skipping module DFFSX2TS
+-- Skipping module DFFSX4TS
+-- Skipping module DFFSRXLTS
+-- Skipping module DFFSRX1TS
+-- Skipping module DFFSRX2TS
+-- Skipping module DFFSRX4TS
+-- Skipping module DFFNSRXLTS
+-- Skipping module DFFNSRX1TS
+-- Skipping module DFFNSRX2TS
+-- Skipping module DFFNSRX4TS
+-- Skipping module DFFTRXLTS
+-- Skipping module DFFTRX1TS
+-- Skipping module DFFTRX2TS
+-- Skipping module DFFTRX4TS
+-- Skipping module EDFFXLTS
+-- Skipping module EDFFX1TS
+-- Skipping module EDFFX2TS
+-- Skipping module EDFFX4TS
+-- Skipping module EDFFTRXLTS
+-- Skipping module EDFFTRX1TS
+-- Skipping module EDFFTRX2TS
+-- Skipping module EDFFTRX4TS
+-- Skipping module SDFFXLTS
+-- Skipping module SDFFX1TS
+-- Skipping module SDFFX2TS
+-- Skipping module SDFFX4TS
+-- Skipping module SDFFQX1TS
+-- Skipping module SDFFQX2TS
+-- Skipping module SDFFQX4TS
+-- Skipping module SDFFQXLTS
+-- Skipping module SDFFRXLTS
+-- Skipping module SDFFRX1TS
+-- Skipping module SDFFRX2TS
+-- Skipping module SDFFRX4TS
+-- Skipping module SDFFSXLTS
+-- Skipping module SDFFSX1TS
+-- Skipping module SDFFSX2TS
+-- Skipping module SDFFSX4TS
+-- Skipping module SDFFSRXLTS
+-- Skipping module SDFFSRX1TS
+-- Skipping module SDFFSRX2TS
+-- Skipping module SDFFSRX4TS
+-- Skipping module SDFFNSRXLTS
+-- Skipping module SDFFNSRX1TS
+-- Skipping module SDFFNSRX2TS
+-- Skipping module SDFFNSRX4TS
+-- Skipping module SDFFTRXLTS
+-- Skipping module SDFFTRX1TS
+-- Skipping module SDFFTRX2TS
+-- Skipping module SDFFTRX4TS
+-- Skipping module SEDFFXLTS
+-- Skipping module SEDFFX1TS
+-- Skipping module SEDFFX2TS
+-- Skipping module SEDFFX4TS
+-- Skipping module SEDFFTRXLTS
+-- Skipping module SEDFFTRX1TS
+-- Skipping module SEDFFTRX2TS
+-- Skipping module SEDFFTRX4TS
+-- Skipping module DFFHQX1TS
+-- Skipping module DFFHQX2TS
+-- Skipping module DFFHQX4TS
+-- Skipping module DFFHQX8TS
+-- Skipping module DFFRHQX1TS
+-- Skipping module DFFRHQX2TS
+-- Skipping module DFFRHQX4TS
+-- Skipping module DFFRHQX8TS
+-- Skipping module DFFSHQX1TS
+-- Skipping module DFFSHQX2TS
+-- Skipping module DFFSHQX4TS
+-- Skipping module DFFSHQX8TS
+-- Skipping module DFFSRHQX1TS
+-- Skipping module DFFSRHQX2TS
+-- Skipping module DFFSRHQX4TS
+-- Skipping module DFFSRHQX8TS
+-- Skipping module EDFFHQX1TS
+-- Skipping module EDFFHQX2TS
+-- Skipping module EDFFHQX4TS
+-- Skipping module EDFFHQX8TS
+-- Skipping module MDFFHQX1TS
+-- Skipping module MDFFHQX2TS
+-- Skipping module MDFFHQX4TS
+-- Skipping module MDFFHQX8TS
+-- Skipping module SDFFHQX1TS
+-- Skipping module SDFFHQX2TS
+-- Skipping module SDFFHQX4TS
+-- Skipping module SDFFHQX8TS
+-- Skipping module SDFFRHQX1TS
+-- Skipping module SDFFRHQX2TS
+-- Skipping module SDFFRHQX4TS
+-- Skipping module SDFFRHQX8TS
+-- Skipping module SDFFSHQX1TS
+-- Skipping module SDFFSHQX2TS
+-- Skipping module SDFFSHQX4TS
+-- Skipping module SDFFSHQX8TS
+-- Skipping module SDFFSRHQX1TS
+-- Skipping module SDFFSRHQX2TS
+-- Skipping module SDFFSRHQX4TS
+-- Skipping module SDFFSRHQX8TS
+-- Skipping module SEDFFHQX1TS
+-- Skipping module SEDFFHQX2TS
+-- Skipping module SEDFFHQX4TS
+-- Skipping module SEDFFHQX8TS
+-- Skipping module SMDFFHQX1TS
+-- Skipping module SMDFFHQX2TS
+-- Skipping module SMDFFHQX4TS
+-- Skipping module SMDFFHQX8TS
+-- Skipping module TLATXLTS
+-- Skipping module TLATX1TS
+-- Skipping module TLATX2TS
+-- Skipping module TLATX4TS
+-- Skipping module TLATSRXLTS
+-- Skipping module TLATSRX1TS
+-- Skipping module TLATSRX2TS
+-- Skipping module TLATSRX4TS
+-- Skipping module TLATNXLTS
+-- Skipping module TLATNX1TS
+-- Skipping module TLATNX2TS
+-- Skipping module TLATNX4TS
+-- Skipping module TLATNSRXLTS
+-- Skipping module TLATNSRX1TS
+-- Skipping module TLATNSRX2TS
+-- Skipping module TLATNSRX4TS
+-- Skipping module RF1R1WX1TS
+-- Skipping module RF2R1WX1TS
+-- Skipping module RFRDX1TS
+-- Skipping module RFRDX2TS
+-- Skipping module RFRDX4TS
+-- Skipping module DLY1X1TS
+-- Skipping module DLY2X1TS
+-- Skipping module DLY3X1TS
+-- Skipping module DLY4X1TS
+-- Skipping module DLY1X4TS
+-- Skipping module DLY2X4TS
+-- Skipping module DLY3X4TS
+-- Skipping module DLY4X4TS
+-- Skipping module TIEHITS
+-- Skipping module TIELOTS
+-- Skipping UDP udp_sedff
+-- Skipping UDP udp_edfft
+-- Skipping UDP udp_mux
+-- Skipping UDP udp_sedfft
+-- Skipping UDP udp_mux2
+-- Skipping UDP udp_tlatrf
+-- Skipping UDP udp_mux4
+-- Skipping UDP udp_outrf
+-- Skipping UDP udp_dff
+-- Skipping UDP udp_tlat
+-- Skipping UDP udp_edff
+-- Skipping UDP udp_bmx
+
+Top level modules:
+	BUFX2TS
+	BUFX3TS
+	BUFX4TS
+	BUFX6TS
+	BUFX8TS
+	BUFX12TS
+	BUFX16TS
+	BUFX20TS
+	INVXLTS
+	INVX1TS
+	INVX2TS
+	INVX3TS
+	INVX4TS
+	INVX6TS
+	INVX8TS
+	INVX12TS
+	INVX16TS
+	INVX20TS
+	TBUFXLTS
+	TBUFX1TS
+	TBUFX2TS
+	TBUFX3TS
+	TBUFX4TS
+	TBUFX6TS
+	TBUFX8TS
+	TBUFX12TS
+	TBUFX16TS
+	TBUFX20TS
+	HOLDX1TS
+	AND2XLTS
+	AND2X1TS
+	AND2X2TS
+	AND2X4TS
+	AND2X6TS
+	AND2X8TS
+	AND3XLTS
+	AND3X1TS
+	AND3X2TS
+	AND3X4TS
+	AND3X6TS
+	AND3X8TS
+	AND4XLTS
+	AND4X1TS
+	AND4X2TS
+	AND4X4TS
+	AND4X6TS
+	AND4X8TS
+	AOI21XLTS
+	AOI21X1TS
+	AOI21X2TS
+	AOI21X4TS
+	AOI211XLTS
+	AOI211X1TS
+	AOI211X2TS
+	AOI211X4TS
+	AOI22XLTS
+	AOI22X1TS
+	AOI22X2TS
+	AOI22X4TS
+	AOI221XLTS
+	AOI221X1TS
+	AOI221X2TS
+	AOI221X4TS
+	AOI222XLTS
+	AOI222X1TS
+	AOI222X2TS
+	AOI222X4TS
+	AOI31XLTS
+	AOI31X1TS
+	AOI31X2TS
+	AOI31X4TS
+	AOI32XLTS
+	AOI32X1TS
+	AOI32X2TS
+	AOI32X4TS
+	AOI33XLTS
+	AOI33X1TS
+	AOI33X2TS
+	AOI33X4TS
+	AOI2BB1XLTS
+	AOI2BB1X1TS
+	AOI2BB1X2TS
+	AOI2BB1X4TS
+	AOI2BB2XLTS
+	AOI2BB2X1TS
+	AOI2BB2X2TS
+	AOI2BB2X4TS
+	AO21XLTS
+	AO21X1TS
+	AO21X2TS
+	AO21X4TS
+	AO22XLTS
+	AO22X1TS
+	AO22X2TS
+	AO22X4TS
+	MX2XLTS
+	MX2X1TS
+	MX2X2TS
+	MX2X4TS
+	MX2X6TS
+	MX2X8TS
+	MX4XLTS
+	MX4X1TS
+	MX4X2TS
+	MX4X4TS
+	MXI2XLTS
+	MXI2X1TS
+	MXI2X2TS
+	MXI2X4TS
+	MXI2X6TS
+	MXI2X8TS
+	MXI4XLTS
+	MXI4X1TS
+	MXI4X2TS
+	MXI4X4TS
+	MX3XLTS
+	MX3X1TS
+	MX3X2TS
+	MX3X4TS
+	MXI3XLTS
+	MXI3X1TS
+	MXI3X2TS
+	MXI3X4TS
+	NAND2XLTS
+	NAND2X1TS
+	NAND2X2TS
+	NAND2X4TS
+	NAND2X6TS
+	NAND2X8TS
+	NAND3XLTS
+	NAND3X1TS
+	NAND3X2TS
+	NAND3X4TS
+	NAND3X6TS
+	NAND3X8TS
+	NAND4XLTS
+	NAND4X1TS
+	NAND4X2TS
+	NAND4X4TS
+	NAND4X6TS
+	NAND4X8TS
+	NAND2BXLTS
+	NAND2BX1TS
+	NAND2BX2TS
+	NAND2BX4TS
+	NAND3BXLTS
+	NAND3BX1TS
+	NAND3BX2TS
+	NAND3BX4TS
+	NAND4BXLTS
+	NAND4BX1TS
+	NAND4BX2TS
+	NAND4BX4TS
+	NAND4BBXLTS
+	NAND4BBX1TS
+	NAND4BBX2TS
+	NAND4BBX4TS
+	NOR2XLTS
+	NOR2X1TS
+	NOR2X2TS
+	NOR2X4TS
+	NOR2X6TS
+	NOR2X8TS
+	NOR3XLTS
+	NOR3X1TS
+	NOR3X2TS
+	NOR3X4TS
+	NOR3X6TS
+	NOR3X8TS
+	NOR4XLTS
+	NOR4X1TS
+	NOR4X2TS
+	NOR4X4TS
+	NOR4X6TS
+	NOR4X8TS
+	NOR2BXLTS
+	NOR2BX1TS
+	NOR2BX2TS
+	NOR2BX4TS
+	NOR3BXLTS
+	NOR3BX1TS
+	NOR3BX2TS
+	NOR3BX4TS
+	NOR4BXLTS
+	NOR4BX1TS
+	NOR4BX2TS
+	NOR4BX4TS
+	NOR4BBXLTS
+	NOR4BBX1TS
+	NOR4BBX2TS
+	NOR4BBX4TS
+	OR2XLTS
+	OR2X1TS
+	OR2X2TS
+	OR2X4TS
+	OR2X6TS
+	OR2X8TS
+	OR3XLTS
+	OR3X1TS
+	OR3X2TS
+	OR3X4TS
+	OR3X6TS
+	OR3X8TS
+	OR4XLTS
+	OR4X1TS
+	OR4X2TS
+	OR4X4TS
+	OR4X6TS
+	OR4X8TS
+	OAI21XLTS
+	OAI21X1TS
+	OAI21X2TS
+	OAI21X4TS
+	OAI211XLTS
+	OAI211X1TS
+	OAI211X2TS
+	OAI211X4TS
+	OAI22XLTS
+	OAI22X1TS
+	OAI22X2TS
+	OAI22X4TS
+	OAI221XLTS
+	OAI221X1TS
+	OAI221X2TS
+	OAI221X4TS
+	OAI222XLTS
+	OAI222X1TS
+	OAI222X2TS
+	OAI222X4TS
+	OAI31XLTS
+	OAI31X1TS
+	OAI31X2TS
+	OAI31X4TS
+	OAI32XLTS
+	OAI32X1TS
+	OAI32X2TS
+	OAI32X4TS
+	OAI33XLTS
+	OAI33X1TS
+	OAI33X2TS
+	OAI33X4TS
+	OAI2BB1XLTS
+	OAI2BB1X1TS
+	OAI2BB1X2TS
+	OAI2BB1X4TS
+	OAI2BB2XLTS
+	OAI2BB2X1TS
+	OAI2BB2X2TS
+	OAI2BB2X4TS
+	OA21XLTS
+	OA21X1TS
+	OA21X2TS
+	OA21X4TS
+	OA22XLTS
+	OA22X1TS
+	OA22X2TS
+	OA22X4TS
+	CLKXOR2X1TS
+	CLKXOR2X2TS
+	CLKXOR2X4TS
+	CLKXOR2X8TS
+	XOR2XLTS
+	XOR2X1TS
+	XOR2X2TS
+	XOR2X4TS
+	XOR3XLTS
+	XOR3X1TS
+	XOR3X2TS
+	XOR3X4TS
+	XNOR2XLTS
+	XNOR2X1TS
+	XNOR2X2TS
+	XNOR2X4TS
+	XNOR3XLTS
+	XNOR3X1TS
+	XNOR3X2TS
+	XNOR3X4TS
+	CLKBUFX2TS
+	CLKBUFX3TS
+	CLKBUFX4TS
+	CLKBUFX6TS
+	CLKBUFX8TS
+	CLKBUFX12TS
+	CLKBUFX16TS
+	CLKBUFX20TS
+	CLKINVX1TS
+	CLKINVX2TS
+	CLKINVX3TS
+	CLKINVX4TS
+	CLKINVX6TS
+	CLKINVX8TS
+	CLKINVX12TS
+	CLKINVX16TS
+	CLKINVX20TS
+	CLKAND2X2TS
+	CLKAND2X3TS
+	CLKAND2X4TS
+	CLKAND2X6TS
+	CLKAND2X8TS
+	CLKAND2X12TS
+	CLKMX2X2TS
+	CLKMX2X3TS
+	CLKMX2X4TS
+	CLKMX2X6TS
+	CLKMX2X8TS
+	CLKMX2X12TS
+	TLATNCAX2TS
+	TLATNCAX3TS
+	TLATNCAX4TS
+	TLATNCAX6TS
+	TLATNCAX8TS
+	TLATNCAX12TS
+	TLATNCAX16TS
+	TLATNCAX20TS
+	TLATNTSCAX2TS
+	TLATNTSCAX3TS
+	TLATNTSCAX4TS
+	TLATNTSCAX6TS
+	TLATNTSCAX8TS
+	TLATNTSCAX12TS
+	TLATNTSCAX16TS
+	TLATNTSCAX20TS
+	ADDHXLTS
+	ADDHX1TS
+	ADDHX2TS
+	ADDHX4TS
+	ADDFXLTS
+	ADDFX1TS
+	ADDFX2TS
+	ADDFX4TS
+	ADDFHXLTS
+	ADDFHX1TS
+	ADDFHX2TS
+	ADDFHX4TS
+	BENCX1TS
+	BENCX2TS
+	BENCX4TS
+	BMXX2TS
+	BMXX4TS
+	BMXIX2TS
+	BMXIX4TS
+	CMPR22X2TS
+	CMPR22X4TS
+	CMPR32X2TS
+	CMPR32X4TS
+	AFHCINX2TS
+	AFHCINX4TS
+	AFHCONX2TS
+	AFHCONX4TS
+	ACHCINX2TS
+	ACHCINX4TS
+	ACHCONX2TS
+	ACHCONX4TS
+	AHHCINX2TS
+	AHHCINX4TS
+	AHHCONX2TS
+	AHHCONX4TS
+	AFCSHCINX2TS
+	AFCSHCINX4TS
+	AFCSHCONX2TS
+	AFCSHCONX4TS
+	AFCSIHCONX2TS
+	AFCSIHCONX4TS
+	ACCSHCINX2TS
+	ACCSHCINX4TS
+	ACCSHCONX2TS
+	ACCSHCONX4TS
+	ACCSIHCONX2TS
+	ACCSIHCONX4TS
+	AHCSHCINX2TS
+	AHCSHCINX4TS
+	AHCSHCONX2TS
+	AHCSHCONX4TS
+	CMPR42X1TS
+	CMPR42X2TS
+	CMPR42X4TS
+	DFFXLTS
+	DFFX1TS
+	DFFX2TS
+	DFFX4TS
+	DFFQX1TS
+	DFFQX2TS
+	DFFQX4TS
+	DFFQXLTS
+	DFFRXLTS
+	DFFRX1TS
+	DFFRX2TS
+	DFFRX4TS
+	DFFSXLTS
+	DFFSX1TS
+	DFFSX2TS
+	DFFSX4TS
+	DFFSRXLTS
+	DFFSRX1TS
+	DFFSRX2TS
+	DFFSRX4TS
+	DFFNSRXLTS
+	DFFNSRX1TS
+	DFFNSRX2TS
+	DFFNSRX4TS
+	DFFTRXLTS
+	DFFTRX1TS
+	DFFTRX2TS
+	DFFTRX4TS
+	EDFFXLTS
+	EDFFX1TS
+	EDFFX2TS
+	EDFFX4TS
+	EDFFTRXLTS
+	EDFFTRX1TS
+	EDFFTRX2TS
+	EDFFTRX4TS
+	SDFFXLTS
+	SDFFX1TS
+	SDFFX2TS
+	SDFFX4TS
+	SDFFQX1TS
+	SDFFQX2TS
+	SDFFQX4TS
+	SDFFQXLTS
+	SDFFRXLTS
+	SDFFRX1TS
+	SDFFRX2TS
+	SDFFRX4TS
+	SDFFSXLTS
+	SDFFSX1TS
+	SDFFSX2TS
+	SDFFSX4TS
+	SDFFSRXLTS
+	SDFFSRX1TS
+	SDFFSRX2TS
+	SDFFSRX4TS
+	SDFFNSRXLTS
+	SDFFNSRX1TS
+	SDFFNSRX2TS
+	SDFFNSRX4TS
+	SDFFTRXLTS
+	SDFFTRX1TS
+	SDFFTRX2TS
+	SDFFTRX4TS
+	SEDFFXLTS
+	SEDFFX1TS
+	SEDFFX2TS
+	SEDFFX4TS
+	SEDFFTRXLTS
+	SEDFFTRX1TS
+	SEDFFTRX2TS
+	SEDFFTRX4TS
+	DFFHQX1TS
+	DFFHQX2TS
+	DFFHQX4TS
+	DFFHQX8TS
+	DFFRHQX1TS
+	DFFRHQX2TS
+	DFFRHQX4TS
+	DFFRHQX8TS
+	DFFSHQX1TS
+	DFFSHQX2TS
+	DFFSHQX4TS
+	DFFSHQX8TS
+	DFFSRHQX1TS
+	DFFSRHQX2TS
+	DFFSRHQX4TS
+	DFFSRHQX8TS
+	EDFFHQX1TS
+	EDFFHQX2TS
+	EDFFHQX4TS
+	EDFFHQX8TS
+	MDFFHQX1TS
+	MDFFHQX2TS
+	MDFFHQX4TS
+	MDFFHQX8TS
+	SDFFHQX1TS
+	SDFFHQX2TS
+	SDFFHQX4TS
+	SDFFHQX8TS
+	SDFFRHQX1TS
+	SDFFRHQX2TS
+	SDFFRHQX4TS
+	SDFFRHQX8TS
+	SDFFSHQX1TS
+	SDFFSHQX2TS
+	SDFFSHQX4TS
+	SDFFSHQX8TS
+	SDFFSRHQX1TS
+	SDFFSRHQX2TS
+	SDFFSRHQX4TS
+	SDFFSRHQX8TS
+	SEDFFHQX1TS
+	SEDFFHQX2TS
+	SEDFFHQX4TS
+	SEDFFHQX8TS
+	SMDFFHQX1TS
+	SMDFFHQX2TS
+	SMDFFHQX4TS
+	SMDFFHQX8TS
+	TLATXLTS
+	TLATX1TS
+	TLATX2TS
+	TLATX4TS
+	TLATSRXLTS
+	TLATSRX1TS
+	TLATSRX2TS
+	TLATSRX4TS
+	TLATNXLTS
+	TLATNX1TS
+	TLATNX2TS
+	TLATNX4TS
+	TLATNSRXLTS
+	TLATNSRX1TS
+	TLATNSRX2TS
+	TLATNSRX4TS
+	RF1R1WX1TS
+	RF2R1WX1TS
+	RFRDX1TS
+	RFRDX2TS
+	RFRDX4TS
+	DLY1X1TS
+	DLY2X1TS
+	DLY3X1TS
+	DLY4X1TS
+	DLY1X4TS
+	DLY2X4TS
+	DLY3X4TS
+	DLY4X4TS
+	TIEHITS
+	TIELOTS
+End time: 19:54:41 on Nov 26,2022, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0
+QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+Start time: 19:54:41 on Nov 26,2022
+vlog "+acc" -incr ../dc/distr_arith.nl.v 
+-- Skipping module distr_arith
+
+Top level modules:
+	distr_arith
+End time: 19:54:41 on Nov 26,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+Start time: 19:54:41 on Nov 26,2022
+vlog "+acc" -incr test_da.v 
+-- Skipping module test_da
+
+Top level modules:
+	test_da
+End time: 19:54:42 on Nov 26,2022, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+Reading pref.tcl
