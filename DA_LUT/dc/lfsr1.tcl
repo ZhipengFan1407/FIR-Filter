@@ -16,10 +16,11 @@ read_verilog {../rtl/lut3.v}
 read_verilog {../rtl/lut4.v}
 read_verilog {../rtl/lut5.v}
 read_verilog {../rtl/lut6.v}
-
 read_verilog {../rtl/lut7.v}
+
 read_verilog {../rtl/dff_en.v}
 read_verilog {../rtl/adder.v}
+read_verilog {../rtl/adder_reg.v}
 read_verilog {../rtl/left_shift_1.v}
 read_verilog {../rtl/counter.v}
 
