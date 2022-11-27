@@ -1,17 +1,21 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-
-add wave -noupdate /testbench/clk
-add wave -noupdate /testbench/reset
-add wave -noupdate -radix unsigned /testbench/x1_bit
-add wave -noupdate -radix unsigned /testbench/x2_bit
-add wave -noupdate -radix unsigned /testbench/x3_bit
-add wave -noupdate -radix unsigned /testbench/x4_bit
-add wave -noupdate -radix unsigned /testbench/x5_bit
-add wave -noupdate -radix unsigned /testbench/x6_bit
-add wave -noupdate -radix unsigned /testbench/x7_bit
-add wave -noupdate -radix unsigned /testbench/x8_bit
-add wave -noupdate -radix unsigned /testbench/sum
+add wave -noupdate /test_da/clk
+add wave -noupdate /test_da/reset
+add wave -noupdate /test_da/count_reach
+add wave -noupdate -radix signed /test_da/x1_bit
+add wave -noupdate -radix signed /test_da/x2_bit
+add wave -noupdate -radix signed /test_da/x3_bit
+add wave -noupdate -radix signed /test_da/x4_bit
+add wave -noupdate -radix signed /test_da/x5_bit
+add wave -noupdate -radix signed /test_da/x6_bit
+add wave -noupdate -radix signed /test_da/x7_bit
+add wave -noupdate -radix signed /test_da/x8_bit
+add wave -noupdate -radix signed /test_da/dff0_out
+add wave -noupdate -radix signed /test_da/add6_out
+add wave -noupdate -radix signed /test_da/add7_out
+add wave -noupdate -radix signed /test_da/leftshift_out
+add wave -noupdate -radix signed /test_da/sum
 
 
 TreeUpdate [SetDefaultTree]
@@ -32,38 +36,4 @@ configure wave -timeline 0
 configure wave -timelineunits ps
 update
 WaveRestoreZoom {0 ns} {10 ns}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
