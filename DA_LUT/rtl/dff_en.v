@@ -1,20 +1,41 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 `timescale 1ns/1ps
-// 32 bit input, 32 bit output, D Flip Flop with Enable feature, Enable is not used for
-// the scale accumulation, but the output sum since only output after all 16 bits of
-// all inputs are processed
 module dff_en(
     input enable,
+    input reset,
     input clk,
     input [31 : 0] data_in,
-    output reg [31:0] data_out
+    output reg [31: 0] data_out
 );
-
-    always @(posedge clk) begin
-        if (enable == 1'b1) begin
-            data_out <= data_in;
-        end
+	initial begin
+		data_out <= 32'd0;
+	end
+       always @(posedge clk, posedge reset) begin
+        data_out <= reset == 1'b1 ? 32'd0 : enable == 1'b1 ? data_in : 32'd0;
     end
-
 
 
 endmodule
