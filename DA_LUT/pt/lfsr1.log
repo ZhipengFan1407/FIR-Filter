@@ -1,0 +1,137 @@
+
+                                 PrimeTime (R)
+
+               Version P-2019.03-SP2 for linux64 - May 30, 2019 
+
+                    Copyright (c) 1988 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+#################################################
+# Primetime 
+# Script for static timing analysis
+# MS 7/2015
+#################################################
+#################################################
+# Units are defined in the .lib file
+# time: ns
+#################################################
+## Global
+set sh_enable_page_mode true
+false
+set power_enable_analysis true
+Information: Checked out license 'PrimePower' (PT-019)
+true
+## Setting files/paths
+set verilog_files {../dc/distr_arith.nl.v}
+../dc/distr_arith.nl.v
+set my_toplevel lfsr1
+lfsr1
+set search_path ". /courses/ee6321/share/ibm13rflpvt/synopsys/"
+. /courses/ee6321/share/ibm13rflpvt/synopsys/
+set link_path "* scx3_cmos8rf_lpvt_tt_1p2v_25c.db" 
+* scx3_cmos8rf_lpvt_tt_1p2v_25c.db
+## Read design
+read_db "scx3_cmos8rf_lpvt_tt_1p2v_25c.db"
+Loading db file '/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db'
+1
+read_verilog $verilog_files
+1
+link_design -keep_sub_designs $my_toplevel
+Loading verilog file '/homes/user/stud/fall21/mas2545/updated_DA/dc/distr_arith.nl.v'
+Warning: -keep_sub_design option of link_design will be made obsolete and removed from future releases of PrimeTime starting with the 2017.12 release. (PT-007)
+Error: Cannot find design 'lfsr1'. (DES-004)
+0
+## Timing Constraints
+source ./timing.tcl
+Linking design distr_arith...
+Information: 442 (83.87%) library cells are unused in library scx3_cmos8rf_lpvt_tt_1p2v_25c..... (LNK-045)
+Information: total 442 library cells are unused (LNK-046)
+Warning: Collection '_sel3 ([get_clocks  { {clk} }])' has inappropriate type (clock). (SEL-002)
+Error: Nothing matched for port_list (SEL-005)
+Warning: Setting input delay on clock port (clk) relative to a clock (clk) defined at the same port. Command is ignored. (UITE-489)
+1
+1
+###################################################
+## Run STA 
+###################################################
+set rpt_file "./distr_arith_pt.rpt"
+./distr_arith_pt.rpt
+check_timing
+Warning: Some timing arcs have been disabled for breaking timing loops or because of constant propagation. Use the 'report_disable_timing' command to get the list of these disabled timing arcs. (PTE-003)
+Information: Checking 'no_input_delay'.
+Information: Checking 'no_driving_cell'.
+Information: Checking 'unconstrained_endpoints'.
+Information: Checking 'unexpandable_clocks'.
+Information: Checking 'latch_fanout'.
+Information: Checking 'no_clock'.
+Information: Checking 'partial_input_delay'.
+Information: Checking 'generic'.
+Information: Checking 'loops'.
+Information: Checking 'generated_clocks'.
+Information: Checking 'pulse_clock_non_pulse_clock_merge'.
+Information: Checking 'pll_configuration'.
+check_timing succeeded.
+1
+report_design >> ${rpt_file}
+report_reference >> ${rpt_file}
+report_constraint >> ${rpt_file}
+report_constraint -all_violators -significant_digits 4 >> ${rpt_file}
+report_timing -significant_digits 4 -delay_type min_max >> ${rpt_file}
+## Power analysis
+set power_analysis_mode "time_based"
+time_based
+read_vcd "../qsim_dc/lfsr1.vcd" -strip_path "test_da/da0"
+
+======================================================================
+Summary:
+Total number of nets = 2545
+Number of annotated nets = 2545 (100.00%)
+Total number of leaf cells = 2382
+Number of fully annotated leaf cells = 2382 (100.00%)
+======================================================================
+
+1
+report_switching_activity >> ${rpt_file}
+report_switching_activity -list_not_annotated >> ${rpt_file}
+update_power
+Information: Running time_based power analysis... (PWR-601)
+Information: The waveform options are:
+		File name:	primetime_px.fsdb
+		File format:	fsdb
+		Time interval:	0.001ns
+		Hierarchical level:	all
+
+Information: Power analysis is running, please wait ...
+
+Information: analysis is done for time window (0ns - 6900ns)
+
+Information: Total simulation time = 6900.000000 ns
+1
+report_power >> ${rpt_file}
+report_power -hierarchy  >> ${rpt_file}
+write_sdf -context verilog "./distr_arith.sdf"
+1
+# Exiting primetime
+quit
+Information: Defining new variable 'clk_name'. (CMD-041)
+Information: Defining new variable 'rpt_file'. (CMD-041)
+Information: Defining new variable 'clk_uncertainty'. (CMD-041)
+Information: Defining new variable 'clk_period'. (CMD-041)
+Information: Defining new variable 'clk_port'. (CMD-041)
+Information: Defining new variable 'my_toplevel'. (CMD-041)
+Information: Defining new variable 'typical_wire_load'. (CMD-041)
+Information: Defining new variable 'typical_output_delay'. (CMD-041)
+Information: Defining new variable 'verilog_files'. (CMD-041)
+Information: Defining new variable 'typical_input_delay'. (CMD-041)
+Information: Defining new variable 'clk_transition'. (CMD-041)
+
+Timing updates: 1 (1 implicit, 0 explicit) (0 incremental, 1 full, 0 logical)
+Noise updates: 0 (0 implicit, 0 explicit) (0 incremental, 0 full)
+Maximum memory usage for this session: 1064.71 MB
+CPU usage for this session: 6 seconds 
+Elapsed time for this session: 14 seconds
+Diagnostics summary: 2 errors, 4 warnings, 15 informationals
+
+Thank you for using pt_shell!

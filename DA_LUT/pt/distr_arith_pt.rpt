@@ -1,0 +1,545 @@
+****************************************
+Report : design
+Design : distr_arith
+Version: P-2019.03-SP2
+Date   : Sun Nov 27 16:03:36 2022
+****************************************
+
+Design Attribute                         Value
+---------------------------------------------------------------------------
+Operating Conditions:
+  analysis_type                          on_chip_variation
+  operating_condition_min_name           tt_1p2v_25c
+  process_min                            1
+  temperature_min                        25
+  voltage_min                            1.2
+  tree_type_min                          balanced_case
+
+  operating_condition_max_name           tt_1p2v_25c
+  process_max                            1
+  temperature_max                        25
+  voltage_max                            1.2
+  tree_type_max                          balanced_case
+
+Wire Load:                               (use report_wire_load for more information)
+  wire_load_mode                         top
+  wire_load_model_max                    --
+  wire_load_model_min                    --
+  wire_load_selection_group_max          --
+  wire_load_selection_group_min          --
+  wire_load_min_block_size               0
+
+Design Rules:
+  max_capacitance                        --
+  min_capacitance                        --
+  max_fanout                             --
+  max_transition                         --
+  static_integrity                       --
+  dynamic_integrity                      --
+  max_area                               --
+
+Timing Ranges:
+  early_factor                           --
+  late_factor                            --
+
+Pin Input Delays:
+None specified.
+
+Pin Output Delays:
+None specified.
+Fast Analysis:                           disabled
+
+1
+****************************************
+Report : reference
+Design : distr_arith
+Version: P-2019.03-SP2
+Date   : Sun Nov 27 16:03:36 2022
+****************************************
+
+
+Attributes:
+    b - black-box (unknown)
+    h - hierarchical
+    n - noncombinational
+    u - contains unmapped logic
+    A - abstracted timing model
+    E - extracted timing model
+    S - Stamp timing model
+    Q - Quick timing model (QTM)
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+--------------------------------------------------------------------------------
+ADDFHX1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   36.00     3         108.00      
+ADDFX1TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   33.12     16        529.92      
+ADDHX1TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   18.72     1          18.72      
+ADDHXLTS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   17.28     1          17.28      
+AFHCONX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   40.32     1          40.32      
+AND2X2TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     3          21.60      
+AND3X1TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     5          43.20      
+AND4X1TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   10.08     3          30.24      
+AO21X1TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     3          25.92      
+AO21XLTS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     3          25.92      
+AO22XLTS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   10.08     2          20.16      
+AOI211X1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     5          43.20      
+AOI211XLTS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     39        336.96      
+AOI21X1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     95        684.00      
+AOI21X2TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   12.96     3          38.88      
+AOI222X1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   14.40     1          14.40      
+AOI222XLTS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   12.96     3          38.88      
+AOI22X1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     30        259.20      
+AOI2BB1XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     3          25.92      
+AOI2BB2XLTS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   10.08     3          30.24      
+AOI31X1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     3          25.92      
+AOI31XLTS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     13        112.32      
+BUFX3TS            scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     10         72.00      
+BUFX4TS            scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     2          17.28      
+CLKAND2X2TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     12         86.40      
+CLKBUFX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    5.76     124       714.24      
+CLKINVX1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    4.32     9          38.88      
+CLKINVX2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    4.32     3          12.96      
+CLKXOR2X2TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   12.96     20        259.20      
+CLKXOR2X4TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   20.16     1          20.16      
+CMPR32X2TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   31.68     41       1298.88      
+DFFRX1TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   33.12     33       1092.96      n
+DFFRX2TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   33.12     31       1026.72      n
+DFFRXLTS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   33.12     4         132.48      n
+EDFFX1TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   34.56     1          34.56      n
+INVX1TS            scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    4.32     90        388.80      
+INVX2TS            scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    4.32     525      2268.00      
+INVX4TS            scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    5.76     1           5.76      
+MXI2X1TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   11.52     6          69.12      
+MXI2XLTS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   11.52     11        126.72      
+NAND2BX1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     31        223.20      
+NAND2BXLTS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     9          64.80      
+NAND2X1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    5.76     390      2246.40      
+NAND2XLTS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    5.76     5          28.80      
+NAND3BX1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     3          25.92      
+NAND3BXLTS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     8          69.12      
+NAND3X1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     18        129.60      
+NAND3XLTS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     25        180.00      
+NAND4BX1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   10.08     5          50.40      
+NAND4BXLTS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   10.08     9          90.72      
+NAND4X1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     5          43.20      
+NAND4XLTS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     37        319.68      
+NOR2BX1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     35        252.00      
+NOR2X1TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    5.76     117       673.92      
+NOR2X2TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     1           7.20      
+NOR2XLTS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    5.76     105       604.80      
+NOR3BX1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     4          34.56      
+NOR3BXLTS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     3          25.92      
+NOR3X1TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     4          28.80      
+NOR3XLTS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     17        122.40      
+NOR4BX1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   10.08     4          40.32      
+NOR4BXLTS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   10.08     5          50.40      
+NOR4XLTS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     20        172.80      
+OA21XLTS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     6          51.84      
+OA22X1TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   10.08     3          30.24      
+OAI211X1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     26        224.64      
+OAI211XLTS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     32        276.48      
+OAI21X1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     46        331.20      
+OAI21X2TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   12.96     3          38.88      
+OAI21XLTS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     77        554.40      
+OAI222X1TS         scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   14.40     5          72.00      
+OAI22X1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     33        285.12      
+OAI2BB1X1TS        scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     6          51.84      
+OAI31X1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     23        198.72      
+OAI31XLTS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     1           8.64      
+OR2X1TS            scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     29        208.80      
+OR2X2TS            scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    7.20     27        194.40      
+OR3X1TS            scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                    8.64     1           8.64      
+OR4X2TS            scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   10.08     6          60.48      
+XNOR2X1TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   11.52     9         103.68      
+XNOR2X2TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   18.72     12        224.64      
+XNOR2X4TS          scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   27.36     3          82.08      
+XOR2X1TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   11.52     6          69.12      
+XOR2XLTS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   11.52     4          46.08      
+XOR3X1TS           scx3_cmos8rf_lpvt_tt_1p2v_25c
+                                   27.36     1          27.36      
+--------------------------------------------------------------------------------
+Total 85 references                                   18790.56
+1
+****************************************
+Report : constraint
+Design : distr_arith
+Version: P-2019.03-SP2
+Date   : Sun Nov 27 16:03:36 2022
+****************************************
+
+                                                   Weighted
+    Group (max_delay/setup)      Cost     Weight     Cost
+    -----------------------------------------------------
+    clk                          0.00      1.00      0.00
+    -----------------------------------------------------
+    max_delay/setup                                  0.00
+
+                                                   Weighted
+    Group (min_delay/hold)       Cost     Weight     Cost
+    -----------------------------------------------------
+    clk                          0.00      1.00      0.00
+    -----------------------------------------------------
+    min_delay/hold                                   0.00
+
+    Constraint                                       Cost
+    -----------------------------------------------------
+    max_delay/setup                                  0.00  (MET)
+    min_delay/hold                                   0.00  (MET)
+    recovery                                         0.00  (MET)
+    removal                                          0.00  (MET)
+    sequential_clock_pulse_width                     0.00  (MET)
+    sequential_clock_min_period                      0.00  (MET)
+    max_capacitance                                  0.00  (MET)
+    max_transition                                   0.00  (MET)
+
+1
+****************************************
+Report : constraint
+	-all_violators
+	-path slack_only
+Design : distr_arith
+Version: P-2019.03-SP2
+Date   : Sun Nov 27 16:03:36 2022
+****************************************
+
+
+
+
+
+
+1
+****************************************
+Report : timing
+	-path_type full
+	-delay_type min_max
+	-max_paths 1
+	-sort_by slack
+Design : distr_arith
+Version: P-2019.03-SP2
+Date   : Sun Nov 27 16:03:36 2022
+****************************************
+
+
+  Startpoint: counter0_count_reach_reg
+               (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: count_reach
+               (output port clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  counter0_count_reach_reg/CK (EDFFX1TS)                0.0000     0.0000 r
+  counter0_count_reach_reg/Q (EDFFX1TS)                 0.6170     0.6170 f
+  count_reach (out)                                     0.0000     0.6170 f
+  data arrival time                                                0.6170
+
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  clock reconvergence pessimism                         0.0000     0.0000
+  output external delay                                -0.0500    -0.0500
+  data required time                                              -0.0500
+  ------------------------------------------------------------------------------
+  data required time                                              -0.0500
+  data arrival time                                               -0.6170
+  ------------------------------------------------------------------------------
+  slack (MET)                                                      0.6670
+
+
+
+  Startpoint: x3_bit[4] (input port clocked by clk)
+  Endpoint: dff0_data_out_reg_30_
+               (rising edge-triggered flip-flop clocked by clk')
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  input external delay                                  0.0500     0.0500 f
+  x3_bit[4] (in)                                        0.0182     0.0682 f
+  U750/Y (BUFX3TS)                                      0.1623     0.2305 f
+  U1299/Y (NOR2BX1TS)                                   0.3032     0.5338 f
+  U1308/Y (OR2X1TS)                                     0.4270     0.9608 f
+  U1576/Y (AOI22X1TS)                                   0.1774     1.1381 r
+  U596/Y (NAND2BX1TS)                                   0.1436     1.2818 f
+  U1587/Y (XNOR2X1TS)                                   0.1902     1.4719 r
+  U921/CO (ADDFX1TS)                                    0.7479     2.2199 r
+  U912/S (ADDFX1TS)                                     0.4448     2.6647 f
+  U889/S (ADDFX1TS)                                     0.7210     3.3857 f
+  U2139/S (CMPR32X2TS)                                  0.7054     4.0911 f
+  U2207/CO (CMPR32X2TS)                                 0.4833     4.5744 f
+  U443/S (CMPR32X2TS)                                   0.5161     5.0905 f
+  U635/Y (NOR2X1TS)                                     0.1947     5.2852 r
+  U630/Y (INVX1TS)                                      0.1179     5.4031 f
+  U2206/Y (NAND2X1TS)                                   0.0959     5.4990 r
+  U1008/Y (XOR2X1TS)                                    0.2277     5.7267 f
+  U624/Y (BUFX3TS)                                      0.2133     5.9400 f
+  U2551/Y (OR2X2TS)                                     0.2873     6.2274 f
+  U811/Y (AOI21X1TS)                                    0.2233     6.4506 r
+  U1007/Y (OAI21X1TS)                                   0.2074     6.6581 f
+  U777/Y (AOI21X1TS)                                    0.2660     6.9241 r
+  U771/Y (OAI21X1TS)                                    0.2331     7.1572 f
+  U764/Y (AOI21X2TS)                                    0.2333     7.3905 r
+  U615/Y (OAI21X1TS)                                    0.2164     7.6069 f
+  U761/Y (AOI21X2TS)                                    0.2534     7.8603 r
+  U759/Y (OAI21X2TS)                                    0.1633     8.0236 f
+  U757/Y (AOI21X1TS)                                    0.2382     8.2618 r
+  U613/Y (OAI21X1TS)                                    0.2446     8.5064 f
+  U753/Y (AOI21X2TS)                                    0.2669     8.7732 r
+  U1719/Y (CLKXOR2X4TS)                                 0.3693     9.1425 r
+  dff0_data_out_reg_30_/D (DFFRX2TS)                    0.0000     9.1425 r
+  data arrival time                                                9.1425
+
+  clock clk' (rise edge)                               50.0000    50.0000
+  clock network delay (ideal)                           0.0000    50.0000
+  clock reconvergence pessimism                         0.0000    50.0000
+  dff0_data_out_reg_30_/CK (DFFRX2TS)                             50.0000 r
+  library setup time                                   -0.4596    49.5404
+  data required time                                              49.5404
+  ------------------------------------------------------------------------------
+  data required time                                              49.5404
+  data arrival time                                               -9.1425
+  ------------------------------------------------------------------------------
+  slack (MET)                                                     40.3979
+
+
+1
+****************************************
+Report : Switching Activity
+	
+Design : distr_arith
+Version: P-2019.03-SP2
+Date   : Sun Nov 27 16:03:36 2022
+****************************************
+
+ Switching Activity Overview Statistics for "distr_arith"
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                  From Activity     From         From         From             From            From                                                            Not
+Object Type       File (%)          SSA (%)      SSA Force (%) SSA Force (%)   SCA (%)         Clock (%)       Default (%)     Propagated(%)   Implied(%)      Annotated(%)  Total
+                                                 Annotated    Implied                                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Nets             2545(100.00%)     0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      2545
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nets Driven by
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Primary Input     66(100.00%)       0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      66
+Tri-State         0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+Black Box         0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+Sequential        103(100.00%)      0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      103
+Combinational     2376(100.00%)     0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      2376
+Memory            0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+Clock Gate        0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Static Probability Overview Statistics for "distr_arith"
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                  From Activity     From         From         From             From            From                                                            Not
+Object Type       File (%)          SSA (%)      SSA Force (%) SSA Force (%)   SCA (%)         Clock (%)       Default (%)     Propagated(%)   Implied(%)      Annotated(%)  Total
+                                                 Annotated    Implied                                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Nets             2545(100.00%)     0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      2545
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nets Driven by
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Primary Input     66(100.00%)       0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      66
+Tri-State         0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+Black Box         0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+Sequential        103(100.00%)      0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      103
+Combinational     2376(100.00%)     0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      2376
+Memory            0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+Clock Gate        0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1
+****************************************
+Report : Switching Activity
+	-list_not_annotated
+Design : distr_arith
+Version: P-2019.03-SP2
+Date   : Sun Nov 27 16:03:36 2022
+****************************************
+
+ Switching Activity Overview Statistics for "distr_arith"
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                  From Activity     From         From         From             From            From                                                            Not
+Object Type       File (%)          SSA (%)      SSA Force (%) SSA Force (%)   SCA (%)         Clock (%)       Default (%)     Propagated(%)   Implied(%)      Annotated(%)  Total
+                                                 Annotated    Implied                                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Nets             2545(100.00%)     0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      2545
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nets Driven by
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Primary Input     66(100.00%)       0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      66
+Tri-State         0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+Black Box         0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+Sequential        103(100.00%)      0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      103
+Combinational     2376(100.00%)     0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      2376
+Memory            0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+Clock Gate        0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Static Probability Overview Statistics for "distr_arith"
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                  From Activity     From         From         From             From            From                                                            Not
+Object Type       File (%)          SSA (%)      SSA Force (%) SSA Force (%)   SCA (%)         Clock (%)       Default (%)     Propagated(%)   Implied(%)      Annotated(%)  Total
+                                                 Annotated    Implied                                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Nets             2545(100.00%)     0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      2545
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Nets Driven by
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Primary Input     66(100.00%)       0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      66
+Tri-State         0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+Black Box         0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+Sequential        103(100.00%)      0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      103
+Combinational     2376(100.00%)     0(0.00%)     0(0.00%)     0(0.00%)         0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)        0(0.00%)      2376
+Memory            0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+Clock Gate        0(0%)             0(0%)        0(0%)        0(0%)            0(0%)           0(0%)           0(0%)           0(0%)           0(0%)           0(0%)         0
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+List of nonannotated nets :
+1
+****************************************
+Report : Time Based Power
+Design : distr_arith
+Version: P-2019.03-SP2
+Date   : Sun Nov 27 16:03:37 2022
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network           6.008e-06 3.976e-07 3.259e-12 6.406e-06 (35.23%)  i
+register                1.675e-06 3.251e-07 2.647e-09 2.003e-06 (11.02%)  
+combinational           5.594e-06 4.164e-06 1.619e-08 9.775e-06 (53.76%)  
+sequential                 0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 4.887e-06   (26.87%)
+  Cell Internal Power  = 1.328e-05   (73.02%)
+  Cell Leakage Power   = 1.884e-08   ( 0.10%)
+                         ---------
+Total Power            = 1.818e-05  (100.00%)
+
+X Transition Power     =    0.0000
+Glitching Power        = 1.649e-08
+
+Peak Power             = 8.403e-03
+Peak Time              =   900.000
+
+1
+****************************************
+Report : Time Based Power
+	-hierarchy
+Design : distr_arith
+Version: P-2019.03-SP2
+Date   : Sun Nov 27 16:03:37 2022
+****************************************
+
+
+
+                                      Int      Switch   Leak      Total
+Hierarchy                             Power    Power    Power     Power    %
+--------------------------------------------------------------------------------
+distr_arith                           1.33e-05 4.89e-06 1.88e-08  1.82e-05 100.0
+
+
+                                      Peak     Peak            Glitch   X-tran
+Hierarchy                             Power    Time            Power    Power
+--------------------------------------------------------------------------------
+distr_arith                           8.40e-03 900.000-900.001 1.65e-08    0.000
+1

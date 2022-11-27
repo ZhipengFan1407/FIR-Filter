@@ -31,7 +31,7 @@ source ./timing.tcl
 ###################################################
 ## Run STA 
 ###################################################
-set rpt_file "./lfsr1_pt.rpt"
+set rpt_file "./distr_arith_pt.rpt"
 check_timing
 report_design >> ${rpt_file}
 report_reference >> ${rpt_file}
@@ -41,14 +41,14 @@ report_timing -significant_digits 4 -delay_type min_max >> ${rpt_file}
 
 ## Power analysis
 set power_analysis_mode "time_based"
-read_vcd "../qsim_dc/lfsr1.vcd" -strip_path "testbench/add"
+read_vcd "../qsim_dc/lfsr1.vcd" -strip_path "test_da/da0"
 report_switching_activity >> ${rpt_file}
 report_switching_activity -list_not_annotated >> ${rpt_file}
 update_power
 report_power >> ${rpt_file}
 report_power -hierarchy  >> ${rpt_file}
 
-write_sdf -context verilog "./lfsr1.sdf"
+write_sdf -context verilog "./distr_arith.sdf"
 
 # Exiting primetime
 quit
