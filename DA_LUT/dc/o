@@ -217,10 +217,10 @@ Detecting input file type automatically (-rtl or -netlist).
 Reading with Presto HDL Compiler (equivalent to -rtl option).
 Running PRESTO HDLC
 Compiling source file /homes/user/stud/fall21/mas2545/updated_DA/rtl/dff_en.v
-Warning:  /homes/user/stud/fall21/mas2545/updated_DA/rtl/dff_en.v:33: The statements in initial blocks are ignored. (VER-281)
+Warning:  /homes/user/stud/fall21/mas2545/updated_DA/rtl/dff_en.v:9: The statements in initial blocks are ignored. (VER-281)
 
 Inferred memory devices in process
-	in routine dff_en line 36 in file
+	in routine dff_en line 12 in file
 		'/homes/user/stud/fall21/mas2545/updated_DA/rtl/dff_en.v'.
 ===============================================================================
 |    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
@@ -318,7 +318,7 @@ check_design
 ****************************************
 check_design summary:
 Version:     O-2018.06-SP5-1
-Date:        Sat Nov 26 19:21:39 2022
+Date:        Sun Nov 27 15:51:54 2022
 ****************************************
 
                    Name                                            Total
@@ -632,7 +632,7 @@ check_design
 ****************************************
 check_design summary:
 Version:     O-2018.06-SP5-1
-Date:        Sat Nov 26 19:21:39 2022
+Date:        Sun Nov 27 15:51:54 2022
 ****************************************
 
                    Name                                            Total
@@ -901,7 +901,7 @@ Information: Ungrouping hierarchy lut_7 'lut7' #insts = 156. (OPT-777)
   Global Optimization (Phase 29)
   Global Optimization (Phase 30)
   Global Optimization (Phase 31)
-  Mapping 'distr_arith_DP_OP_57J1_122_7320_0'
+  Mapping 'distr_arith_DP_OP_57J1_122_7320_3'
 
   Beginning Isolate Ports
   -----------------------
@@ -913,33 +913,33 @@ Information: Ungrouping hierarchy lut_7 'lut7' #insts = 156. (OPT-777)
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
   --------- --------- --------- --------- --------- ------------------------- --------- -----------
-    0:00:41   18688.3      1.52       4.1     659.6                           21893.4629      0.00  
-    0:00:41   19222.6      0.00       0.0     658.6                           22944.3516      0.00  
-    0:00:41   19222.6      0.00       0.0     658.6                           22944.3516      0.00  
-    0:00:41   19222.6      0.00       0.0     658.6                           22944.3516      0.00  
+    0:00:44   20029.0      1.09      11.1     598.2                           22340.3848      0.00  
+    0:00:44   20236.3      0.00       0.0     595.8                           22727.6328      0.00  
+    0:00:44   20236.3      0.00       0.0     595.8                           22727.6328      0.00  
+    0:00:45   20232.0      0.00       0.0     599.8                           22724.3730      0.00  
 
   Beginning WLM Backend Optimization
   --------------------------------------
-    0:00:43   19029.6      0.00       0.0     649.6                           22595.3945      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
+    0:00:47   19712.2      0.00       0.0     594.1                           21839.0996      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
 
 
   Beginning Design Rule Fixing  (max_transition)  (max_fanout)  (max_capacitance)
@@ -949,12 +949,12 @@ Information: Ungrouping hierarchy lut_7 'lut7' #insts = 156. (OPT-777)
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
   --------- --------- --------- --------- --------- ------------------------- --------- -----------
-    0:00:43   18508.3      0.00       0.0     649.6                           21326.2910      0.00  
+    0:00:47   18931.7      0.00       0.0     589.3                           20038.5859      0.00  
   Global Optimization (Phase 32)
   Global Optimization (Phase 33)
   Global Optimization (Phase 34)
-    0:00:45   21624.5      0.00       0.0       0.0                           23559.2891      0.00  
-    0:00:45   21624.5      0.00       0.0       0.0                           23559.2891      0.00  
+    0:00:49   21087.4      0.00       0.0       0.0                           21228.7695      0.00  
+    0:00:49   21087.4      0.00       0.0       0.0                           21228.7695      0.00  
 
 
   Beginning Leakage Power Optimization  (max_leakage_power 0)
@@ -964,7 +964,7 @@ Information: Ungrouping hierarchy lut_7 'lut7' #insts = 156. (OPT-777)
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
   --------- --------- --------- --------- --------- ------------------------- --------- -----------
-    0:00:45   21624.5      0.00       0.0       0.0                           23559.2891      0.00  
+    0:00:49   21087.4      0.00       0.0       0.0                           21228.7695      0.00  
   Global Optimization (Phase 35)
   Global Optimization (Phase 36)
   Global Optimization (Phase 37)
@@ -981,43 +981,44 @@ Information: Ungrouping hierarchy lut_7 'lut7' #insts = 156. (OPT-777)
   Global Optimization (Phase 48)
   Global Optimization (Phase 49)
   Global Optimization (Phase 50)
-    0:00:47   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:47   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:47   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
-    0:00:48   20262.2      0.00       0.0       0.0                           21879.8203      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19382.4      0.00       0.0       0.0                           19078.3457      0.00  
+    0:00:51   19414.1      0.00       0.0       1.0                           19114.0176      0.00  
 
                                   TOTAL                                                            
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
   --------- --------- --------- --------- --------- ------------------------- --------- -----------
-    0:00:48   20266.6      0.00       0.0       0.0                           21882.6289      0.00  
-    0:00:49   20077.9      0.00       0.0       0.0                           21794.1504      0.00  
-    0:00:49   20077.9      0.00       0.0       0.0                           21794.1504      0.00  
-    0:00:49   20077.9      0.00       0.0       0.0                           21794.1504      0.00  
-    0:00:49   20077.9      0.00       0.0       0.0                           21794.1504      0.00  
-    0:00:50   20054.9      0.00       0.0       0.0                           21751.8105      0.00  
-    0:00:50   20054.9      0.00       0.0       0.0                           21751.8105      0.00  
-    0:00:50   20054.9      0.00       0.0       0.0                           21751.8105      0.00  
-    0:00:50   20054.9      0.00       0.0       0.0                           21751.8105      0.00  
-    0:00:51   19977.1      0.00       0.0       0.0                           21698.1758      0.00  
+    0:00:51   19414.1      0.00       0.0       1.0                           19114.0176      0.00  
+    0:00:52   18898.6      0.00       0.0       0.0                           18455.1250      0.00  
+    0:00:53   18898.6      0.00       0.0       0.0                           18455.1250      0.00  
+    0:00:53   18898.6      0.00       0.0       0.0                           18455.1250      0.00  
+    0:00:53   18897.1      0.00       0.0       0.0                           18451.1328      0.00  
+    0:00:54   18864.0      0.00       0.0       0.0                           18381.2812      0.00  
+    0:00:54   18864.0      0.00       0.0       0.0                           18381.2812      0.00  
+    0:00:54   18864.0      0.00       0.0       0.0                           18381.2812      0.00  
+    0:00:54   18864.0      0.00       0.0       0.0                           18381.2812      0.00  
+    0:00:54   18790.6      0.00       0.0       0.0                           18331.6113      0.00  
 Loading db file '/courses/ee6321/share/ibm13rflpvt/synopsys/scx3_cmos8rf_lpvt_tt_1p2v_25c.db'
 
 
@@ -1051,93 +1052,52 @@ source -verbose "../common_script/namingrules.tcl"
 
 Design          Type    Object                  New Name
 --------------------------------------------------------------------------------
-distr_arith     cell    dff0/data_out_reg[1]    dff0_data_out_reg_1_
+Warning: The specified replacement character (_) is conflicting with the specified allowed or restricted character.   (UCN-4)
+distr_arith     cell    dff0/data_out_reg[2]    dff0_data_out_reg_2_
+distr_arith     cell    dff0/data_out_reg[4]    dff0_data_out_reg_4_
+distr_arith     cell    dff0/data_out_reg[6]    dff0_data_out_reg_6_
+distr_arith     cell    dff0/data_out_reg[7]    dff0_data_out_reg_7_
+distr_arith     cell    dff0/data_out_reg[10]   dff0_data_out_reg_10_
+distr_arith     cell    dff0/data_out_reg[11]   dff0_data_out_reg_11_
+distr_arith     cell    dff0/data_out_reg[13]   dff0_data_out_reg_13_
+distr_arith     cell    dff0/data_out_reg[14]   dff0_data_out_reg_14_
+distr_arith     cell    dff0/data_out_reg[15]   dff0_data_out_reg_15_
+distr_arith     cell    dff0/data_out_reg[18]   dff0_data_out_reg_18_
+distr_arith     cell    dff0/data_out_reg[19]   dff0_data_out_reg_19_
+distr_arith     cell    dff0/data_out_reg[21]   dff0_data_out_reg_21_
 distr_arith     cell    counter0/count_reg[0]   counter0_count_reg_0_
 distr_arith     cell    counter0/count_reg[1]   counter0_count_reg_1_
 distr_arith     cell    counter0/count_reg[2]   counter0_count_reg_2_
 distr_arith     cell    counter0/count_reg[3]   counter0_count_reg_3_
-distr_arith     cell    counter0/count_reach_reg counter0_count_reach_reg
-distr_arith     cell    dff0/data_out_reg[31]   dff0_data_out_reg_31_
-distr_arith     cell    dff0/data_out_reg[30]   dff0_data_out_reg_30_
-distr_arith     cell    dff0/data_out_reg[29]   dff0_data_out_reg_29_
-distr_arith     cell    dff0/data_out_reg[27]   dff0_data_out_reg_27_
-distr_arith     cell    dff0/data_out_reg[28]   dff0_data_out_reg_28_
-distr_arith     cell    dff0/data_out_reg[24]   dff0_data_out_reg_24_
-distr_arith     cell    dff0/data_out_reg[25]   dff0_data_out_reg_25_
-distr_arith     cell    dff0/data_out_reg[26]   dff0_data_out_reg_26_
-distr_arith     cell    dff0/data_out_reg[23]   dff0_data_out_reg_23_
-distr_arith     cell    dff0/data_out_reg[21]   dff0_data_out_reg_21_
-distr_arith     cell    dff0/data_out_reg[22]   dff0_data_out_reg_22_
-distr_arith     cell    dff0/data_out_reg[19]   dff0_data_out_reg_19_
-distr_arith     cell    dff0/data_out_reg[20]   dff0_data_out_reg_20_
-distr_arith     cell    dff0/data_out_reg[17]   dff0_data_out_reg_17_
-distr_arith     cell    dff0/data_out_reg[18]   dff0_data_out_reg_18_
-distr_arith     cell    dff0/data_out_reg[15]   dff0_data_out_reg_15_
 distr_arith     cell    dff0/data_out_reg[16]   dff0_data_out_reg_16_
-distr_arith     cell    dff0/data_out_reg[11]   dff0_data_out_reg_11_
 distr_arith     cell    dff0/data_out_reg[12]   dff0_data_out_reg_12_
-distr_arith     cell    dff0/data_out_reg[13]   dff0_data_out_reg_13_
-distr_arith     cell    dff0/data_out_reg[14]   dff0_data_out_reg_14_
 distr_arith     cell    dff0/data_out_reg[9]    dff0_data_out_reg_9_
-distr_arith     cell    dff0/data_out_reg[10]   dff0_data_out_reg_10_
-distr_arith     cell    dff0/data_out_reg[7]    dff0_data_out_reg_7_
 distr_arith     cell    dff0/data_out_reg[8]    dff0_data_out_reg_8_
+distr_arith     cell    dff0/data_out_reg[1]    dff0_data_out_reg_1_
+distr_arith     cell    dff0/data_out_reg[17]   dff0_data_out_reg_17_
+distr_arith     cell    dff0/data_out_reg[3]    dff0_data_out_reg_3_
+distr_arith     cell    dff0/data_out_reg[5]    dff0_data_out_reg_5_
 distr_arith     cell    dff0/data_out_reg[0]    dff0_data_out_reg_0_
-distr_arith     cell    DP_OP_57J1_122_7320/U162 DP_OP_57J1_122_7320_U162
-distr_arith     cell    DP_OP_57J1_122_7320/U161 DP_OP_57J1_122_7320_U161
-distr_arith     cell    DP_OP_57J1_122_7320/U159 DP_OP_57J1_122_7320_U159
-distr_arith     cell    DP_OP_57J1_122_7320/U158 DP_OP_57J1_122_7320_U158
-distr_arith     cell    DP_OP_57J1_122_7320/U155 DP_OP_57J1_122_7320_U155
-distr_arith     cell    DP_OP_57J1_122_7320/U154 DP_OP_57J1_122_7320_U154
-distr_arith     cell    DP_OP_57J1_122_7320/U153 DP_OP_57J1_122_7320_U153
-distr_arith     cell    DP_OP_57J1_122_7320/U152 DP_OP_57J1_122_7320_U152
-distr_arith     cell    DP_OP_57J1_122_7320/U150 DP_OP_57J1_122_7320_U150
-distr_arith     cell    DP_OP_57J1_122_7320/U149 DP_OP_57J1_122_7320_U149
-distr_arith     cell    DP_OP_57J1_122_7320/U148 DP_OP_57J1_122_7320_U148
-distr_arith     cell    DP_OP_57J1_122_7320/U147 DP_OP_57J1_122_7320_U147
-distr_arith     cell    DP_OP_57J1_122_7320/U146 DP_OP_57J1_122_7320_U146
-distr_arith     cell    DP_OP_57J1_122_7320/U145 DP_OP_57J1_122_7320_U145
-distr_arith     cell    DP_OP_57J1_122_7320/U144 DP_OP_57J1_122_7320_U144
-distr_arith     cell    DP_OP_57J1_122_7320/U143 DP_OP_57J1_122_7320_U143
-distr_arith     cell    DP_OP_57J1_122_7320/U142 DP_OP_57J1_122_7320_U142
-distr_arith     cell    DP_OP_57J1_122_7320/U141 DP_OP_57J1_122_7320_U141
-distr_arith     cell    DP_OP_57J1_122_7320/U140 DP_OP_57J1_122_7320_U140
-distr_arith     cell    DP_OP_57J1_122_7320/U139 DP_OP_57J1_122_7320_U139
-distr_arith     cell    DP_OP_57J1_122_7320/U138 DP_OP_57J1_122_7320_U138
-distr_arith     cell    DP_OP_57J1_122_7320/U137 DP_OP_57J1_122_7320_U137
-distr_arith     cell    DP_OP_57J1_122_7320/U136 DP_OP_57J1_122_7320_U136
-distr_arith     cell    DP_OP_57J1_122_7320/U135 DP_OP_57J1_122_7320_U135
-distr_arith     cell    DP_OP_57J1_122_7320/U134 DP_OP_57J1_122_7320_U134
-distr_arith     cell    DP_OP_57J1_122_7320/U131 DP_OP_57J1_122_7320_U131
-distr_arith     cell    DP_OP_57J1_122_7320/U128 DP_OP_57J1_122_7320_U128
-distr_arith     cell    DP_OP_57J1_122_7320/U125 DP_OP_57J1_122_7320_U125
-distr_arith     cell    DP_OP_57J1_122_7320/U122 DP_OP_57J1_122_7320_U122
-distr_arith     cell    DP_OP_57J1_122_7320/U119 DP_OP_57J1_122_7320_U119
-distr_arith     cell    DP_OP_57J1_122_7320/U116 DP_OP_57J1_122_7320_U116
-distr_arith     cell    DP_OP_57J1_122_7320/U113 DP_OP_57J1_122_7320_U113
-distr_arith     cell    DP_OP_57J1_122_7320/U110 DP_OP_57J1_122_7320_U110
-distr_arith     cell    DP_OP_57J1_122_7320/U107 DP_OP_57J1_122_7320_U107
-distr_arith     cell    DP_OP_57J1_122_7320/U104 DP_OP_57J1_122_7320_U104
-distr_arith     cell    DP_OP_57J1_122_7320/U101 DP_OP_57J1_122_7320_U101
-distr_arith     cell    DP_OP_57J1_122_7320/U98 DP_OP_57J1_122_7320_U98
-distr_arith     cell    DP_OP_57J1_122_7320/U95 DP_OP_57J1_122_7320_U95
-distr_arith     cell    DP_OP_57J1_122_7320/U92 DP_OP_57J1_122_7320_U92
-distr_arith     cell    DP_OP_57J1_122_7320/U89 DP_OP_57J1_122_7320_U89
-distr_arith     cell    DP_OP_57J1_122_7320/U86 DP_OP_57J1_122_7320_U86
-distr_arith     cell    DP_OP_57J1_122_7320/U83 DP_OP_57J1_122_7320_U83
-distr_arith     cell    DP_OP_57J1_122_7320/U80 DP_OP_57J1_122_7320_U80
-distr_arith     cell    DP_OP_57J1_122_7320/U77 DP_OP_57J1_122_7320_U77
-distr_arith     cell    DP_OP_57J1_122_7320/U74 DP_OP_57J1_122_7320_U74
-distr_arith     cell    dff1/data_out_reg[8]    dff1_data_out_reg_8_
-distr_arith     cell    dff1/data_out_reg[23]   dff1_data_out_reg_23_
+distr_arith     cell    dff1/data_out_reg[6]    dff1_data_out_reg_6_
+distr_arith     cell    dff1/data_out_reg[21]   dff1_data_out_reg_21_
+distr_arith     cell    counter0/count_reach_reg counter0_count_reach_reg
+distr_arith     cell    dff0/data_out_reg[26]   dff0_data_out_reg_26_
+distr_arith     cell    dff0/data_out_reg[20]   dff0_data_out_reg_20_
+distr_arith     cell    dff0/data_out_reg[29]   dff0_data_out_reg_29_
+distr_arith     cell    dff0/data_out_reg[30]   dff0_data_out_reg_30_
+distr_arith     cell    dff0/data_out_reg[31]   dff0_data_out_reg_31_
+distr_arith     cell    dff0/data_out_reg[25]   dff0_data_out_reg_25_
+distr_arith     cell    dff0/data_out_reg[28]   dff0_data_out_reg_28_
+distr_arith     cell    dff0/data_out_reg[22]   dff0_data_out_reg_22_
+distr_arith     cell    dff0/data_out_reg[27]   dff0_data_out_reg_27_
 distr_arith     cell    dff1/data_out_reg[0]    dff1_data_out_reg_0_
 distr_arith     cell    dff1/data_out_reg[1]    dff1_data_out_reg_1_
 distr_arith     cell    dff1/data_out_reg[2]    dff1_data_out_reg_2_
 distr_arith     cell    dff1/data_out_reg[3]    dff1_data_out_reg_3_
 distr_arith     cell    dff1/data_out_reg[4]    dff1_data_out_reg_4_
 distr_arith     cell    dff1/data_out_reg[5]    dff1_data_out_reg_5_
-distr_arith     cell    dff1/data_out_reg[6]    dff1_data_out_reg_6_
 distr_arith     cell    dff1/data_out_reg[7]    dff1_data_out_reg_7_
+distr_arith     cell    dff1/data_out_reg[8]    dff1_data_out_reg_8_
 distr_arith     cell    dff1/data_out_reg[9]    dff1_data_out_reg_9_
 distr_arith     cell    dff1/data_out_reg[10]   dff1_data_out_reg_10_
 distr_arith     cell    dff1/data_out_reg[11]   dff1_data_out_reg_11_
@@ -1145,13 +1105,13 @@ distr_arith     cell    dff1/data_out_reg[12]   dff1_data_out_reg_12_
 distr_arith     cell    dff1/data_out_reg[13]   dff1_data_out_reg_13_
 distr_arith     cell    dff1/data_out_reg[14]   dff1_data_out_reg_14_
 distr_arith     cell    dff1/data_out_reg[15]   dff1_data_out_reg_15_
-distarith     cell    dff1/data_out_reg[16]   dff1_data_out_reg_16_
+distr_arith     cell    dff1/data_out_reg[16]   dff1_data_out_reg_16_
 distr_arith     cell    dff1/data_out_reg[17]   dff1_data_out_reg_17_
 distr_arith     cell    dff1/data_out_reg[18]   dff1_data_out_reg_18_
 distr_arith     cell    dff1/data_out_reg[19]   dff1_data_out_reg_19_
 distr_arith     cell    dff1/data_out_reg[20]   dff1_data_out_reg_20_
-distr_arith     cell    dff1/data_out_reg[21]   dff1_data_out_reg_21_
 distr_arith     cell    dff1/data_out_reg[22]   dff1_data_out_reg_22_
+distr_arith     cell    dff1/data_out_reg[23]   dff1_data_out_reg_23_
 distr_arith     cell    dff1/data_out_reg[24]   dff1_data_out_reg_24_
 distr_arith     cell    dff1/data_out_reg[25]   dff1_data_out_reg_25_
 distr_arith     cell    dff1/data_out_reg[26]   dff1_data_out_reg_26_
@@ -1160,17 +1120,13 @@ distr_arith     cell    dff1/data_out_reg[28]   dff1_data_out_reg_28_
 distr_arith     cell    dff1/data_out_reg[29]   dff1_data_out_reg_29_
 distr_arith     cell    dff1/data_out_reg[30]   dff1_data_out_reg_30_
 distr_arith     cell    dff1/data_out_reg[31]   dff1_data_out_reg_31_
-distr_arith     cell    dff0/data_out_reg[2]    dff0_data_out_reg_2_
-distr_arith     cell    dff0/data_out_reg[3]    dff0_data_out_reg_3_
-distr_arith     cell    dff0/data_out_reg[4]    dff0_data_out_reg_4_
-distr_arith     cell    dff0/data_out_reg[5]    dff0_data_out_reg_5_
-distr_arith     cell    dff0/data_out_reg[6]    dff0_data_out_reg_6_
+distr_arith     cell    dff0/data_out_reg[23]   dff0_data_out_reg_23_
+distr_arith     cell    dff0/data_out_reg[24]   dff0_data_out_reg_24_
 distr_arith     net     counter0/count          counter0_count
 distr_arith     net     counter0/count[2]       counter0_count[2]
 distr_arith     net     counter0/count[1]       counter0_count[1]
 distr_arith     net     counter0/count[0]       counter0_count[0]
-distr_arith     net     LUT2_out[31]            LUT2_out_31_
-distr_arith     net     LUT5_out[31]            LUT5_out_31_
+distr_arith     net     _1_net_                 n_1_net_
 distr_arith     net     counter0/N8             counter0_N8
 distr_arith     net     counter0/N4             counter0_N4
 distr_arith     net     counter0/N3             counter0_N3
@@ -1207,213 +1163,6 @@ distr_arith     net     dff1/N6                 dff1_N6
 distr_arith     net     dff1/N5                 dff1_N5
 distr_arith     net     dff1/N4                 dff1_N4
 distr_arith     net     dff1/N3                 dff1_N3
-distr_arith     net     DP_OP_57J1_122_7320/n546 DP_OP_57J1_122_7320_n546
-distr_arith     net     DP_OP_57J1_122_7320/n544 DP_OP_57J1_122_7320_n544
-distr_arith     net     DP_OP_57J1_122_7320/n543 DP_OP_57J1_122_7320_n543
-distr_arith     net     DP_OP_57J1_122_7320/n540 DP_OP_57J1_122_7320_n540
-distr_arith     net     DP_OP_57J1_122_7320/n539 DP_OP_57J1_122_7320_n539
-distr_arith     net     DP_OP_57J1_122_7320/n538 DP_OP_57J1_122_7320_n538
-distr_arith     net     DP_OP_57J1_122_7320/n537 DP_OP_57J1_122_7320_n537
-distr_arith     net     DP_OP_57J1_122_7320/n536 DP_OP_57J1_122_7320_n536
-distr_arith     net     DP_OP_57J1_122_7320/n535 DP_OP_57J1_122_7320_n535
-distr_arith     net     DP_OP_57J1_122_7320/n534 DP_OP_57J1_122_7320_n534
-distr_arith     net     DP_OP_57J1_122_7320/n533 DP_OP_57J1_122_7320_n533
-distr_arith     net     DP_OP_57J1_122_7320/n529 DP_OP_57J1_122_7320_n529
-distr_arith     net     DP_OP_57J1_122_7320/n528 DP_OP_57J1_122_7320_n528
-distr_arith     net     DP_OP_57J1_122_7320/n527 DP_OP_57J1_122_7320_n527
-distr_arith     net     DP_OP_57J1_122_7320/n516 DP_OP_57J1_122_7320_n516
-distr_arith     net     DP_OP_57J1_122_7320/n513 DP_OP_57J1_122_7320_n513
-distr_arith     net     DP_OP_57J1_122_7320/n455 DP_OP_57J1_122_7320_n455
-distr_arith     net     DP_OP_57J1_122_7320/n431 DP_OP_57J1_122_7320_n431
-distr_arith     net     DP_OP_57J1_122_7320/n303 DP_OP_57J1_122_7320_n303
-distr_arith     net     DP_OP_57J1_122_7320/n302 DP_OP_57J1_122_7320_n302
-distr_arith     net     DP_OP_57J1_122_7320/n301 DP_OP_57J1_122_7320_n301
-distr_arith     net     DP_OP_57J1_122_7320/n300 DP_OP_57J1_122_7320_n300
-distr_arith     net     DP_OP_57J1_122_7320/n298 DP_OP_57J1_122_7320_n298
-distr_arith     net     DP_OP_57J1_122_7320/n296 DP_OP_57J1_122_7320_n296
-distr_arith     net     DP_OP_57J1_122_7320/n295 DP_OP_57J1_122_7320_n295
-distr_arith     net     DP_OP_57J1_122_7320/n294 DP_OP_57J1_122_7320_n294
-distr_arith     net     DP_OP_57J1_122_7320/n293 DP_OP_57J1_122_7320_n293
-distr_arith     net     DP_OP_57J1_122_7320/n292 DP_OP_57J1_122_7320_n292
-distr_arith     net     DP_OP_57J1_122_7320/n291 DP_OP_57J1_122_7320_n291
-distr_arith     net     DP_OP_57J1_122_7320/n290 DP_OP_57J1_122_7320_n290
-distr_arith     net     DP_OP_57J1_122_7320/n289 DP_OP_57J1_122_7320_n289
-distr_arith     net     DP_OP_57J1_122_7320/n288 DP_OP_57J1_122_7320_n288
-distr_arith     net     DP_OP_57J1_122_7320/n287 DP_OP_57J1_122_7320_n287
-distr_arith     net     DP_OP_57J1_122_7320/n286 DP_OP_57J1_122_7320_n286
-distr_arith     net     DP_OP_57J1_122_7320/n285 DP_OP_57J1_122_7320_n285
-distr_arith     net     DP_OP_57J1_122_7320/n284 DP_OP_57J1_122_7320_n284
-distr_arith     net     DP_OP_57J1_122_7320/n283 DP_OP_57J1_122_7320_n283
-distr_arith     net     DP_OP_57J1_122_7320/n282 DP_OP_57J1_122_7320_n282
-distr_arith     net     DP_OP_57J1_122_7320/n281 DP_OP_57J1_122_7320_n281
-distr_arith     net     DP_OP_57J1_122_7320/n280 DP_OP_57J1_122_7320_n280
-distr_arith     net     DP_OP_57J1_122_7320/n279 DP_OP_57J1_122_7320_n279
-distr_arith     net     DP_OP_57J1_122_7320/n278 DP_OP_57J1_122_7320_n278
-distr_arith     net     DP_OP_57J1_122_7320/n277 DP_OP_57J1_122_7320_n277
-distr_arith     net     DP_OP_57J1_122_7320/n276 DP_OP_57J1_122_7320_n276
-distr_arith     net     DP_OP_57J1_122_7320/n275 DP_OP_57J1_122_7320_n275
-distr_arith     net     DP_OP_57J1_122_7320/n274 DP_OP_57J1_122_7320_n274
-distr_arith     net     DP_OP_57J1_122_7320/n273 DP_OP_57J1_122_7320_n273
-distr_arith     net     DP_OP_57J1_122_7320/n272 DP_OP_57J1_122_7320_n272
-distr_arith     net     DP_OP_57J1_122_7320/n271 DP_OP_57J1_122_7320_n271
-distr_arith     net     DP_OP_57J1_122_7320/n270 DP_OP_57J1_122_7320_n270
-distr_arith     net     DP_OP_57J1_122_7320/n269 DP_OP_57J1_122_7320_n269
-distr_arith     net     DP_OP_57J1_122_7320/n268 DP_OP_57J1_122_7320_n268
-distr_arith     net     DP_OP_57J1_122_7320/n267 DP_OP_57J1_122_7320_n267
-distr_arith     net     DP_OP_57J1_122_7320/n266 DP_OP_57J1_122_7320_n266
-distr_arith     net     DP_OP_57J1_122_7320/n265 DP_OP_57J1_122_7320_n265
-distr_arith     net     DP_OP_57J1_122_7320/n264 DP_OP_57J1_122_7320_n264
-distr_arith     net     DP_OP_57J1_122_7320/n263 DP_OP_57J1_122_7320_n263
-distr_arith     net     DP_OP_57J1_122_7320/n262 DP_OP_57J1_122_7320_n262
-distr_arith     net     DP_OP_57J1_122_7320/n261 DP_OP_57J1_122_7320_n261
-distr_arith     net     DP_OP_57J1_122_7320/n260 DP_OP_57J1_122_7320_n260
-distr_arith     net     DP_OP_57J1_122_7320/n259 DP_OP_57J1_122_7320_n259
-distr_arith     net     DP_OP_57J1_122_7320/n258 DP_OP_57J1_122_7320_n258
-distr_arith     net     DP_OP_57J1_122_7320/n257 DP_OP_57J1_122_7320_n257
-distr_arith     net     DP_OP_57J1_122_7320/n256 DP_OP_57J1_122_7320_n256
-distr_arith     net     DP_OP_57J1_122_7320/n255 DP_OP_57J1_122_7320_n255
-distr_arith     net     DP_OP_57J1_122_7320/n254 DP_OP_57J1_122_7320_n254
-distr_arith     net     DP_OP_57J1_122_7320/n253 DP_OP_57J1_122_7320_n253
-distr_arith     net     DP_OP_57J1_122_7320/n252 DP_OP_57J1_122_7320_n252
-distr_arith     net     DP_OP_57J1_122_7320/n251 DP_OP_57J1_122_7320_n251
-distr_arith     net     DP_OP_57J1_122_7320/n250 DP_OP_57J1_122_7320_n250
-distr_arith     net     DP_OP_57J1_122_7320/n249 DP_OP_57J1_122_7320_n249
-distr_arith     net     DP_OP_57J1_122_7320/n248 DP_OP_57J1_122_7320_n248
-distr_arith     net     DP_OP_57J1_122_7320/n247 DP_OP_57J1_122_7320_n247
-distr_arith     net     DP_OP_57J1_122_7320/n246 DP_OP_57J1_122_7320_n246
-distr_arith     net     DP_OP_57J1_122_7320/n245 DP_OP_57J1_122_7320_n245
-distr_arith     net     DP_OP_57J1_122_7320/n244 DP_OP_57J1_122_7320_n244
-distr_arith     net     DP_OP_57J1_122_7320/n243 DP_OP_57J1_122_7320_n243
-distr_arith     net     DP_OP_57J1_122_7320/n242 DP_OP_57J1_122_7320_n242
-distr_arith     net     DP_OP_57J1_122_7320/n241 DP_OP_57J1_122_7320_n241
-distr_arith     net     DP_OP_57J1_122_7320/n240 DP_OP_57J1_122_7320_n240
-distr_arith     net     DP_OP_57J1_122_7320/n239 DP_OP_57J1_122_7320_n239
-distr_arith     net     DP_OP_57J1_122_7320/n238 DP_OP_57J1_122_7320_n238
-distr_arith     net     DP_OP_57J1_122_7320/n237 DP_OP_57J1_122_7320_n237
-distr_arith     net     DP_OP_57J1_122_7320/n236 DP_OP_57J1_122_7320_n236
-distr_arith     net     DP_OP_57J1_122_7320/n235 DP_OP_57J1_122_7320_n235
-distr_arith     net     DP_OP_57J1_122_7320/n234 DP_OP_57J1_122_7320_n234
-distr_arith     net     DP_OP_57J1_122_7320/n233 DP_OP_57J1_122_7320_n233
-distr_arith     net     DP_OP_57J1_122_7320/n232 DP_OP_57J1_122_7320_n232
-distr_arith     net     DP_OP_57J1_122_7320/n231 DP_OP_57J1_122_7320_n231
-distr_arith     net     DP_OP_57J1_122_7320/n230 DP_OP_57J1_122_7320_n230
-distr_arith     net     DP_OP_57J1_122_7320/n229 DP_OP_57J1_122_7320_n229
-distr_arith     net     DP_OP_57J1_122_7320/n228 DP_OP_57J1_122_7320_n228
-distr_arith     net     DP_OP_57J1_122_7320/n227 DP_OP_57J1_122_7320_n227
-distr_arith     net     DP_OP_57J1_122_7320/n226 DP_OP_57J1_122_7320_n226
-distr_arith     net     DP_OP_57J1_122_7320/n225 DP_OP_57J1_122_7320_n225
-distr_arith     net     DP_OP_57J1_122_7320/n224 DP_OP_57J1_122_7320_n224
-distr_arith     net     DP_OP_57J1_122_7320/n223 DP_OP_57J1_122_7320_n223
-distr_arith     net     DP_OP_57J1_122_7320/n222 DP_OP_57J1_122_7320_n222
-distr_arith     net     DP_OP_57J1_122_7320/n221 DP_OP_57J1_122_7320_n221
-distr_arith     net     DP_OP_57J1_122_7320/n220 DP_OP_57J1_122_7320_n220
-distr_arith     net     DP_OP_57J1_122_7320/n219 DP_OP_57J1_122_7320_n219
-distr_arith     net     DP_OP_57J1_122_7320/n218 DP_OP_57J1_122_7320_n218
-distr_arith     net     DP_OP_57J1_122_7320/n217 DP_OP_57J1_122_7320_n217
-distr_arith     net     DP_OP_57J1_122_7320/n216 DP_OP_57J1_122_7320_n216
-distr_arith     net     DP_OP_57J1_122_7320/n215 DP_OP_57J1_122_7320_n215
-distr_arith     net     DP_OP_57J1_122_7320/n214 DP_OP_57J1_122_7320_n214
-distr_arith     net     DP_OP_57J1_122_7320/n213 DP_OP_57J1_122_7320_n213
-distr_arith     net     DP_OP_57J1_122_7320/n212 DP_OP_57J1_122_7320_n212
-distr_arith     net     DP_OP_57J1_122_7320/n209 DP_OP_57J1_122_7320_n209
-distr_arith     net     DP_OP_57J1_122_7320/n208 DP_OP_57J1_122_7320_n208
-distr_arith     net     DP_OP_57J1_122_7320/n207 DP_OP_57J1_122_7320_n207
-distr_arith     net     DP_OP_57J1_122_7320/n206 DP_OP_57J1_122_7320_n206
-distr_arith     net     DP_OP_57J1_122_7320/n205 DP_OP_57J1_122_7320_n205
-distr_arith     net     DP_OP_57J1_122_7320/n202 DP_OP_57J1_122_7320_n202
-distr_arith     net     DP_OP_57J1_122_7320/n201 DP_OP_57J1_122_7320_n201
-distr_arith     net     DP_OP_57J1_122_7320/n200 DP_OP_57J1_122_7320_n200
-distr_arith     net     DP_OP_57J1_122_7320/n199 DP_OP_57J1_122_7320_n199
-distr_arith     net     DP_OP_57J1_122_7320/n198 DP_OP_57J1_122_7320_n198
-distr_arith     net     DP_OP_57J1_122_7320/n195 DP_OP_57J1_122_7320_n195
-distr_arith     net     DP_OP_57J1_122_7320/n194 DP_OP_57J1_122_7320_n194
-distr_arith     net     DP_OP_57J1_122_7320/n193 DP_OP_57J1_122_7320_n193
-distr_arith     net     DP_OP_57J1_122_7320/n192 DP_OP_57J1_122_7320_n192
-distr_arith     net     DP_OP_57J1_122_7320/n191 DP_OP_57J1_122_7320_n191
-distr_arith     net     DP_OP_57J1_122_7320/n188 DP_OP_57J1_122_7320_n188
-distr_arith     net     DP_OP_57J1_122_7320/n187 DP_OP_57J1_122_7320_n187
-distr_arith     net     DP_OP_57J1_122_7320/n186 DP_OP_57J1_122_7320_n186
-distr_arith     net     DP_OP_57J1_122_7320/n185 DP_OP_57J1_122_7320_n185
-distr_arith     net     DP_OP_57J1_122_7320/n184 DP_OP_57J1_122_7320_n184
-distr_arith     net     DP_OP_57J1_122_7320/n181 DP_OP_57J1_122_7320_n181
-distr_arith     net     DP_OP_57J1_122_7320/n180 DP_OP_57J1_122_7320_n180
-distr_arith     net     DP_OP_57J1_122_7320/n179 DP_OP_57J1_122_7320_n179
-distr_arith     net     DP_OP_57J1_122_7320/n178 DP_OP_57J1_122_7320_n178
-distr_arith     net     DP_OP_57J1_122_7320/n177 DP_OP_57J1_122_7320_n177
-distr_arith     net     DP_OP_57J1_122_7320/n174 DP_OP_57J1_122_7320_n174
-distr_arith     net     DP_OP_57J1_122_7320/n173 DP_OP_57J1_122_7320_n173
-distr_arith     net     DP_OP_57J1_122_7320/n172 DP_OP_57J1_122_7320_n172
-distr_arith     net     DP_OP_57J1_122_7320/n171 DP_OP_57J1_122_7320_n171
-distr_arith     net     DP_OP_57J1_122_7320/n170 DP_OP_57J1_122_7320_n170
-distr_arith     net     DP_OP_57J1_122_7320/n167 DP_OP_57J1_122_7320_n167
-distr_arith     net     DP_OP_57J1_122_7320/n166 DP_OP_57J1_122_7320_n166
-distr_arith     net     DP_OP_57J1_122_7320/n165 DP_OP_57J1_122_7320_n165
-distr_arith     net     DP_OP_57J1_122_7320/n164 DP_OP_57J1_122_7320_n164
-distr_arith     net     DP_OP_57J1_122_7320/n163 DP_OP_57J1_122_7320_n163
-distr_arith     net     DP_OP_57J1_122_7320/n160 DP_OP_57J1_122_7320_n160
-distr_arith     net     DP_OP_57J1_122_7320/n159 DP_OP_57J1_122_7320_n159
-distr_arith     net     DP_OP_57J1_122_7320/n158 DP_OP_57J1_122_7320_n158
-distr_arith     net     DP_OP_57J1_122_7320/n157 DP_OP_57J1_122_7320_n157
-distr_arith     net     DP_OP_57J1_122_7320/n156 DP_OP_57J1_122_7320_n156
-distr_arith     net     DP_OP_57J1_122_7320/n153 DP_OP_57J1_122_7320_n153
-distr_arith     net     DP_OP_57J1_122_7320/n152 DP_OP_57J1_122_7320_n152
-distr_arith     net     DP_OP_57J1_122_7320/n151 DP_OP_57J1_122_7320_n151
-distr_arith     net     DP_OP_57J1_122_7320/n150 DP_OP_57J1_122_7320_n150
-distr_arith     net     DP_OP_57J1_122_7320/n149 DP_OP_57J1_122_7320_n149
-distr_arith     net     DP_OP_57J1_122_7320/n146 DP_OP_57J1_122_7320_n146
-distr_arith     net     DP_OP_57J1_122_7320/n145 DP_OP_57J1_122_7320_n145
-distr_arith     net     DP_OP_57J1_122_7320/n144 DP_OP_57J1_122_7320_n144
-distr_arith     net     DP_OP_57J1_122_7320/n143 DP_OP_57J1_122_7320_n143
-distr_arith     net     DP_OP_57J1_122_7320/n142 DP_OP_57J1_122_7320_n142
-distr_arith     net     DP_OP_57J1_122_7320/n139 DP_OP_57J1_122_7320_n139
-distr_arith     net     DP_OP_57J1_122_7320/n138 DP_OP_57J1_122_7320_n138
-distr_arith     net     DP_OP_57J1_122_7320/n137 DP_OP_57J1_122_7320_n137
-distr_arith     net     DP_OP_57J1_122_7320/n136 DP_OP_57J1_122_7320_n136
-distr_arith     net     DP_OP_57J1_122_7320/n135 DP_OP_57J1_122_7320_n135
-distr_arith     net     DP_OP_57J1_122_7320/n132 DP_OP_57J1_122_7320_n132
-distr_arith     net     DP_OP_57J1_122_7320/n131 DP_OP_57J1_122_7320_n131
-distr_arith     net     DP_OP_57J1_122_7320/n130 DP_OP_57J1_122_7320_n130
-distr_arith     net     DP_OP_57J1_122_7320/n129 DP_OP_57J1_122_7320_n129
-distr_arith     net     DP_OP_57J1_122_7320/n128 DP_OP_57J1_122_7320_n128
-distr_arith     net     DP_OP_57J1_122_7320/n125 DP_OP_57J1_122_7320_n125
-distr_arith     net     DP_OP_57J1_122_7320/n124 DP_OP_57J1_122_7320_n124
-distr_arith     net     DP_OP_57J1_122_7320/n123 DP_OP_57J1_122_7320_n123
-distr_arith     net     DP_OP_57J1_122_7320/n122 DP_OP_57J1_122_7320_n122
-distr_arith     net     DP_OP_57J1_122_7320/n121 DP_OP_57J1_122_7320_n121
-distr_arith     net     DP_OP_57J1_122_7320/n118 DP_OP_57J1_122_7320_n118
-distr_arith     net     DP_OP_57J1_122_7320/n117 DP_OP_57J1_122_7320_n117
-distr_arith     net     DP_OP_57J1_122_7320/n116 DP_OP_57J1_122_7320_n116
-distr_arith     net     DP_OP_57J1_122_7320/n115 DP_OP_57J1_122_7320_n115
-distr_arith     net     DP_OP_57J1_122_7320/n114 DP_OP_57J1_122_7320_n114
-distr_arith     net     DP_OP_57J1_122_7320/n111 DP_OP_57J1_122_7320_n111
-distr_arith     net     DP_OP_57J1_122_7320/n110 DP_OP_57J1_122_7320_n110
-distr_arith     net     DP_OP_57J1_122_7320/n109 DP_OP_57J1_122_7320_n109
-distr_arith     net     DP_OP_57J1_122_7320/n108 DP_OP_57J1_122_7320_n108
-distr_arith     net     DP_OP_57J1_122_7320/n107 DP_OP_57J1_122_7320_n107
-distr_arith     net     DP_OP_57J1_122_7320/n104 DP_OP_57J1_122_7320_n104
-distr_arith     net     DP_OP_57J1_122_7320/n103 DP_OP_57J1_122_7320_n103
-distr_arith     net     DP_OP_57J1_122_7320/n102 DP_OP_57J1_122_7320_n102
-distr_arith     net     DP_OP_57J1_122_7320/n101 DP_OP_57J1_122_7320_n101
-distr_arith     net     DP_OP_57J1_122_7320/n100 DP_OP_57J1_122_7320_n100
-distr_arith     net     DP_OP_57J1_122_7320/n97 DP_OP_57J1_122_7320_n97
-distr_arith     net     DP_OP_57J1_122_7320/n96 DP_OP_57J1_122_7320_n96
-distr_arith     net     DP_OP_57J1_122_7320/n95 DP_OP_57J1_122_7320_n95
-distr_arith     net     DP_OP_57J1_122_7320/n94 DP_OP_57J1_122_7320_n94
-distr_arith     net     DP_OP_57J1_122_7320/n93 DP_OP_57J1_122_7320_n93
-distr_arith     net     DP_OP_57J1_122_7320/n90 DP_OP_57J1_122_7320_n90
-distr_arith     net     DP_OP_57J1_122_7320/n89 DP_OP_57J1_122_7320_n89
-distr_arith     net     DP_OP_57J1_122_7320/n88 DP_OP_57J1_122_7320_n88
-distr_arith     net     DP_OP_57J1_122_7320/n87 DP_OP_57J1_122_7320_n87
-distr_arith     net     DP_OP_57J1_122_7320/n86 DP_OP_57J1_122_7320_n86
-distr_arith     net     DP_OP_57J1_122_7320/n83 DP_OP_57J1_122_7320_n83
-distr_arith     net     DP_OP_57J1_122_7320/n82 DP_OP_57J1_122_7320_n82
-distr_arith     net     DP_OP_57J1_122_7320/n81 DP_OP_57J1_122_7320_n81
-distr_arith     net     DP_OP_57J1_122_7320/n80 DP_OP_57J1_122_7320_n80
-distr_arith     net     DP_OP_57J1_122_7320/n79 DP_OP_57J1_122_7320_n79
-distr_arith     net     DP_OP_57J1_122_7320/n76 DP_OP_57J1_122_7320_n76
-distr_arith     net     DP_OP_57J1_122_7320/n74 DP_OP_57J1_122_7320_n74
-distr_arith     net     DP_OP_57J1_122_7320/n73 DP_OP_57J1_122_7320_n73
-distr_arith     net     DP_OP_57J1_122_7320/n72 DP_OP_57J1_122_7320_n72
 1
 1
 set verilogout_no_tri TRUE

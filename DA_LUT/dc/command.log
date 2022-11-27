@@ -1,7 +1,7 @@
 #@ # 
 #@ # Running dc_shell Version O-2018.06-SP5-1 for linux64 -- Mar 08, 2019
-#@ # Date:   Sat Nov 26 19:39:29 2022
-#@ # Run by: mas2545@cadpc16
+#@ # Date:   Sun Nov 27 15:51:48 2022
+#@ # Run by: mas2545@cadpc26
 #@ 
 
 source /tools/synopsys/syn/O-2018.06-SP5-1/admin/setup/.synopsys_dc.setup
