@@ -1,6 +1,6 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /test_da/clk3
+add wave -noupdate /test_da/clk
 add wave -noupdate /test_da/reset
 add wave -noupdate /test_da/count_reach
 add wave -noupdate -radix signed /test_da/x1_bit
