@@ -1,5 +1,5 @@
 `timescale 1ns/1ps
-`define HALF_CLOCK_PERIOD #0.90
+`define HALF_CLOCK_PERIOD #100
 `define SD #0.010
 
 
@@ -26,6 +26,11 @@ module test_da();
 
 
 	initial begin
+
+
+	$dumpfile("./lfsr1.vcd");
+	$dumpvars(0, test_da.da0);
+
 
 		clk = 1'b0;
 		reset = 1'b1;
@@ -141,6 +146,10 @@ module test_da();
 		@(posedge clk);
 		@(posedge clk);
 		@(posedge clk);
+
+		$dumpall;
+		$dumpflush;
+
 		$finish;
 	end
 
