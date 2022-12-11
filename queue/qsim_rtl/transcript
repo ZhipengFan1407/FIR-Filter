@@ -18,16 +18,49 @@
 # vmap work work 
 # Modifying modelsim.ini
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 12:01:08 on Dec 10,2022
+# Start time: 19:15:42 on Dec 10,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dcfifo.v 
 # -- Compiling module dcfifo
-# ** Error: ../rtl/dcfifo.v(63): (vlog-2110) Illegal reference to net "wptr_gray".
-# ** Error: ../rtl/dcfifo.v(64): (vlog-2110) Illegal reference to net "wptr_next".
-# ** Error: ../rtl/dcfifo.v(96): Register is illegal in left-hand side of continuous assignment
-# End time: 12:01:08 on Dec 10,2022, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-# ** Error: /tools/mentor/questa_10.7b_1/questasim/linux/vlog failed.
-# Error in macro ./runsim.do line 10
-# /tools/mentor/questa_10.7b_1/questasim/linux/vlog failed.
-#     while executing
-# "vlog -suppress 12110 +acc -incr ../rtl/dcfifo.v"
+# 
+# Top level modules:
+# 	dcfifo
+# End time: 19:15:43 on Dec 10,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 19:15:43 on Dec 10,2022
+# vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dp_dcram.v 
+# -- Compiling module dp_dcram
+# 
+# Top level modules:
+# 	dp_dcram
+# End time: 19:15:44 on Dec 10,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 19:15:44 on Dec 10,2022
+# vlog -reportprogress 300 -suppress 12110 -incr test_lfsr.v 
+# -- Skipping module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 19:15:44 on Dec 10,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -suppress 12110 -t ps -lib work testbench 
+# Start time: 19:15:45 on Dec 10,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.testbench(fast)
+# Loading work.dcfifo(fast)
+# Loading work.dp_dcram(fast)
+# ** Error: (vish-4014) No objects found matching '/testbench/read'.
+# Executing ONERROR command at macro ./waveformat.do line 4
+# ** Error: (vish-4014) No objects found matching '/testbench/rd_clk'.
+# Executing ONERROR command at macro ./waveformat.do line 5
+# ** Error: (vish-4014) No objects found matching '/testbench/write'.
+# Executing ONERROR command at macro ./waveformat.do line 6
+# ** Error: (vish-4014) No objects found matching '/testbench/wr_clk'.
+# Executing ONERROR command at macro ./waveformat.do line 7
+# ** Error: (vish-4014) No objects found matching '/testbench/areset_n'.
+# Executing ONERROR command at macro ./waveformat.do line 8
+# ** Note: $finish    : test_lfsr.v(117)
+#    Time: 811 ns  Iteration: 0  Instance: /testbench
+# 1
+# Break at test_lfsr.v line 117

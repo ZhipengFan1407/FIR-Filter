@@ -1,18 +1,19 @@
+`timescale 1ns/1ps
 
 module dcfifo(
-	areset_n, 
+	input areset_n, 
 
-	wr_clk, 
- 	datain, 
-	write,
+	input wr_clk, 
+ 	input datain, 
+	input write,
 
-	rd_clk,
-	read, 
-	q,
-
-	empty,
-	full
+	input rd_clk,
+	input read, 
+	output q,
+	output empty,
+	output reg full
 );
+
 parameter DWIDTH=8;
 parameter AWIDTH=6;
 localparam  DEPTH=(1<<AWIDTH);
@@ -25,20 +26,18 @@ input write;
 input rd_clk;
 input read;
 output [DWIDTH-1:0] q;
-output full;
+//reg full;
 output empty;
 
 
-wire [DWIDTH-1:0] q;
+//wire [DWIDTH-1:0] q;
 wire [DWIDTH-1:0] data_int;
-reg full;
-wire empty;
 reg [AWIDTH-1:0] wptr, rptr;
 reg [AWIDTH-1:0] wptr_ms, wptr_rd;
 reg [AWIDTH-1:0] rptr_ms, rptr_wr;
 wire [AWIDTH-1:0] wptr_next;
 reg[AWIDTH-1:0] rptr_wr_bin;
-reg [AWIDTH-1:0] rptr_gray;
+wire [AWIDTH-1:0] rptr_gray;
 wire [AWIDTH-1:0] wptr_gray;
 reg [AWIDTH:0] fill;
 integer i;
@@ -59,11 +58,13 @@ always @(posedge wr_clk or negedge areset_n_wr) begin
 	end
 end
 
-always @* begin
- wptr_gray = (wptr >>1) ^ wptr;
- wptr_next = wptr+1;
- full  = (wptr_next == rptr_wr_bin);
-end
+//always @* begin
+ assign wptr_gray = (wptr >>1) ^ wptr;
+ assign wptr_next = wptr+1;
+ 
+ always @* begin
+  full  = (wptr_next == rptr_wr_bin);
+ end
 
 always@(*)
    for (i=0; i<AWIDTH; i = i+1) begin
@@ -91,9 +92,9 @@ always @(posedge rd_clk or negedge areset_n_wr) begin
 	end
 end
 
-
-
+//always @* begin
 assign rptr_gray = (rptr>>1) ^ rptr;
+//end
 
 assign q = data_int;
 
