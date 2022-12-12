@@ -7,77 +7,76 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-d/user/stud/fall21/mas2545/queue/qsim_rtl
+Z0 d/homes/user/stud/fall21/mas2545/queue/qsim_rtl
 T_opt
-!s110 1670717747
-VnC?K`eh6VfnM5[bZN1nGP2
+Z1 !s110 1670808146
+V2Md5KOPl6B433;fIe@3jn3
 04 9 4 work testbench fast 0
-=1-b04f130f30bb-63952133-2d0b-1e7
-o-quiet -auto_acc_if_foreign -work work -suppress 12110
-Z0 tCvgOpt 0
+=1-b04f130f30bb-63968252-b2a50-5712
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
 n@_opt
 OE;O;10.7b_1;67
 vdcfifo
-!s110 1670717743
+Z3 !s110 1670808145
 !i10b 1
 !s100 k3;CZ[N3g^ZjS1SVLIkC@2
 IMMkBZmoO`2FQW3CiTioe^2
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 d/homes/user/stud/fall21/mas2545/queue/qsim_rtl
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+R0
 w1670717688
 8../rtl/dcfifo.v
 F../rtl/dcfifo.v
 L0 3
-Z3 OE;L;10.7b_1;67
+Z5 OE;L;10.7b_1;67
 r1
 !s85 0
 31
-!s108 1670717742.000000
+Z6 !s108 1670808145.000000
 !s107 ../rtl/dcfifo.v|
 !s90 -reportprogress|300|-suppress|12110|+acc|-incr|../rtl/dcfifo.v|
 !i113 0
-Z4 o-suppress 12110 +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R0
+Z7 o-suppress 12110 +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
 vdp_dcram
-!s110 1670717744
+R3
 !i10b 1
 !s100 3=khf=iF:]<LOS0XNFd8F2
 IJfJmRR^XX4zn77`F;zdDn3
-R1
-R2
+R4
+R0
 w1670717696
 8../rtl/dp_dcram.v
 F../rtl/dp_dcram.v
 L0 3
-R3
+R5
 r1
 !s85 0
 31
-!s108 1670717743.000000
+R6
 !s107 ../rtl/dp_dcram.v|
 !s90 -reportprogress|300|-suppress|12110|+acc|-incr|../rtl/dp_dcram.v|
 !i113 0
+R7
+R2
+vtestbench
+R1
+!i10b 1
+!s100 ;3GPY4<DJ>@WK:RY2N^c=1
+I`RKzC;g_L3CQ:F0NcjCIb3
 R4
 R0
-vtestbench
-!s10a 1670717706
-!s110 1670717575
-!i10b 1
-!s100 <c<CbQRUofkN5clo7ST:42
-IeXdaT^5mJG537_5C6F<Oc2
-R1
-R2
-w1670691171
+w1670808125
 8test_lfsr.v
 Ftest_lfsr.v
-L0 5
-R3
+L0 3
+R5
 r1
 !s85 0
 31
-!s108 1670717574.000000
+R6
 !s107 test_lfsr.v|
-!s90 -reportprogress|300|-suppress|12110|-incr|test_lfsr.v|
+!s90 -reportprogress|300|-suppress|12110|+acc|-incr|test_lfsr.v|
 !i113 0
-o-suppress 12110 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R0
+R7
+R2

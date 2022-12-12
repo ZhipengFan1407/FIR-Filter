@@ -1,13 +1,13 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
 
-add wave -noupdate /testbench/read
-add wave -noupdate /testbench/rd_clk
-add wave -noupdate /testbench/write
-add wave -noupdate /testbench/wr_clk
-add wave -noupdate /testbench/areset_n
 add wave -noupdate /testbench/empty
 add wave -noupdate /testbench/full
+add wave -noupdate -radix unsigned /testbench/read
+add wave -noupdate -radix unsigned /testbench/rd_clk
+add wave -noupdate -radix unsigned /testbench/write
+add wave -noupdate -radix unsigned /testbench/wr_clk
+add wave -noupdate -radix unsigned /testbench/areset_n
 
 
 TreeUpdate [SetDefaultTree]
@@ -28,15 +28,6 @@ configure wave -timeline 0
 configure wave -timelineunits ps
 update
 WaveRestoreZoom {0 ns} {10 ns}
-
-
-
-
-
-
-
-
-
 
 
 

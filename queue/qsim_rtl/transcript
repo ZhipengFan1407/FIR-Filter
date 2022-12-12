@@ -13,54 +13,47 @@
 # //  18 U.S.C. Section 1905.
 # //
 # do runsim.do
-# ** Warning: (vlib-34) Library already exists at "work".
 # QuestaSim vmap 10.7b_1 Lib Mapping Utility 2018.07 Jul 26 2018
 # vmap work work 
+# Copying /tools/mentor/questa_10.7b_1/questasim/linux/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 19:15:42 on Dec 10,2022
+# Start time: 20:22:25 on Dec 11,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dcfifo.v 
 # -- Compiling module dcfifo
 # 
 # Top level modules:
 # 	dcfifo
-# End time: 19:15:43 on Dec 10,2022, Elapsed time: 0:00:01
+# End time: 20:22:25 on Dec 11,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 19:15:43 on Dec 10,2022
+# Start time: 20:22:25 on Dec 11,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dp_dcram.v 
 # -- Compiling module dp_dcram
 # 
 # Top level modules:
 # 	dp_dcram
-# End time: 19:15:44 on Dec 10,2022, Elapsed time: 0:00:01
+# End time: 20:22:25 on Dec 11,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 19:15:44 on Dec 10,2022
-# vlog -reportprogress 300 -suppress 12110 -incr test_lfsr.v 
-# -- Skipping module testbench
+# Start time: 20:22:25 on Dec 11,2022
+# vlog -reportprogress 300 -suppress 12110 "+acc" -incr test_lfsr.v 
+# -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 19:15:44 on Dec 10,2022, Elapsed time: 0:00:00
+# End time: 20:22:26 on Dec 11,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vsim -suppress 12110 -t ps -lib work testbench 
-# Start time: 19:15:45 on Dec 10,2022
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vsim-8689) Ignoring plusarg '+acc'.  Did you mean '-voptargs=+acc'?
+# vsim "+acc" -t ps -lib work testbench 
+# Start time: 20:22:26 on Dec 11,2022
+# ** Note: (vsim-3812) Design is being optimized...
 # Loading work.testbench(fast)
 # Loading work.dcfifo(fast)
 # Loading work.dp_dcram(fast)
-# ** Error: (vish-4014) No objects found matching '/testbench/read'.
-# Executing ONERROR command at macro ./waveformat.do line 4
-# ** Error: (vish-4014) No objects found matching '/testbench/rd_clk'.
-# Executing ONERROR command at macro ./waveformat.do line 5
-# ** Error: (vish-4014) No objects found matching '/testbench/write'.
-# Executing ONERROR command at macro ./waveformat.do line 6
-# ** Error: (vish-4014) No objects found matching '/testbench/wr_clk'.
-# Executing ONERROR command at macro ./waveformat.do line 7
-# ** Error: (vish-4014) No objects found matching '/testbench/areset_n'.
-# Executing ONERROR command at macro ./waveformat.do line 8
-# ** Note: $finish    : test_lfsr.v(117)
+# ** Note: $finish    : test_lfsr.v(115)
 #    Time: 811 ns  Iteration: 0  Instance: /testbench
 # 1
-# Break at test_lfsr.v line 117
+# Break in Module testbench at test_lfsr.v line 115
+# End time: 20:24:44 on Dec 11,2022, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 1

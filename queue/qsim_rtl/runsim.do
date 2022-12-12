@@ -10,10 +10,10 @@ vmap work work
 vlog -suppress 12110 +acc -incr ../rtl/dcfifo.v
 vlog -suppress 12110 +acc -incr ../rtl/dp_dcram.v
 
-vlog -suppress 12110 -incr test_lfsr.v
+vlog -suppress 12110 +acc -incr test_lfsr.v
 
 # Run Simulator
-vsim -suppress 12110 -t ps -lib work testbench
+vsim +acc -t ps -lib work testbench
 do waveformat.do
 run -all
 

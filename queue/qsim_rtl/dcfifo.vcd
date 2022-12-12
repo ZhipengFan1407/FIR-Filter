@@ -1,0 +1,740 @@
+$date
+	Sun Dec 11 20:22:41 2022
+$end
+$version
+	QuestaSim Version 10.7b_1
+$end
+$timescale
+	1ps
+$end
+
+$scope module testbench $end
+
+$scope module dcfifo_inst $end
+$var parameter 32 ! DWIDTH $end
+$var parameter 32 " AWIDTH $end
+$var parameter 32 # DEPTH $end
+$var wire 1 $ areset_n $end
+$var wire 1 % wr_clk $end
+$var wire 1 & datain [7] $end
+$var wire 1 ' datain [6] $end
+$var wire 1 ( datain [5] $end
+$var wire 1 ) datain [4] $end
+$var wire 1 * datain [3] $end
+$var wire 1 + datain [2] $end
+$var wire 1 , datain [1] $end
+$var wire 1 - datain [0] $end
+$var wire 1 . write $end
+$var wire 1 / rd_clk $end
+$var wire 1 0 read $end
+$var wire 1 1 q [7] $end
+$var wire 1 2 q [6] $end
+$var wire 1 3 q [5] $end
+$var wire 1 4 q [4] $end
+$var wire 1 5 q [3] $end
+$var wire 1 6 q [2] $end
+$var wire 1 7 q [1] $end
+$var wire 1 8 q [0] $end
+$var wire 1 9 empty $end
+$var reg 1 : full $end
+$var wire 1 ; data_int [7] $end
+$var wire 1 < data_int [6] $end
+$var wire 1 = data_int [5] $end
+$var wire 1 > data_int [4] $end
+$var wire 1 ? data_int [3] $end
+$var wire 1 @ data_int [2] $end
+$var wire 1 A data_int [1] $end
+$var wire 1 B data_int [0] $end
+$var reg 3 C wptr [2:0] $end
+$var reg 3 D rptr [2:0] $end
+$var reg 3 E wptr_ms [2:0] $end
+$var reg 3 F wptr_rd [2:0] $end
+$var reg 3 G rptr_ms [2:0] $end
+$var reg 3 H rptr_wr [2:0] $end
+$var wire 1 I wptr_next [2] $end
+$var wire 1 J wptr_next [1] $end
+$var wire 1 K wptr_next [0] $end
+$var reg 3 L rptr_wr_bin [2:0] $end
+$var wire 1 M rptr_gray [2] $end
+$var wire 1 N rptr_gray [1] $end
+$var wire 1 O rptr_gray [0] $end
+$var wire 1 P wptr_gray [2] $end
+$var wire 1 Q wptr_gray [1] $end
+$var wire 1 R wptr_gray [0] $end
+$var reg 4 S fill [3:0] $end
+$var integer 32 T i $end
+$var reg 1 U areset_n_ms $end
+$var reg 1 V areset_n_wr $end
+
+$scope module dp_dcram_0 $end
+$var parameter 32 W DWIDTH $end
+$var parameter 32 X AWIDTH $end
+$var wire 1 % wr_clk $end
+$var wire 1 / rd_clk $end
+$var wire 1 & data0 [7] $end
+$var wire 1 ' data0 [6] $end
+$var wire 1 ( data0 [5] $end
+$var wire 1 ) data0 [4] $end
+$var wire 1 * data0 [3] $end
+$var wire 1 + data0 [2] $end
+$var wire 1 , data0 [1] $end
+$var wire 1 - data0 [0] $end
+$var reg 8 Y q1 [7:0] $end
+$var wire 1 Z addr0 [2] $end
+$var wire 1 [ addr0 [1] $end
+$var wire 1 \ addr0 [0] $end
+$var wire 1 ] addr1 [2] $end
+$var wire 1 ^ addr1 [1] $end
+$var wire 1 _ addr1 [0] $end
+$var wire 1 . we0 $end
+$var wire 1 0 re1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x:
+bx C
+bx D
+bx E
+bx F
+bx G
+bx H
+bx L
+bx S
+xU
+xV
+bx Y
+b1000 !
+b11 "
+b1000 #
+b1000 W
+b11 X
+bx T
+x8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x9
+xB
+xA
+x@
+x?
+x>
+x=
+x<
+x;
+xK
+xJ
+xI
+xO
+xN
+xM
+xR
+xQ
+xP
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+x_
+x^
+x]
+x\
+x[
+xZ
+$end
+#10000
+1%
+0U
+#12000
+1/
+#20000
+0%
+#24000
+0/
+#30000
+1%
+0V
+#31000
+b0 C
+b0 D
+0_
+0^
+0]
+0O
+0N
+0M
+0\
+0[
+0Z
+0R
+0Q
+0P
+1K
+0J
+0I
+#36000
+1/
+b0 E
+#40000
+0%
+#48000
+0/
+#50000
+1%
+b0 G
+#60000
+1/
+0%
+b0 F
+19
+#70000
+1%
+b0 H
+b0 T
+bx0 L
+b1 T
+bx00 L
+b10 T
+b0 L
+b11 T
+0:
+#72000
+0/
+#80000
+0%
+#84000
+1/
+#90000
+1%
+#96000
+0/
+#100000
+0%
+#101000
+1$
+#108000
+1/
+#110000
+1%
+1U
+#120000
+0/
+0%
+#130000
+1%
+1V
+#132000
+1/
+#140000
+0%
+#144000
+0/
+#145000
+1-
+1)
+1(
+1.
+#150000
+1%
+#151000
+b1 C
+1\
+1R
+0K
+1J
+#156000
+1/
+b1 E
+#160000
+0%
+#165000
+0.
+#168000
+0/
+#170000
+1%
+#180000
+1/
+0%
+b1 F
+09
+#185000
+0-
+1,
+1.
+#190000
+1%
+#191000
+b10 C
+0\
+1[
+1Q
+1K
+#192000
+0/
+#200000
+0%
+#204000
+1/
+b11 E
+#205000
+0.
+#210000
+1%
+#216000
+0/
+#220000
+0%
+#225000
+1-
+1.
+#228000
+1/
+b11 F
+#230000
+1%
+#231000
+b11 C
+1\
+0R
+0K
+0J
+1I
+#240000
+0/
+0%
+#245000
+0.
+#250000
+1%
+#252000
+1/
+b10 E
+#260000
+0%
+#264000
+0/
+#265000
+0-
+0,
+1+
+1.
+#270000
+1%
+#271000
+b100 C
+0\
+0[
+1Z
+1P
+1K
+#276000
+1/
+b110 E
+b10 F
+#280000
+0%
+#285000
+0.
+#288000
+0/
+#290000
+1%
+#300000
+1/
+0%
+b110 F
+#305000
+1-
+1.
+#310000
+1%
+#311000
+b101 C
+1\
+1R
+0K
+1J
+#312000
+0/
+#320000
+0%
+#324000
+1/
+b111 E
+#325000
+0.
+#330000
+1%
+#336000
+0/
+#340000
+0%
+#345000
+0-
+1,
+1.
+#348000
+1/
+b111 F
+#350000
+1%
+#351000
+b110 C
+0\
+1[
+0Q
+1K
+#360000
+0/
+0%
+#365000
+0.
+#370000
+1%
+#372000
+1/
+b101 E
+#380000
+0%
+#384000
+0/
+#385000
+1-
+1.
+#390000
+1%
+#391000
+b111 C
+1\
+0R
+0K
+0J
+0I
+1:
+#396000
+1/
+b100 E
+b101 F
+#400000
+0%
+#405000
+0.
+#408000
+0/
+#410000
+1%
+#420000
+1/
+0%
+b100 F
+#425000
+10
+#430000
+1%
+#432000
+0/
+#440000
+0%
+#444000
+1/
+b110001 Y
+1B
+0A
+0@
+0?
+1>
+1=
+0<
+0;
+18
+07
+06
+05
+14
+13
+02
+01
+#445000
+b1 D
+1_
+1O
+#449000
+00
+#450000
+1%
+b1 G
+#456000
+0/
+#460000
+0%
+#468000
+1/
+#470000
+1%
+b1 H
+b0 T
+b1 L
+b1 T
+b10 T
+b11 T
+0:
+#473000
+10
+#480000
+0/
+0%
+#490000
+1%
+#492000
+1/
+b110010 Y
+0B
+1A
+08
+17
+#493000
+b10 D
+0_
+1^
+1N
+#497000
+00
+#500000
+0%
+#504000
+0/
+#510000
+1%
+b11 G
+#516000
+1/
+#520000
+0%
+#521000
+10
+#528000
+0/
+#530000
+1%
+b11 H
+b0 T
+b0 L
+b1 T
+b10 L
+b10 T
+b11 T
+#540000
+1/
+0%
+b110011 Y
+1B
+18
+#541000
+b11 D
+1_
+0O
+#545000
+00
+#550000
+1%
+b10 G
+#552000
+0/
+#560000
+0%
+#564000
+1/
+#569000
+10
+#570000
+1%
+b10 H
+b0 T
+b11 L
+b1 T
+b10 T
+b11 T
+#576000
+0/
+#580000
+0%
+#588000
+1/
+b110100 Y
+0B
+0A
+1@
+08
+07
+16
+#589000
+b100 D
+0_
+0^
+1]
+1M
+#590000
+1%
+b110 G
+#593000
+00
+#600000
+0/
+0%
+#610000
+1%
+b110 H
+b0 T
+b10 L
+b1 T
+b0 L
+b10 T
+b100 L
+b11 T
+#612000
+1/
+#617000
+10
+#620000
+0%
+#624000
+0/
+#630000
+1%
+#636000
+1/
+b110101 Y
+1B
+18
+#637000
+b101 D
+1_
+1O
+#640000
+0%
+#641000
+00
+#648000
+0/
+#650000
+1%
+b111 G
+#660000
+1/
+0%
+#665000
+10
+#670000
+1%
+b111 H
+b0 T
+b101 L
+b1 T
+b10 T
+b11 T
+#672000
+0/
+#680000
+0%
+#684000
+1/
+b110110 Y
+0B
+1A
+08
+17
+#685000
+b110 D
+0_
+1^
+0N
+#689000
+00
+#690000
+1%
+b101 G
+#696000
+0/
+#700000
+0%
+#708000
+1/
+#710000
+1%
+b101 H
+b0 T
+b100 L
+b1 T
+b110 L
+b10 T
+b11 T
+#713000
+10
+#720000
+0/
+0%
+#730000
+1%
+#732000
+1/
+b110111 Y
+1B
+18
+#733000
+b111 D
+1_
+0O
+19
+#737000
+00
+#740000
+0%
+#744000
+0/
+#750000
+1%
+b100 G
+#756000
+1/
+#760000
+0%
+#768000
+0/
+#770000
+1%
+b100 H
+b0 T
+b111 L
+b1 T
+b10 T
+b11 T
+#780000
+1/
+0%
+#790000
+1%
+#792000
+0/
+#800000
+0%
+#804000
+1/
+#810000
+1%
