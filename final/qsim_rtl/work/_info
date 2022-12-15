@@ -1,0 +1,127 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/homes/user/stud/fall21/mas2545/final/qsim_rtl
+T_opt
+!s110 1671075747
+VRd]V<_NE5NE9X[GRa8_GX2
+04 9 4 work testbench fast 0
+=1-54bf64605b1c-639a97a3-22390-274e
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OE;O;10.7b_1;67
+vdec_4to16
+Z2 !s10a 1671069601
+!s110 1671075030
+!i10b 1
+!s100 `<bfB5l]UWeT[IQ8Bm4@O3
+I?`DzHEFC:NAf<3ml<dPeg3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1671069601
+8../rtl/dec_4to16.v
+F../rtl/dec_4to16.v
+L0 3
+Z5 OE;L;10.7b_1;67
+r1
+!s85 0
+31
+Z6 !s108 1671075030.000000
+!s107 ../rtl/dec_4to16.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/dec_4to16.v|
+!i113 0
+Z7 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vmem16kb
+Z8 !s110 1671075746
+!i10b 1
+!s100 P1^oKU<i85EAJ:]JCJH6R1
+I[dmn9MXIjFz?Ma[l99dI;1
+R3
+R0
+w1671075734
+8../rtl/mem16kb.v
+F../rtl/mem16kb.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1671075745.000000
+!s107 ../rtl/mem16kb.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/mem16kb.v|
+!i113 0
+R7
+R1
+vmem256w16b
+R8
+!i10b 1
+!s100 fSPeT5LhWT:42SV_<6nF42
+I_@ZG7Q[:P_A[5M0hk@1ie0
+R3
+R0
+w1671075655
+8../rtl/mem256w16b.v
+F../rtl/mem256w16b.v
+Z9 L0 53
+R5
+r1
+!s85 0
+31
+!s108 1671075746.000000
+!s107 ../rtl/mem256w16b.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/mem256w16b.v|
+!i113 0
+R7
+R1
+vmem256w32b
+R2
+!s110 1671075031
+!i10b 1
+!s100 BWF0dOd@cf7e7]fkM;d<11
+I7R06<V5GDFdmE`HHCn]I@0
+R3
+R0
+R4
+8../rtl/mem256w32b.v
+F../rtl/mem256w32b.v
+R9
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../rtl/mem256w32b.v|
+!s90 -reportprogress|300|+acc|-incr|../rtl/mem256w32b.v|
+!i113 0
+R7
+R1
+vtestbench
+!s10a 1671075129
+!s110 1671075253
+!i10b 1
+!s100 >=hc@o0P]4[Of84gG7:?z1
+IScS@?11=mAe1hf>bRAM:Z2
+R3
+R0
+w1671075129
+8test_lfsr.v
+Ftest_lfsr.v
+L0 5
+R5
+r1
+!s85 0
+31
+!s108 1671075252.000000
+!s107 test_lfsr.v|
+!s90 -reportprogress|300|+acc|-incr|test_lfsr.v|
+!i113 0
+R7
+R1
