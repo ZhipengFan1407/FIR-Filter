@@ -1,22 +1,19 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /test_da/clk
-add wave -noupdate /test_da/reset
-add wave -noupdate /test_da/count_reach
-add wave -noupdate -radix signed /test_da/x1_bit
-add wave -noupdate -radix signed /test_da/x2_bit
-add wave -noupdate -radix signed /test_da/x3_bit
-add wave -noupdate -radix signed /test_da/x4_bit
-add wave -noupdate -radix signed /test_da/x5_bit
-add wave -noupdate -radix signed /test_da/x6_bit
-add wave -noupdate -radix signed /test_da/x7_bit
-add wave -noupdate -radix signed /test_da/x8_bit
-add wave -noupdate -radix signed /test_da/dff0_out
-add wave -noupdate -radix signed /test_da/add6_out
-add wave -noupdate -radix signed /test_da/add7_out
-add wave -noupdate -radix signed /test_da/leftshift_out
-add wave -noupdate -radix signed /test_da/sum
+add wave -noupdate /testbench/clk
+add wave -noupdate -radix decimal /testbench/addr
+add wave -noupdate -radix decimal /testbench/d_in
+add wave -noupdate /testbench/wen
+add wave -noupdate -radix decimal /testbench/d_out
 
+add wave -noupdate /testbench/empty
+add wave -noupdate /testbench/full
+add wave -noupdate -radix unsigned /testbench/read
+add wave -noupdate -radix unsigned /testbench/rd_clk
+add wave -noupdate -radix unsigned /testbench/write
+add wave -noupdate -radix unsigned /testbench/wr_clk
+add wave -noupdate -radix unsigned /testbench/areset_n
+add wave -noupdate -radix decimal /testbench/q
 
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {3 ns} 0}
@@ -35,5 +32,27 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {0 ns} {10 ns}
+WaveRestoreZoom {0 ns} {12 ns}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
