@@ -14,8 +14,8 @@ module dcfifo(
 	output reg full
 );
 
-parameter DWIDTH=8;
-parameter AWIDTH=6;
+parameter DWIDTH=16;
+parameter AWIDTH=3;
 localparam  DEPTH=(1<<AWIDTH);
 
 input wr_clk;
