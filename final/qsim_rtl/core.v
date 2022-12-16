@@ -37,35 +37,35 @@ initial begin
 
 	#145;
 
-	datain = 15'd1000;
+	input_data = 15'd1000;
 	write = 1'b1;
 	#20 write = 1'b0;
 	#20;
 
-        datain = 15'd2000;
+        input_data = 15'd2000;
         write = 1'b1;
         #20 write = 1'b0;
         #20;
 
-        datain = 15'd3000;
-        write = 1'b1;
-        #20 write = 1'b0;
-        #20;
-
-
-        datain = 15'd4000;
+        input_data = 15'd3000;
         write = 1'b1;
         #20 write = 1'b0;
         #20;
 
 
-        datain = 15'd5000;
+        input_data = 15'd4000;
         write = 1'b1;
         #20 write = 1'b0;
         #20;
 
 
-        datain = 15'd6000;
+        input_data = 15'd5000;
+        write = 1'b1;
+        #20 write = 1'b0;
+        #20;
+
+
+        input_data = 15'd6000;
         write = 1'b1;
         #20 write = 1'b0;
         #20;

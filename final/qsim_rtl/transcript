@@ -18,95 +18,380 @@
 # vmap work work 
 # Modifying modelsim.ini
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:54:01 on Dec 16,2022
+# Start time: 17:46:15 on Dec 16,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dcfifo.v 
 # -- Skipping module dcfifo
 # 
 # Top level modules:
 # 	dcfifo
-# End time: 16:54:01 on Dec 16,2022, Elapsed time: 0:00:00
+# End time: 17:46:15 on Dec 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:54:01 on Dec 16,2022
+# Start time: 17:46:15 on Dec 16,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dp_dcram.v 
 # -- Skipping module dp_dcram
 # 
 # Top level modules:
 # 	dp_dcram
-# End time: 16:54:01 on Dec 16,2022, Elapsed time: 0:00:00
+# End time: 17:46:15 on Dec 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:54:01 on Dec 16,2022
+# Start time: 17:46:15 on Dec 16,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/distr_arith.v 
 # -- Skipping module distr_arith
 # 
 # Top level modules:
 # 	distr_arith
-# End time: 16:54:01 on Dec 16,2022, Elapsed time: 0:00:00
+# End time: 17:46:15 on Dec 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:54:01 on Dec 16,2022
+# Start time: 17:46:15 on Dec 16,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/adder.v 
 # -- Skipping module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 16:54:02 on Dec 16,2022, Elapsed time: 0:00:01
+# End time: 17:46:15 on Dec 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:54:02 on Dec 16,2022
+# Start time: 17:46:15 on Dec 16,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/adder_reg.v 
 # -- Skipping module adder_reg
 # 
 # Top level modules:
 # 	adder_reg
-# End time: 16:54:02 on Dec 16,2022, Elapsed time: 0:00:00
+# End time: 17:46:16 on Dec 16,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:54:02 on Dec 16,2022
+# Start time: 17:46:16 on Dec 16,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/counter.v 
 # -- Skipping module counter
 # 
 # Top level modules:
 # 	counter
-# End time: 16:54:02 on Dec 16,2022, Elapsed time: 0:00:00
+# End time: 17:46:16 on Dec 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:54:02 on Dec 16,2022
+# Start time: 17:46:16 on Dec 16,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/dff_en.v 
 # -- Skipping module dff_en
 # 
 # Top level modules:
 # 	dff_en
-# End time: 16:54:02 on Dec 16,2022, Elapsed time: 0:00:00
+# End time: 17:46:16 on Dec 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:54:02 on Dec 16,2022
+# Start time: 17:46:16 on Dec 16,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/left_shift_1.v 
 # -- Skipping module left_shift_1
 # 
 # Top level modules:
 # 	left_shift_1
-# End time: 16:54:03 on Dec 16,2022, Elapsed time: 0:00:01
+# End time: 17:46:16 on Dec 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:54:03 on Dec 16,2022
+# Start time: 17:46:16 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/shift.v 
+# -- Skipping module shift
+# 
+# Top level modules:
+# 	shift
+# End time: 17:46:16 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 17:46:16 on Dec 16,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/clk2_reg.v 
 # -- Skipping module clk2_reg
 # 
 # Top level modules:
 # 	clk2_reg
-# End time: 16:54:03 on Dec 16,2022, Elapsed time: 0:00:00
+# End time: 17:46:16 on Dec 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 16:54:03 on Dec 16,2022
+# Start time: 17:46:16 on Dec 16,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/fir_filter_core.v 
-# ** Warning: ../rtl/fir_filter_core.v(20): (vlog-2417) Multiple packed dimensions are not allowed.
-# ** Error: (vlog-13069) ../rtl/fir_filter_core.v(41): near "[": syntax error, unexpected '[', expecting ')'.
-# End time: 16:54:03 on Dec 16,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 1
-# ** Error: /tools/mentor/questa_10.7b_1/questasim/linux/vlog failed.
-# Error in macro ./simcore.do line 22
-# /tools/mentor/questa_10.7b_1/questasim/linux/vlog failed.
-#     while executing
-# "vlog +acc -incr ../rtl/fir_filter_core.v"
+# -- Compiling module fir_filter_core
+# 
+# Top level modules:
+# 	fir_filter_core
+# End time: 17:46:17 on Dec 16,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 17:46:17 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/lut0.v 
+# -- Skipping module lut0
+# 
+# Top level modules:
+# 	lut0
+# End time: 17:46:17 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 17:46:17 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/lut1.v 
+# -- Skipping module lut1
+# 
+# Top level modules:
+# 	lut1
+# End time: 17:46:17 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 17:46:17 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/lut2.v 
+# -- Skipping module lut2
+# 
+# Top level modules:
+# 	lut2
+# End time: 17:46:17 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 17:46:17 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/lut3.v 
+# -- Skipping module lut3
+# 
+# Top level modules:
+# 	lut3
+# End time: 17:46:17 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 17:46:17 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/lut4.v 
+# -- Skipping module lut4
+# 
+# Top level modules:
+# 	lut4
+# End time: 17:46:17 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 17:46:17 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/lut5.v 
+# -- Skipping module lut5
+# 
+# Top level modules:
+# 	lut5
+# End time: 17:46:18 on Dec 16,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 17:46:18 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/lut6.v 
+# -- Skipping module lut6
+# 
+# Top level modules:
+# 	lut6
+# End time: 17:46:18 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 17:46:18 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/lut7.v 
+# -- Skipping module lut7
+# 
+# Top level modules:
+# 	lut7
+# End time: 17:46:18 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 17:46:18 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr core.v 
+# -- Skipping module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 17:46:18 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t ps -lib work testbench 
+# Start time: 17:46:18 on Dec 16,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(37): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'reg_con' is out of bounds.
+# ** Error: ../rtl/fir_filter_core.v(38): (vopt-2698) Element index 1 into 'sreg_out' is out of bounds.
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./simcore.do PAUSED at line 38

@@ -17,6 +17,7 @@ vlog +acc -incr ../rtl/adder_reg.v
 vlog +acc -incr ../rtl/counter.v
 vlog +acc -incr ../rtl/dff_en.v
 vlog +acc -incr ../rtl/left_shift_1.v
+vlog +acc -incr ../rtl/shift.v
 
 vlog +acc -incr ../rtl/clk2_reg.v
 vlog +acc -incr ../rtl/fir_filter_core.v
