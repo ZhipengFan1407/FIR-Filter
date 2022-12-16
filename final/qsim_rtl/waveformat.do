@@ -5,6 +5,16 @@ add wave -noupdate -radix decimal /testbench/addr
 add wave -noupdate -radix decimal /testbench/d_in
 add wave -noupdate /testbench/wen
 add wave -noupdate -radix decimal /testbench/d_out
+
+add wave -noupdate /testbench/empty
+add wave -noupdate /testbench/full
+add wave -noupdate -radix unsigned /testbench/read
+add wave -noupdate -radix unsigned /testbench/rd_clk
+add wave -noupdate -radix unsigned /testbench/write
+add wave -noupdate -radix unsigned /testbench/wr_clk
+add wave -noupdate -radix unsigned /testbench/areset_n
+add wave -noupdate -radix decimal /testbench/q
+
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {3 ns} 0}
 quietly wave cursor active 1

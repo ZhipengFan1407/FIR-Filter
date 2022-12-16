@@ -11,6 +11,11 @@ vmap work work
 vlog +acc -incr ../rtl/mem16kb.v
 vlog +acc -incr ../rtl/dec_4to16.v
 vlog +acc -incr ../rtl/mem256w16b.v
+
+vlog -suppress 12110 +acc -incr ../rtl/dcfifo.v
+vlog -suppress 12110 +acc -incr ../rtl/dp_dcram.v
+
+
 vlog +acc -incr test_lfsr.v
 
 # Run Simulator

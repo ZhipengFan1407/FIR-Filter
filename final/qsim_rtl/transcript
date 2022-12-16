@@ -18,49 +18,71 @@
 # vmap work work 
 # Modifying modelsim.ini
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 22:42:25 on Dec 14,2022
+# Start time: 23:48:49 on Dec 14,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/mem16kb.v 
-# -- Compiling module mem16kb
+# -- Skipping module mem16kb
 # 
 # Top level modules:
 # 	mem16kb
-# End time: 22:42:26 on Dec 14,2022, Elapsed time: 0:00:01
+# End time: 23:48:50 on Dec 14,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 22:42:26 on Dec 14,2022
+# Start time: 23:48:50 on Dec 14,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/dec_4to16.v 
 # -- Skipping module dec_4to16
 # 
 # Top level modules:
 # 	dec_4to16
-# End time: 22:42:26 on Dec 14,2022, Elapsed time: 0:00:00
+# End time: 23:48:50 on Dec 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 22:42:26 on Dec 14,2022
+# Start time: 23:48:50 on Dec 14,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/mem256w16b.v 
-# -- Compiling module mem256w16b
+# -- Skipping module mem256w16b
 # 
 # Top level modules:
 # 	mem256w16b
-# End time: 22:42:26 on Dec 14,2022, Elapsed time: 0:00:00
+# End time: 23:48:50 on Dec 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 22:42:26 on Dec 14,2022
+# Start time: 23:48:50 on Dec 14,2022
+# vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dcfifo.v 
+# -- Skipping module dcfifo
+# 
+# Top level modules:
+# 	dcfifo
+# End time: 23:48:51 on Dec 14,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 23:48:51 on Dec 14,2022
+# vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dp_dcram.v 
+# -- Skipping module dp_dcram
+# 
+# Top level modules:
+# 	dp_dcram
+# End time: 23:48:51 on Dec 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 23:48:51 on Dec 14,2022
 # vlog -reportprogress 300 "+acc" -incr test_lfsr.v 
-# -- Skipping module testbench
+# -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 22:42:27 on Dec 14,2022, Elapsed time: 0:00:01
+# End time: 23:48:51 on Dec 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -t ps -lib work testbench 
-# Start time: 22:42:27 on Dec 14,2022
+# Start time: 23:48:51 on Dec 14,2022
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading work.testbench(fast)
 # Loading work.mem16kb(fast)
 # Loading work.dec_4to16(fast)
 # Loading work.mem256w16b(fast)
-# ** Note: $finish    : test_lfsr.v(178)
-#    Time: 145 ns  Iteration: 1  Instance: /testbench
+# Loading work.dcfifo(fast)
+# Loading work.dp_dcram(fast)
+# ** Note: $finish    : test_lfsr.v(279)
+#    Time: 985 ns  Iteration: 1  Instance: /testbench
 # 1
-# Break in Module testbench at test_lfsr.v line 178
+# Break in Module testbench at test_lfsr.v line 279
+# End time: 23:49:09 on Dec 14,2022, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
