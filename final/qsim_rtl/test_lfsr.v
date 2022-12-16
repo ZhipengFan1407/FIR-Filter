@@ -1,19 +1,11 @@
 `timescale 1ns/1ps
 
-`define HALF_CLK_PERIOD #5
+`define HALF_CLOCK_PERIOD #0.90
 
 module testbench();
 
-//FOR MEMORY
-reg clk;
-reg [11:0] addr;
-reg [15:0] d_in;
-reg wen;
-wire [15:0] d_out;
-
-
 //FOR QUEUE
-parameter DWIDTH = 16;
+parameter DWIDTH = 64;
 parameter AWIDTH = 3;
 
 reg areset_n;
@@ -24,10 +16,17 @@ reg read;
 wire [DWIDTH-1:0] q;
 wire empty, full;
 
+//FOR DISTRUBTED ARITHMETIC	
+wire signed [31:0] sum;
+reg signed [7:0] x1_bit, x2_bit, x3_bit, x4_bit, x5_bit, x6_bit, x7_bit, x8_bit;
 
-mem16kb mem1 (.address(addr), .data_in(d_in), .write_enable_n(wen), .clk(clk), .data_out(d_out));               // DUT instantiation
+wire [31:0] dff0_out;
+	wire [31:0] add6_out;
+	wire [31:0] add7_out;
+	wire [31:0] leftshift_out;
+	wire counter_reach;
 
-
+//INSTANTIATIONS 
 dcfifo #(DWIDTH, AWIDTH) dcfifo_inst(
         .areset_n(areset_n),
         .wr_clk(wr_clk),
@@ -41,16 +40,11 @@ dcfifo #(DWIDTH, AWIDTH) dcfifo_inst(
         .full(full)
 );
 
-        always begin
-		//FOR QUEUE
-                `HALF_CLK_PERIOD;
-                clk = ~clk;
-        end
+distr_arith da0 (.clk(rd_clk), .reset(areset_n), .x1_bit(x1_bit), .x2_bit(x2_bit), .x3_bit(x3_bit), .x4_bit(x4_bit),
+		.x5_bit(x5_bit), .x6_bit(x6_bit), .x7_bit(x7_bit), .x8_bit(x8_bit), 
+		.add6_out(add6_out), .add7_out(add7_out), .leftshift_out(leftshift_out), .sum(sum), .dff0_out(dff0_out), .count_reach(count_reach));
 
-
-
-//FOR FIFO
-
+//FOR QUEUE
 initial begin
         areset_n <= 0;
         # 101 areset_n <= 1;
@@ -65,135 +59,77 @@ always @(wr_clk) #10 wr_clk <= !wr_clk;
 always @(rd_clk) #12 rd_clk <= !rd_clk;
 
 
+//FOR DISTRIBUTED ARITHMETIC
+        always begin
+                `HALF_CLOCK_PERIOD;
+        end
+
 //------------------------------
 
         initial begin
-                //WRITE TO THE MEMORY
-		clk <= 1'b1;
-
-                @(negedge clk); //1
-                wen <= 1'b0;
-                addr <= 12'd1;
-                d_in <= 16'd14514;
-
-                @(negedge clk); //2
-                wen = 1'b0;
-                addr <= 12'd1407;
-                d_in <= 16'd9810;
-
-                @(negedge clk); //3
-                wen <= 1'b0;
-                addr <= 12'd500;
-                d_in <= 16'd8750;
-
-                @(negedge clk); //4
-                wen <= 1'b0;
-                addr <= 12'd996;
-                d_in <= 16'd25610;
-                
-                @(negedge clk); //5
-                wen <= 1'b0;
-                addr <= 12'd2596;
-                d_in <= 16'd30610;
-
-                @(negedge clk); //6
-                wen <= 1'b0;
-                addr <= 12'd2560;
-                d_in <= 16'd32610;
-
-                @(negedge clk); //7
-                wen <= 1'b0;
-                addr <= 12'd3500;
-                d_in <= 16'd40000;
-
-                @(negedge clk); //8
-                wen <= 1'b0;
-                addr <= 12'd100;
-                d_in <= 16'd2000;
-
-                @(negedge clk); //9
-                wen = 1'b0;
-                addr <= 12'd200;
-                d_in <= 16'd4000;
-
-                @(negedge clk); //10
-                wen <= 1'b0;
-                addr <= 12'd300;
-                d_in <= 16'd6000;
-
-                @(negedge clk); //11
-                wen <= 1'b0;
-                addr <= 12'd400;
-                d_in <= 16'd8000;
 
 		//after this point, read from memory and append to the queue
 		//the queue gets full after having 7  entries added to it (see
 		//below)
 
-//		datain = 0;
-//		write = 0;
-//		read = 0;
+		datain = 0;
+		write = 0;
+		read = 0;
+
+
+		//COMMENT FROM QUEUE CREATOR:
+		//the FIFO can also act as a queue. On the read side, you can use the depth of
+		//queue, and if depth of queue is greater than some value, you can start to
+		//read the data from the dual clock fifo and then feed that data into your
+		//compute engine.
+		
 		#145;
 
-                @(negedge clk); //1
-                wen <= 1'b1;
-                addr <= 12'd1;
+                //writing to queue
 
-		datain = d_out;
+		datain = 64'd14514;
 	        write = 1'b1;
         	#20 write = 1'b0;
         	#20
 
-                @(negedge clk); //2
-                wen <= 1'b1;
-                addr <= 12'd1407;
+		//writing to queue
 
-		datain = d_out;
+		datain = 64'd9810;
                 write = 1'b1;
                 #20 write = 1'b0;
                 #20
 
-                @(negedge clk); //3
-                wen <= 1'b1;
-                addr <= 12'd500;
+                //writing to queue
 
-		datain = d_out;
+                datain = 64'd8750;
                 write = 1'b1;
                 #20 write = 1'b0;
                 #20
 
-                @(negedge clk); //4
-                wen <= 1'b1;
-                addr <= 12'd996;
+                //writing to queue
 
-		datain = d_out;
+		datain = 64'd25610;
                 write = 1'b1;
                 #20 write = 1'b0;
                 #20
 
-                @(negedge clk); //5
-                wen <= 1'b1;
-                addr <= 12'd2596;
+                //writing to queue
 
-		datain  = d_out;
+		datain  = 64'd30610;
                 write = 1'b1;
                 #20 write = 1'b0;
                 #20
 
-                @(negedge clk); //6
-                wen <= 1'b1;
-                addr <= 12'd2560;
+                //writing to queue
 
-		datain  = d_out;
+		datain  = 64'd32610;
                 write = 1'b1;
                 #20 write = 1'b0;
                 #20
 
-                @(negedge clk); //7
-                wen <= 1'b1;
-                addr <= 12'd3500;
+                //writing to queue
 
-		datain  = d_out;
+		datain  = 64'd40000;
                 write = 1'b1;
                 #20 write = 1'b0;
                 #20
@@ -202,81 +138,522 @@ always @(rd_clk) #12 rd_clk <= !rd_clk;
 		//full signal goes high
 		//anything after this point, however, seems to prevent the
 		//full signal from becoming high again
-                @(negedge clk);
-                wen <= 1'b1;
-                addr <= 12'd100;
+                //@(negedge clk);
 
-                datain = d_out;
+                read = 1'b1; //reads 1st
+                #24 read = 1'b0;
+                #24
+
+		x1_bit = q[63:56];
+		x2_bit = q[55:48];
+		x3_bit = q[47:40];
+		x4_bit = q[39:32];
+		x5_bit = q[31:24];
+		x6_bit = q[23:16];
+		x7_bit = q[15:8];
+		x8_bit = q[7:0];
+
+		@(posedge rd_clk);
+		@(posedge rd_clk);
+		@(posedge rd_clk);
+		@(posedge rd_clk);
+		
+		@(posedge rd_clk);
+		@(posedge rd_clk);
+		@(posedge rd_clk);
+		@(posedge rd_clk);
+
+		@(posedge rd_clk);
+		@(posedge rd_clk);
+		@(posedge rd_clk);
+		@(posedge rd_clk);
+
+		@(posedge rd_clk);
+		@(posedge rd_clk);
+		@(posedge rd_clk);
+		@(posedge rd_clk);
+
+                datain = 64'd2000;
                 write = 1'b1;
                 #20 write = 1'b0;
                 #20
 	
-
-		//for some reason, it's reading from the 11th value appended
-		//into the queue first. after that, it reads the first,
-		//second, third, etc. I don't think this affects
-		//functionality. however, it does not make logical sense.	
-	        read = 1'b1;
-        	#24 read = 1'b0;
-        	#24
-
-                @(negedge clk);
-                wen <= 1'b1;
-                addr <= 12'd200;
-
-                datain = d_out;
-                write = 1'b1;
-                #20 write = 1'b0;
-                #20
-
+                //@(negedge clk);
                 read = 1'b1;
-                #24 read = 1'b0; //reads 11th element
+                #24 read = 1'b0;
                 #24
 
+                x1_bit = q[63:56];
+                x2_bit = q[55:48];
+                x3_bit = q[47:40];
+                x4_bit = q[39:32];
+                x5_bit = q[31:24];
+                x6_bit = q[23:16];
+                x7_bit = q[15:8];
+                x8_bit = q[7:0];
 
-                @(negedge clk);
-                wen <= 1'b1;
-                addr <= 12'd300;
 
-                datain = d_out;
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+
+                datain = 64'd4000;
                 write = 1'b1;
                 #20 write = 1'b0;
                 #20
-
-                read = 1'b1;
-                #24 read = 1'b0; //reads 1st
-                #24
-
-
-                @(negedge clk);
-                wen <= 1'b1;
-                addr <= 12'd400;
-
-                datain = d_out;
-                write = 1'b1;
-                #20 write = 1'b0;
-                #20
-
-                read = 1'b1;
-                #24 read = 1'b0; //reads 2nd
-                #24
-
-                @(negedge clk);
-                wen <= 1'b1;
-                addr <= 12'd500;
-
-                datain = d_out;
-                write = 1'b1;
-                #20 write = 1'b0;
-                #20
-
+                
+		//@(negedge clk);
                 read = 1'b1;
                 #24 read = 1'b0; //reads 3rd
                 #24
 
+                x1_bit = q[63:56];
+                x2_bit = q[55:48];
+                x3_bit = q[47:40];
+                x4_bit = q[39:32];
+                x5_bit = q[31:24];
+                x6_bit = q[23:16];
+                x7_bit = q[15:8];
+                x8_bit = q[7:0];
 
-		@(negedge clk);
-                $finish;
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+
+                datain = 64'd6000;
+                write = 1'b1;
+                #20 write = 1'b0;
+                #20
+
+
+                //@(negedge clk);
+                read = 1'b1;
+                #24 read = 1'b0; //reads 4th
+                #24
+
+                x1_bit = q[63:56];
+                x2_bit = q[55:48];
+                x3_bit = q[47:40];
+                x4_bit = q[39:32];
+                x5_bit = q[31:24];
+                x6_bit = q[23:16];
+                x7_bit = q[15:8];
+                x8_bit = q[7:0];
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                datain = 64'd8000;
+                write = 1'b1;
+                #20 write = 1'b0;
+                #20
+
+		//reads 5th
+                read = 1'b1;
+                #24 read = 1'b0; 
+                #24
+
+
+                x1_bit = q[63:56];
+                x2_bit = q[55:48];
+                x3_bit = q[47:40];
+                x4_bit = q[39:32];
+                x5_bit = q[31:24];
+                x6_bit = q[23:16];
+                x7_bit = q[15:8];
+                x8_bit = q[7:0];
+
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+
+                datain = 64'd4010;
+                write = 1'b1;
+                #20 write = 1'b0;
+                #20
+
+		//reads 6th
+                read = 1'b1;
+                #24 read = 1'b0; 
+                #24
+
+                x1_bit = q[63:56];
+                x2_bit = q[55:48];
+                x3_bit = q[47:40];
+                x4_bit = q[39:32];
+                x5_bit = q[31:24];
+                x6_bit = q[23:16];
+                x7_bit = q[15:8];
+                x8_bit = q[7:0];
+
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                datain = 64'd4020;
+                write = 1'b1;
+                #20 write = 1'b0;
+                #20
+
+		//reads 7th
+                read = 1'b1;
+                #24 read = 1'b0; 
+                #24
+
+                x1_bit = q[63:56];
+                x2_bit = q[55:48];
+                x3_bit = q[47:40];
+                x4_bit = q[39:32];
+                x5_bit = q[31:24];
+                x6_bit = q[23:16];
+                x7_bit = q[15:8];
+                x8_bit = q[7:0];
+
+
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+
+                datain = 64'd4030;
+                write = 1'b1;
+                #20 write = 1'b0;
+                #20
+	
+		//reads 8th
+                read = 1'b1;
+                #24 read = 1'b0; 
+                #24
+
+
+                x1_bit = q[63:56];
+                x2_bit = q[55:48];
+                x3_bit = q[47:40];
+                x4_bit = q[39:32];
+                x5_bit = q[31:24];
+                x6_bit = q[23:16];
+                x7_bit = q[15:8];
+                x8_bit = q[7:0];
+
+
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                datain = 64'd4040;
+                write = 1'b1;
+                #20 write = 1'b0;
+                #20
+
+		//reads 9th
+                read = 1'b1;
+                #24 read = 1'b0; 
+                #24
+
+                x1_bit = q[63:56];
+                x2_bit = q[55:48];
+                x3_bit = q[47:40];
+                x4_bit = q[39:32];
+                x5_bit = q[31:24];
+                x6_bit = q[23:16];
+                x7_bit = q[15:8];
+                x8_bit = q[7:0];
+
+
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+
+                datain = 64'd4050;
+                write = 1'b1;
+                #20 write = 1'b0;
+                #20
+
+
+		//reads 10th
+                read = 1'b1;
+                #24 read = 1'b0; 
+                #24
+
+                x1_bit = q[63:56];
+                x2_bit = q[55:48];
+                x3_bit = q[47:40];
+                x4_bit = q[39:32];
+                x5_bit = q[31:24];
+                x6_bit = q[23:16];
+                x7_bit = q[15:8];
+                x8_bit = q[7:0];
+
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+
+                datain = 64'd4060;
+                write = 1'b1;
+                #20 write = 1'b0;
+                #20
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+                @(posedge rd_clk);
+
+
+		//@(negedge clk);
+                #50 $finish;
 
         end
 

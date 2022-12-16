@@ -12,77 +12,101 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# do runsim.do
+# do simcore.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # QuestaSim vmap 10.7b_1 Lib Mapping Utility 2018.07 Jul 26 2018
 # vmap work work 
 # Modifying modelsim.ini
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 23:48:49 on Dec 14,2022
-# vlog -reportprogress 300 "+acc" -incr ../rtl/mem16kb.v 
-# -- Skipping module mem16kb
-# 
-# Top level modules:
-# 	mem16kb
-# End time: 23:48:50 on Dec 14,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 23:48:50 on Dec 14,2022
-# vlog -reportprogress 300 "+acc" -incr ../rtl/dec_4to16.v 
-# -- Skipping module dec_4to16
-# 
-# Top level modules:
-# 	dec_4to16
-# End time: 23:48:50 on Dec 14,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 23:48:50 on Dec 14,2022
-# vlog -reportprogress 300 "+acc" -incr ../rtl/mem256w16b.v 
-# -- Skipping module mem256w16b
-# 
-# Top level modules:
-# 	mem256w16b
-# End time: 23:48:50 on Dec 14,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 23:48:50 on Dec 14,2022
+# Start time: 16:54:01 on Dec 16,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dcfifo.v 
 # -- Skipping module dcfifo
 # 
 # Top level modules:
 # 	dcfifo
-# End time: 23:48:51 on Dec 14,2022, Elapsed time: 0:00:01
+# End time: 16:54:01 on Dec 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 23:48:51 on Dec 14,2022
+# Start time: 16:54:01 on Dec 16,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dp_dcram.v 
 # -- Skipping module dp_dcram
 # 
 # Top level modules:
 # 	dp_dcram
-# End time: 23:48:51 on Dec 14,2022, Elapsed time: 0:00:00
+# End time: 16:54:01 on Dec 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 23:48:51 on Dec 14,2022
-# vlog -reportprogress 300 "+acc" -incr test_lfsr.v 
-# -- Compiling module testbench
+# Start time: 16:54:01 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/distr_arith.v 
+# -- Skipping module distr_arith
 # 
 # Top level modules:
-# 	testbench
-# End time: 23:48:51 on Dec 14,2022, Elapsed time: 0:00:00
+# 	distr_arith
+# End time: 16:54:01 on Dec 16,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -t ps -lib work testbench 
-# Start time: 23:48:51 on Dec 14,2022
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading work.testbench(fast)
-# Loading work.mem16kb(fast)
-# Loading work.dec_4to16(fast)
-# Loading work.mem256w16b(fast)
-# Loading work.dcfifo(fast)
-# Loading work.dp_dcram(fast)
-# ** Note: $finish    : test_lfsr.v(279)
-#    Time: 985 ns  Iteration: 1  Instance: /testbench
-# 1
-# Break in Module testbench at test_lfsr.v line 279
-# End time: 23:49:09 on Dec 14,2022, Elapsed time: 0:00:18
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 16:54:01 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/adder.v 
+# -- Skipping module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 16:54:02 on Dec 16,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 16:54:02 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/adder_reg.v 
+# -- Skipping module adder_reg
+# 
+# Top level modules:
+# 	adder_reg
+# End time: 16:54:02 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 16:54:02 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/counter.v 
+# -- Skipping module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 16:54:02 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 16:54:02 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/dff_en.v 
+# -- Skipping module dff_en
+# 
+# Top level modules:
+# 	dff_en
+# End time: 16:54:02 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 16:54:02 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/left_shift_1.v 
+# -- Skipping module left_shift_1
+# 
+# Top level modules:
+# 	left_shift_1
+# End time: 16:54:03 on Dec 16,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 16:54:03 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/clk2_reg.v 
+# -- Skipping module clk2_reg
+# 
+# Top level modules:
+# 	clk2_reg
+# End time: 16:54:03 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
+# Start time: 16:54:03 on Dec 16,2022
+# vlog -reportprogress 300 "+acc" -incr ../rtl/fir_filter_core.v 
+# ** Warning: ../rtl/fir_filter_core.v(20): (vlog-2417) Multiple packed dimensions are not allowed.
+# ** Error: (vlog-13069) ../rtl/fir_filter_core.v(41): near "[": syntax error, unexpected '[', expecting ')'.
+# End time: 16:54:03 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# ** Error: /tools/mentor/questa_10.7b_1/questasim/linux/vlog failed.
+# Error in macro ./simcore.do line 22
+# /tools/mentor/questa_10.7b_1/questasim/linux/vlog failed.
+#     while executing
+# "vlog +acc -incr ../rtl/fir_filter_core.v"
