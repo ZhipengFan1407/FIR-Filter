@@ -3,25 +3,28 @@ quietly WaveActivateNextPane {} 0
 
 add wave -noupdate /testbench/empty
 add wave -noupdate /testbench/full
-add wave -noupdate -radix unsigned /testbench/read
-add wave -noupdate -radix unsigned /testbench/rd_clk
-add wave -noupdate -radix unsigned /testbench/write
-add wave -noupdate -radix unsigned /testbench/wr_clk
-add wave -noupdate -radix unsigned /testbench/areset_n
-add wave -noupdate -radix decimal /testbench/q
+add wave -noupdate /testbench/clk2
+add wave -noupdate /testbench/clk3
+# add wave -noupdate -radix unsigned /testbench/read
+# add wave -noupdate -radix unsigned /testbench/rd_clk
+# add wave -noupdate -radix unsigned /testbench/write
+# add wave -noupdate -radix unsigned /testbench/wr_clk
+# add wave -noupdate -radix unsigned /testbench/areset_n
+# add wave -noupdate -radix decimal /testbench/q
 
-add wave -noupdate -radix signed /testbench/x1_bit
-add wave -noupdate -radix signed /testbench/x2_bit
-add wave -noupdate -radix signed /testbench/x3_bit
-add wave -noupdate -radix signed /testbench/x4_bit
-add wave -noupdate -radix signed /testbench/x5_bit
-add wave -noupdate -radix signed /testbench/x6_bit
-add wave -noupdate -radix signed /testbench/x7_bit
-add wave -noupdate -radix signed /testbench/x8_bit
+# add wave -noupdate -radix signed /testbench/x1_bit
+# add wave -noupdate -radix signed /testbench/x2_bit
+# add wave -noupdate -radix signed /testbench/x3_bit
+# add wave -noupdate -radix signed /testbench/x4_bit
+# add wave -noupdate -radix signed /testbench/x5_bit
+# add wave -noupdate -radix signed /testbench/x6_bit
+# add wave -noupdate -radix signed /testbench/x7_bit
+# add wave -noupdate -radix signed /testbench/x8_bit
 
-add wave -noupdate -radix signed /testbench/add6_out
-add wave -noupdate -radix signed /testbench/add7_out
+# add wave -noupdate -radix signed /testbench/add6_out
+# add wave -noupdate -radix signed /testbench/add7_out
 add wave -noupdate -radix signed /testbench/sum
+add wave -noupdate -radix signed /testbench/input_data
 
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {3 ns} 0}
@@ -41,26 +44,3 @@ configure wave -timeline 0
 configure wave -timelineunits ps
 update
 WaveRestoreZoom {0 ns} {12 ns}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
