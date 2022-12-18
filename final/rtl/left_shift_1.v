@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+`timescale 1us/1ns
 // 32 bit input, 32 bit output, left shift by 1 bit, asynchronous
 module left_shift_1(
     input [31 : 0] data_in,

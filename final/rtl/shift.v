@@ -1,4 +1,4 @@
-
+`timescale 1us/1ns
 module shift (R, L, w, Clock, Q);
 parameter n = 16;
 input [n - 1:0] R;

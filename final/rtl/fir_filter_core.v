@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+`timescale 1us/1ns
 // the final FIR core RTL assembly
 module fir_filter_core(
     input clk2,         // outside clock
@@ -43,15 +43,8 @@ module fir_filter_core(
 		assign x7_wires[j] = sreg_out[j+48][0];
 		assign x8_wires[j] = sreg_out[j+56][0];
 	end
-    //64 taps, 16 bit inputs
-    //sreg_out[7:0] is 16 bit by 8 taps, the first 8
-    //sreg_out[7:0][0] is 1 bit by 8 taps
-
-//2d - I think this is wrong because our code is saying we have 16 taps. Each
-//tap has 64 bits. Because i goes up to 64, we go beyond 16 taps and run into
-//indexing problems. This will most likely have to be redesigned starting from
-//how we define regcon and sreg_out
-   genvar i;
+   
+genvar i;
     generate
         for (i = 0; i < 64; i = i + 1) 
     	begin: reg_generator
@@ -66,36 +59,12 @@ module fir_filter_core(
         end
     endgenerate
 
-//1d version
-//wire reg_con[63:0]; //this is most likely wrong. You have 64 taps, each of which has 16 bits. When I index, I get 7 taps but they are interpreted as single bits.
-//wire sreg_out[63:0];
-
 // component instantiation
-dcfifo fifo0(.areset_n(~reset), .wr_clk(clk2), .datain(input_data), .write(write), .rd_clk(clk3), .read(read), .q(fifo_out), .empty(empty), .full(full));
-
-//1d
-//distr_arith da0(.clk(clk3), .reset(reset), .x1_bit(sreg_out[63:56]), .x2_bit(sreg_out[55:48]), .x3_bit(sreg_out[47:40]), .x4_bit(sreg_out[39:32]), .x5_bit(sreg_out[31:24]), .x6_bit(sreg_out[23:16]), .x7_bit(sreg_out[15:8]), .x8_bit(sreg_out[7:0]), .sum(sum));
+dcfifo fifo0(.areset_n(reset), .wr_clk(clk2), .datain(input_data), .write(write), .rd_clk(clk3), .read(read), .q(fifo_out), .empty(empty), .full(full));
 
 //2d
-distr_arith da0(.clk(clk3), .reset(reset), .x1_bit(x1_wires), .x2_bit(x2_wires), .x3_bit(x3_wires), .x4_bit(x4_wires), .x5_bit(x5_wires), .x6_bit(x6_wires), .x7_bit(x7_wires), .x8_bit(x8_wires), .sum(sum));
+distr_arith da0(.clk(clk2), .reset(reset), .x1_bit(x1_wires), .x2_bit(x2_wires), .x3_bit(x3_wires), .x4_bit(x4_wires), .x5_bit(x5_wires), .x6_bit(x6_wires), .x7_bit(x7_wires), .x8_bit(x8_wires), .sum(sum));
 
-/*
-//1d
-   genvar i;
-    generate
-        for (i = 0; i < 64; i = i + 1)
-        begin: reg_generator
-            if (i != 0) begin
-                clk2_reg creg0 (.clk2(clk2), .reg_in(reg_con[15:0]), .reg_out(reg_con[15:0]));
-                shift sreg0 (.R(reg_con[15:0]), .L(sreg_load), .w(1'b0), .Clock(clk3), .Q(sreg_out[15:0]));
-            end
-            else begin
-                clk2_reg creg0 (.clk2(clk2), .reg_in(fifo_out), .reg_out(reg_con[15:0]));
-                shift sreg0 (.R(fifo_out), .L(sreg_load), .w(1'b0), .Clock(clk3), .Q(sreg_out[15:0]));
-            end
-        end
-    endgenerate
-*/
 
     initial begin
         sreg_load_count <= 4'b0000;

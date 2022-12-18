@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+`timescale 1us/1ns
 // this register is controlled by clk2, it is used for the delay chain for x
 module clk2_reg (
     input clk2,

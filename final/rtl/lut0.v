@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+`timescale 1us/1ns
 // lut for b[0:7]
 module lut0(
 	input [7 : 0] addr,

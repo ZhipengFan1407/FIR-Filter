@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+`timescale 1us/1ns
 
 module dp_dcram(
 	wr_clk,

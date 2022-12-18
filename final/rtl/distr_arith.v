@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+`timescale 1us/1ns
 
 module distr_arith (
     input clk,
@@ -33,11 +33,11 @@ module distr_arith (
     wire [31 : 0] add3_out;
     wire [31 : 0] add4_out;
     wire [31 : 0] add5_out;
-    // wire [31 : 0] add6_out;
-    // wire [31 : 0] add7_out;
-    // wire [31 : 0] leftshift_out;
-    // wire [31 : 0] dff0_out;
-    // wire count_reach;
+    wire [31 : 0] add6_out;
+    wire [31 : 0] add7_out;
+    wire [31 : 0] leftshift_out;
+    wire [31 : 0] dff0_out;
+    wire count_reach;
 
 	// DFF Instatiation
     dff_en dff0 (.reset(r), .enable(1'b1), .clk(~c), .data_in(add7_out), .data_out(dff0_out));

@@ -18,190 +18,192 @@
 # vmap work work 
 # Modifying modelsim.ini
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:12 on Dec 18,2022
+# Start time: 16:59:07 on Dec 18,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dcfifo.v 
 # -- Skipping module dcfifo
 # 
 # Top level modules:
 # 	dcfifo
-# End time: 10:46:13 on Dec 18,2022, Elapsed time: 0:00:01
+# End time: 16:59:08 on Dec 18,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:13 on Dec 18,2022
+# Start time: 16:59:08 on Dec 18,2022
 # vlog -reportprogress 300 -suppress 12110 "+acc" -incr ../rtl/dp_dcram.v 
 # -- Skipping module dp_dcram
 # 
 # Top level modules:
 # 	dp_dcram
-# End time: 10:46:13 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:08 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:13 on Dec 18,2022
+# Start time: 16:59:08 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/distr_arith.v 
 # -- Skipping module distr_arith
 # 
 # Top level modules:
 # 	distr_arith
-# End time: 10:46:13 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:08 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:13 on Dec 18,2022
+# Start time: 16:59:08 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/adder.v 
 # -- Skipping module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 10:46:13 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:09 on Dec 18,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:13 on Dec 18,2022
+# Start time: 16:59:09 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/adder_reg.v 
 # -- Skipping module adder_reg
 # 
 # Top level modules:
 # 	adder_reg
-# End time: 10:46:13 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:09 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:13 on Dec 18,2022
+# Start time: 16:59:09 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/counter.v 
 # -- Skipping module counter
 # 
 # Top level modules:
 # 	counter
-# End time: 10:46:14 on Dec 18,2022, Elapsed time: 0:00:01
+# End time: 16:59:09 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:14 on Dec 18,2022
+# Start time: 16:59:09 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/dff_en.v 
 # -- Skipping module dff_en
 # 
 # Top level modules:
 # 	dff_en
-# End time: 10:46:14 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:09 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:14 on Dec 18,2022
+# Start time: 16:59:09 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/left_shift_1.v 
 # -- Skipping module left_shift_1
 # 
 # Top level modules:
 # 	left_shift_1
-# End time: 10:46:14 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:10 on Dec 18,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:14 on Dec 18,2022
+# Start time: 16:59:10 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/shift.v 
 # -- Skipping module shift
 # 
 # Top level modules:
 # 	shift
-# End time: 10:46:15 on Dec 18,2022, Elapsed time: 0:00:01
+# End time: 16:59:10 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:15 on Dec 18,2022
+# Start time: 16:59:10 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/clk2_reg.v 
 # -- Skipping module clk2_reg
 # 
 # Top level modules:
 # 	clk2_reg
-# End time: 10:46:15 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:10 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:15 on Dec 18,2022
+# Start time: 16:59:10 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/fir_filter_core.v 
 # -- Compiling module fir_filter_core
 # 
 # Top level modules:
 # 	fir_filter_core
-# End time: 10:46:15 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:10 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:15 on Dec 18,2022
+# Start time: 16:59:10 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/lut0.v 
 # -- Skipping module lut0
 # 
 # Top level modules:
 # 	lut0
-# End time: 10:46:16 on Dec 18,2022, Elapsed time: 0:00:01
+# End time: 16:59:11 on Dec 18,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:16 on Dec 18,2022
+# Start time: 16:59:11 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/lut1.v 
 # -- Skipping module lut1
 # 
 # Top level modules:
 # 	lut1
-# End time: 10:46:16 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:11 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:16 on Dec 18,2022
+# Start time: 16:59:11 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/lut2.v 
 # -- Skipping module lut2
 # 
 # Top level modules:
 # 	lut2
-# End time: 10:46:16 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:11 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:16 on Dec 18,2022
+# Start time: 16:59:11 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/lut3.v 
 # -- Skipping module lut3
 # 
 # Top level modules:
 # 	lut3
-# End time: 10:46:17 on Dec 18,2022, Elapsed time: 0:00:01
+# End time: 16:59:12 on Dec 18,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:17 on Dec 18,2022
+# Start time: 16:59:12 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/lut4.v 
 # -- Skipping module lut4
 # 
 # Top level modules:
 # 	lut4
-# End time: 10:46:17 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:12 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:17 on Dec 18,2022
+# Start time: 16:59:12 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/lut5.v 
 # -- Skipping module lut5
 # 
 # Top level modules:
 # 	lut5
-# End time: 10:46:17 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:12 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:17 on Dec 18,2022
+# Start time: 16:59:12 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/lut6.v 
 # -- Skipping module lut6
 # 
 # Top level modules:
 # 	lut6
-# End time: 10:46:18 on Dec 18,2022, Elapsed time: 0:00:01
+# End time: 16:59:12 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:18 on Dec 18,2022
+# Start time: 16:59:12 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr ../rtl/lut7.v 
 # -- Skipping module lut7
 # 
 # Top level modules:
 # 	lut7
-# End time: 10:46:18 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:13 on Dec 18,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 10.7b_1 Compiler 2018.07 Jul 26 2018
-# Start time: 10:46:18 on Dec 18,2022
+# Start time: 16:59:13 on Dec 18,2022
 # vlog -reportprogress 300 "+acc" -incr core.v 
 # -- Skipping module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 10:46:18 on Dec 18,2022, Elapsed time: 0:00:00
+# End time: 16:59:13 on Dec 18,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -t ps -lib work testbench 
-# Start time: 10:46:18 on Dec 18,2022
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 16:59:13 on Dec 18,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading work.testbench(fast)
 # Loading work.fir_filter_core(fast)
+# Loading work.clk2_reg(fast)
+# Loading work.shift(fast)
 # Loading work.dcfifo(fast)
 # Loading work.dp_dcram(fast)
 # Loading work.distr_arith(fast)
@@ -218,551 +220,9 @@
 # Loading work.adder(fast)
 # Loading work.adder_reg(fast)
 # Loading work.left_shift_1(fast)
-# Loading work.clk2_reg(fast)
-# Loading work.shift(fast)
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[63:56]' is incompatible with 'wire[7:0]' for  port (x1_bit):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0 File: ../rtl/fir_filter_core.v Line: 38
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[55:48]' is incompatible with 'wire[7:0]' for  port (x2_bit):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0 File: ../rtl/fir_filter_core.v Line: 38
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[47:40]' is incompatible with 'wire[7:0]' for  port (x3_bit):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0 File: ../rtl/fir_filter_core.v Line: 38
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[39:32]' is incompatible with 'wire[7:0]' for  port (x4_bit):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0 File: ../rtl/fir_filter_core.v Line: 38
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:24]' is incompatible with 'wire[7:0]' for  port (x5_bit):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0 File: ../rtl/fir_filter_core.v Line: 38
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[23:16]' is incompatible with 'wire[7:0]' for  port (x6_bit):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0 File: ../rtl/fir_filter_core.v Line: 38
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:8]' is incompatible with 'wire[7:0]' for  port (x7_bit):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0 File: ../rtl/fir_filter_core.v Line: 38
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[7:0]' is incompatible with 'wire[7:0]' for  port (x8_bit):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0 File: ../rtl/fir_filter_core.v Line: 38
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'data_in'. The port definition is at: /homes/user/stud/fall21/mas2545/final/qsim_rtl/../rtl/dff_en.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0/dff0 File: ../rtl/distr_arith.v Line: 43
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'data_out'. The port definition is at: /homes/user/stud/fall21/mas2545/final/qsim_rtl/../rtl/dff_en.v(7).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0/dff0 File: ../rtl/distr_arith.v Line: 43
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'data_in'. The port definition is at: /homes/user/stud/fall21/mas2545/final/qsim_rtl/../rtl/dff_en.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0/dff1 File: ../rtl/distr_arith.v Line: 44
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: /homes/user/stud/fall21/mas2545/final/qsim_rtl/../rtl/adder_reg.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0/add6 File: ../rtl/distr_arith.v Line: 67
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in_a'. The port definition is at: /homes/user/stud/fall21/mas2545/final/qsim_rtl/../rtl/adder_reg.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0/add7 File: ../rtl/distr_arith.v Line: 68
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'in_b'. The port definition is at: /homes/user/stud/fall21/mas2545/final/qsim_rtl/../rtl/adder_reg.v(5).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0/add7 File: ../rtl/distr_arith.v Line: 68
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'out'. The port definition is at: /homes/user/stud/fall21/mas2545/final/qsim_rtl/../rtl/adder_reg.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0/add7 File: ../rtl/distr_arith.v Line: 68
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'data_in'. The port definition is at: /homes/user/stud/fall21/mas2545/final/qsim_rtl/../rtl/left_shift_1.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0/ls0 File: ../rtl/distr_arith.v Line: 71
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'data_out'. The port definition is at: /homes/user/stud/fall21/mas2545/final/qsim_rtl/../rtl/left_shift_1.v(5).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/da0/ls0 File: ../rtl/distr_arith.v Line: 71
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[0]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 54
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[0]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 55
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[1]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[1]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[1]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[1]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[2]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[2]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[2]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[2]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[3]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[3]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[3]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[3]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[4]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[4]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[4]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[4]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[5]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[5]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[5]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[5]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[6]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[6]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[6]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[6]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[7]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[7]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[7]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[7]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[8]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[8]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[8]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[8]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[9]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[9]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[9]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[9]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[10]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[10]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[10]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[10]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[11]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[11]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[11]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[11]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[12]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[12]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[12]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[12]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[13]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[13]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[13]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[13]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[14]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[14]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[14]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[14]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[15]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[15]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[15]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[15]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[16]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[16]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[16]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[16]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[17]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[17]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[17]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[17]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[18]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[18]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[18]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[18]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[19]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[19]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[19]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[19]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[20]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[20]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[20]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[20]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[21]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[21]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[21]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[21]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[22]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[22]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[22]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[22]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[23]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[23]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[23]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[23]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[24]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[24]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[24]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[24]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[25]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[25]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[25]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[25]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[26]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[26]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[26]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[26]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[27]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[27]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[27]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[27]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[28]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[28]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[28]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[28]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[29]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[29]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[29]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[29]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[30]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[30]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[30]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[30]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[31]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[31]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[31]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[31]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[32]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[32]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[32]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[32]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[33]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[33]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[33]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[33]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[34]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[34]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[34]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[34]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[35]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[35]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[35]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[35]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[36]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[36]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[36]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[36]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[37]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[37]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[37]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[37]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[38]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[38]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[38]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[38]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[39]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[39]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[39]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[39]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[40]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[40]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[40]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[40]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[41]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[41]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[41]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[41]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[42]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[42]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[42]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[42]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[43]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[43]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[43]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[43]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[44]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[44]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[44]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[44]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[45]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[45]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[45]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[45]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[46]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[46]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[46]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[46]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[47]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[47]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[47]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[47]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[48]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[48]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[48]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[48]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[49]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[49]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[49]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[49]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[50]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[50]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[50]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[50]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[51]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[51]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[51]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[51]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[52]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[52]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[52]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[52]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[53]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[53]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[53]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[53]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[54]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[54]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[54]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[54]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[55]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[55]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[55]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[55]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[56]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[56]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[56]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[56]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[57]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[57]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[57]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[57]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[58]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[58]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[58]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[58]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[59]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[59]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[59]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[59]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[60]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[60]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[60]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[60]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[61]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[61]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[61]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[61]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[62]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[62]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[62]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[62]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (reg_in):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[63]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (reg_out):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[63]/genblk1/creg0 File: ../rtl/fir_filter_core.v Line: 50
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'wire[15:0]' for  port (R):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[63]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[15:0]' is incompatible with 'reg[15:0]' for  port (Q):  Can't mix packed and unpacked types.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/core/reg_generator[63]/genblk1/sreg0 File: ../rtl/fir_filter_core.v Line: 51
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./simcore.do PAUSED at line 38
+# ** Note: $finish    : core.v(146)
+#    Time: 740 us  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at core.v line 146
+# End time: 16:59:48 on Dec 18,2022, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0

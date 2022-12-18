@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+`timescale 1us/1ns
 // 32 bit inputs, 32 bit outputs, ignore overflow, asynchronous
 module adder (
     input [31 : 0] in_a,
