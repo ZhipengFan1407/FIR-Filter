@@ -1,8 +1,10 @@
-`timescale 1ns/1ps
+`timescale 1us/1ns
 
-`define HALF_CLOCK_PERIOD #0.90
+`define HALF_CLOCK3_PERIOD #0.5
 
 module testbench();
+
+integer i = 0;
 
 //FOR QUEUE
 reg clk2, clk3;
@@ -25,7 +27,12 @@ clk3 <= 0;
 end
 
 always begin
-	`HALF_CLOCK_PERIOD;
+	if (i % 100 == 0) begin
+	clk2 = ~clk2;
+	end
+	`HALF_CLOCK3_PERIOD;
+	clk3 = ~clk3;
+	i = i + 1;
 end
 
 
@@ -35,84 +42,41 @@ initial begin
 	write = 0;
 	read = 0;
 
-	#145;
+	#100;
 
 	input_data = 15'd1000;
 	write = 1'b1;
-	#20 write = 1'b0;
-	#20;
+	#2 write = 1'b0;
+	#100;
 
         input_data = 15'd2000;
         write = 1'b1;
-        #20 write = 1'b0;
-        #20;
+        #2 write = 1'b0;
+        #100;
 
         input_data = 15'd3000;
         write = 1'b1;
-        #20 write = 1'b0;
-        #20;
+        #2 write = 1'b0;
+        #100;
 
 
         input_data = 15'd4000;
         write = 1'b1;
-        #20 write = 1'b0;
-        #20;
+        #2 write = 1'b0;
+        #100;
 
 
         input_data = 15'd5000;
         write = 1'b1;
-        #20 write = 1'b0;
-        #20;
+        #2 write = 1'b0;
+        #100;
 
 
         input_data = 15'd6000;
         write = 1'b1;
-        #20 write = 1'b0;
-        #20;
+        #2 write = 1'b0;
+        #100;
 
 	$finish;
 end
-
-
-
 endmodule
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
